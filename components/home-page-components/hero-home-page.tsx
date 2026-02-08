@@ -78,7 +78,9 @@ export default function HeroHomePage() {
           return await loadCourseData(courseId, locale);
         }),
       );
-      setCoursesData(loadedCourses);
+      setCoursesData(
+        loadedCourses.filter((course): course is Course => course !== null),
+      );
     }
     fetchCoursesData();
   }, [locale]);
