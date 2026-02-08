@@ -1,5 +1,6 @@
 {
   "category": "zarzadzanie i dydaktyka edukacyjna",
+  "isPopular": false,
   "id": "jezyk-angielski-w-wychowaniu-przedszkolnym-i-edukacji-wczesnoszkolnej",
   "title": "Język angielski w wychowaniu przedszkolnym i edukacji wczesnoszkolnej",
   "banerDescription": "Zdobądź kwalifikacje do nauczania języka angielskiego w przedszkolach i klasach I-III, rozwijając kompetencje metodyczne i językowe.",
@@ -88,7 +89,7 @@
   ],
   "faculty": "Zajęcia prowadzone są przez doświadczonych praktyków w dziedzinie metodyki nauczania języka angielskiego, posiadających wieloletnie doświadczenie w pracy z dziećmi w wieku przedszkolnym i wczesnoszkolnym.",
   "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>Praktyka zawodowa obejmuje 60 godzin i umożliwia zdobycie doświadczenia w nauczaniu języka angielskiego dzieci w wieku przedszkolnym i wczesnoszkolnym.</li><li>Praktyki mogą być realizowane w przedszkolach oraz szkołach podstawowych w klasach I-III.</li></ul>",
-  "evaluation": "Ocena efektów kształcenia opiera się na aktywności podczas zajęć, zaliczeniach poszczególnych modułów, realizacji praktyk oraz przygotowaniu pracy dyplomowej.",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>wykonaniu prac zaliczeniowych,</li><li>przygotowaniu pracy projektowej.</li></ul>",
   "jobOpportunities": "<ul className=\"list-disc list-inside\"><li className=\"mb-2 mt-2 font-semibold\">Nauczyciele języka angielskiego w przedszkolach</li><li className=\"mb-2\">Nauczyciele języka angielskiego w klasach I-III szkół podstawowych</li><li className=\"mb-2\">Specjaliści ds. wczesnego nauczania języka angielskiego</li><li className=\"mb-2\">Konsultanci metodyczni w zakresie nauczania języka angielskiego dzieci</li><li className=\"mb-2\">Pracownicy szkół językowych specjalizujących się w nauczaniu dzieci</li></ul>",
   "invite": "<div className=''> <p className='text-gray-100'>Zdobądź kwalifikacje i umiejętności niezbędne do nauczania języka angielskiego najmłodszych uczniów i rozwijaj ich pasję do języków obcych.</p></div>"
 }

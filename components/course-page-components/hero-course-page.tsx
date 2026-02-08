@@ -12,6 +12,7 @@ import {
 } from "react-icons/tb";
 import { GrWorkshop } from "react-icons/gr";
 import { useTranslations } from "next-intl";
+import Markdown from "markdown-to-jsx";
 
 interface HeroCoursePageProps {
   course: Course;
@@ -23,19 +24,15 @@ export const HeroCoursePage = ({ course }: HeroCoursePageProps) => {
   return (
     <section className="w-full h-fit bg-white/90">
       <div className="grid grid-cols-1 md:grid-cols-2 mx-auto max-w-full">
-        {/* Kolumna z tekstem */}
         <div className="px-4 sm:px-6 md:px-10 py-20 md:py-32 relative overflow-hidden baner">
-          {/* Tekst stały z tłumaczeń (pl.json/en.json) */}
           <h4 className="text-2xl md:text-3xl font-semibold text-zinc-700 tracking-[-0.2rem]">
             {t("heroPostgraduateStudies")}
           </h4>
 
-          {/* Tytuł kursu z obiektu course (już zlokalizowany przez loadCourseData) */}
           <h2 className="text-4xl md:text-5xl font-semibold tracking-tighter mt-3">
-            {course.title}
+            <Markdown>{course.title}</Markdown>
           </h2>
 
-          {/* Badże z tekstami z tłumaczeń */}
           <div className="flex flex-wrap gap-2 md:gap-2 mt-6">
             <div className="p-1 px-2 rounded-md flex items-center gap-1 bg-green-200 border border-green-800 shadow-md">
               <p className="text-xs font-semibold text-green-800 tracking-tight">
@@ -63,7 +60,6 @@ export const HeroCoursePage = ({ course }: HeroCoursePageProps) => {
             </div>
           </div>
 
-          {/* Boxy: nazwy z tłumaczeń (CoursesPage), wartości z course */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4 mt-5">
             <div className="bg-blue-50 rounded-lg p-5 border border-blue-700 shadow-md">
               <TbPigMoney className="w-8 h-8 text-blue-700" />
@@ -99,7 +95,6 @@ export const HeroCoursePage = ({ course }: HeroCoursePageProps) => {
             </div>
           </div>
 
-          {/* Przycisk do rekrutacji - tekst z tłumaczeń */}
           <Link href="/rekrutacja">
             <button className="bg-blue-900 text-white font-semibold md:w-fit w-full rounded-lg px-6 md:px-4 py-3 flex gap-2 items-center justify-center mt-4">
               {t("heroEnrollOnThisCourse")}
@@ -108,7 +103,6 @@ export const HeroCoursePage = ({ course }: HeroCoursePageProps) => {
           </Link>
         </div>
 
-        {/* Kolumna z obrazkiem - alt to title kursu z course */}
         <div className="relative w-full h-64 md:h-auto">
           <Image
             src={`/assets/${course.id}.jpg`}

@@ -1,5 +1,6 @@
 {
   "category": "zarzadzanie i dydaktyka edukacyjna",
+  "isPopular": false,
   "id": "edukacja-zdrowotna",
   "title": "Edukacja zdrowotna",
   "banerDescription": "Rozwiń swoje kompetencje w zakresie promocji zdrowia, profilaktyki oraz edukacji zdrowotnej, aby inspirować innych do zdrowego stylu życia.",
@@ -9,9 +10,9 @@
   "description4": "Nasze studia oferują możliwość rozwoju zawodowego oraz zdobycia kwalifikacji do prowadzenia działań w zakresie edukacji zdrowotnej i promocji zdrowia. Absolwenci są przygotowani do pracy w różnych środowiskach, inspirując innych do zdrowego stylu życia.",
   "descriptionP1": "",
   "duration": "3 semestry",
-  "practicalHours": "Praktyka pedagogiczna (90 godzin)",
-  "price": "3000zł",
-  "payments": "10 x 300zł",
+  "practicalHours": "90h praktyk",
+  "price": "3600zł",
+  "payments": "10 x 360zł",
   "scheduleInfo": "",
   "schedule": [
     "26.10.2024",
@@ -96,8 +97,8 @@
     }
   ],
   "faculty": "Zajęcia prowadzone są przez doświadczonych specjalistów z zakresu zdrowia publicznego, psychologii zdrowia oraz edukacji.",
-  "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>Praktyka pedagogiczna umożliwia zdobycie doświadczenia w edukacji zdrowotnej.</li><li>Praktyki odbywają się w szkołach oraz placówkach związanych z promocją zdrowia.</li></ul>",
-  "evaluation": "Ocena efektów kształcenia obejmuje aktywność podczas zajęć, zaliczenia modułów, realizację praktyk oraz przygotowanie pracy dyplomowej.",
+  "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>Praktyki odbywają się w szkołach oraz placówkach związanych z promocją zdrowia.</li></ul>",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>wykonaniu prac zaliczeniowych,</li><li>przygotowaniu pracy projektowej.</li></ul>",
   "jobOpportunities": "<div><p className=\"text-lg font-semibold\">Absolwenci programu będą przygotowani do pracy jako:</p><ul className=\"list-disc list-inside mt-2 space-y-2\"><li>Edukatorzy zdrowotni w placówkach edukacyjnych i medycznych</li><li>Specjaliści ds. promocji zdrowia</li><li>Konsultanci w zakresie edukacji zdrowotnej</li><li>Pracownicy instytucji zajmujących się zdrowiem publicznym</li><li>Twórcy programów edukacyjnych i materiałów dydaktycznych</li></ul></div>",
   "invite": "<div class=''> <p class='text-gray-100'>Zainspiruj innych do zdrowego stylu życia i rozwijaj swoje kompetencje dzięki naszym studiom podyplomowym w zakresie edukacji zdrowotnej.</p></div>"
 }

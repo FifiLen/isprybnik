@@ -1,5 +1,6 @@
 {
   "category": "special and corrective education",
+  "isPopular": false,
   "id": "trener-umiejetnosci-spolecznych",
   "title": "Social Skills Trainer",
   "banerDescription": "Become an expert in building relationships and effective communication in any organization.",
@@ -11,7 +12,7 @@
   "duration": "2 semesters",
   "practicalHours": "60h of internship",
   "price": "2500 PLN",
-  "payments": "5x500 PLN",
+  "payments": "10 x 250 PLN",
   "scheduleInfo": "",
   "schedule": [
     "26.10.2024",

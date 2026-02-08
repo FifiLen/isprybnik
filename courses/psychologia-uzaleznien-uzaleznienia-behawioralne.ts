@@ -1,6 +1,7 @@
 import { Course } from "../utils/types";
 
 export const psychologiaUzaleznienUzaleznieniaBehawioralne: Course = {
+  isPopular: false,
   category: "psychologia i psychoterapia",
   id: "psychologia-uzaleznien-uzaleznienia-behawioralne",
   title: "Psychologia uzależnień - Uzależnienia behawioralne",

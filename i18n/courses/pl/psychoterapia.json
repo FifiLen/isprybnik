@@ -1,5 +1,6 @@
 {
   "category": "psychologia i psychoterapia",
+  "isPopular": false,
   "id": "psychoterapia",
   "title": "Psychoterapia",
   "banerDescription": "Przygotowanie do samodzielnego prowadzenia psychoterapii zaburzeń psychicznych dzieci, młodzieży oraz osób dorosłych.",
@@ -10,7 +11,7 @@
   "descriptionP1": "<b>Program czteroletnich, dwustopniowych studiów podyplomowych w&nbsp;wymiarze 1200 godzin</b> obejmuje zagadnienia specjalistyczne z&nbsp;psychoterapii oraz&nbsp;zagadnienia ogólne związane z&nbsp;funkcjonowaniem psychicznym człowieka, psychopatologią i&nbsp;zróżnicowanymi metodami diagnozy i&nbsp;leczenia zaburzeń psychicznych, metodami weryfikacji empirycznej skuteczności oddziaływań terapeutycznych, oraz zagadnienia etyczne i&nbsp;prawne w&nbsp;psychoterapii. <br /><br /> Po&nbsp;ukończeniu studiów absolwent ma&nbsp;możliwość certyfikacji.",
   "duration": "8 semestrów",
   "price": "40000zł",
-  "payments": "40x1000zł",
+  "payments": "40 x 1000zł",
   "scheduleInfo": "",
   "practicalHours": "150h praktyk/semestr",
   "schedule": [
@@ -240,7 +241,7 @@
   ],
   "faculty": "Program będzie prowadzony przez wykwalifikowaną kadrę specjalistów z dziedziny psychologii, psychiatrii, terapii uzależnień oraz innych pokrewnych dziedzin. W skład kadry wejdą zarówno wykładowcy akademiccy, jak i praktycy z wieloletnim doświadczeniem klinicznym.",
   "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>150 godz. zegarowych w&nbsp;oddziale psychiatrii całodobowej&nbsp;lub w&nbsp;izbie przyjęć przy oddziale psychiatrycznym całodobowym lub&nbsp;w&nbsp;oddziale psychiatrycznym w&nbsp;oddziale dziennym; w&nbsp;tym 50 godz. zegarowych superwizja dzieci, młodzieży i&nbsp;dorosłych</li><li>250 godz. zegarowych pracy klinicznej pod opieką merytoryczną psychiatry lub psychoterapeuty lub psychologa klinicznego; w&nbsp;tym 50 godz. zegarowych superwizja dzieci, młodzieży i&nbsp;dorosłych</li></ul>",
-  "evaluation": "Ocena efektów kształcenia będzie opierać się na: przygotowaniu pracy projektowej w obszarze psychoterapii, odbyciu stażu klinicznego oraz zaliczeniu egzaminów końcowych.",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>wykonaniu prac zaliczeniowych,</li><li>przygotowaniu pracy projektowej.</li></ul>",
   "jobOpportunities": "Absolwenci kierunku 'Psychoterapia' będą przygotowani do&nbsp;pracy w&nbsp;różnorodnych placówkach terapeutycznych, takich jak ośrodki zdrowia psychicznego, poradnie psychoterapeutyczne, szpitale psychiatryczne, a&nbsp;także w&nbsp;organizacjach pozarządowych zajmujących się zdrowiem psychicznym. Dodatkowo, będą mogli prowadzić własną praktykę terapeutyczną oraz&nbsp;uczestniczyć w&nbsp;badaniach naukowych i&nbsp;programach profilaktycznych.",
   "invite": "<div class=\"\"><p class=\"text-gray-100\">Rozpocznij swoją zawodową przygodę jako <strong class=\"font-semibold\">psychoterapeuta</strong>.<br />Inwestuj w swoją przyszłość i realizuj swoje nowe perspektywy zawodowe.</p></div>"
 }

@@ -16,7 +16,7 @@ export const UserPreferencesProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
   const [fontSize, setFontSize] = useState<"small" | "medium" | "large">(
-    "medium"
+    "medium",
   );
   const [highContrast, setHighContrast] = useState(false);
 
@@ -33,7 +33,7 @@ export const useUserPreferences = () => {
   const context = useContext(UserPreferencesContext);
   if (context === undefined) {
     throw new Error(
-      "useUserPreferences must be used within a UserPreferencesProvider"
+      "useUserPreferences must be used within a UserPreferencesProvider",
     );
   }
   return context;

@@ -1,6 +1,7 @@
 import { Course } from "@/utils/types";
 
 export const trenerUmiejetnosciSpolecznych: Course = {
+  isPopular: false,
   category: "pedagogika specjalna i korekcyjna",
 
   id: "trener-umiejetnosci-spolecznych",

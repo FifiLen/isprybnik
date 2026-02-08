@@ -38,7 +38,7 @@ export function CourseProgramPsychotherapy({ course }: ProgramProps) {
 
   const renderModuleContent = (
     module: { title: string; topics: Array<{ title: string }> },
-    index: number
+    index: number,
   ) => (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -103,7 +103,7 @@ export function CourseProgramPsychotherapy({ course }: ProgramProps) {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
         >
           {course.modules.map((module, index) =>
-            renderModuleContent(module, index)
+            renderModuleContent(module, index),
           )}
         </motion.div>
       </div>

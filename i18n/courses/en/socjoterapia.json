@@ -1,0 +1,70 @@
+{
+  "category": "psychologia i psychoterapia",
+  "isPopular": false,
+  "id": "socjoterapia",
+  "title": "Socjoterapia",
+  "banerDescription": "Przygotowanie do prowadzenia zajęć socjoterapeutycznych z dziećmi i młodzieżą z zaburzeniami zachowania i emocji.",
+  "description": "<ul className=\"list-disc list-inside space-y-2\"><li>pedagogów</li><li>psychologów</li><li>nauczycieli</li><li>wychowawców</li><li>pracowników świetlic</li><li>pracowników ośrodków wychowawczych</li><li>pracowników poradni psychologiczno-pedagogicznych</li><li>osób zainteresowanych pracą z dziećmi i młodzieżą z zaburzeniami zachowania i emocji</li></ul>",
+  "description2": "Celem studiów jest przygotowanie specjalistów do prowadzenia zajęć socjoterapeutycznych z dziećmi i młodzieżą z zaburzeniami zachowania i emocji. Absolwenci zdobędą wiedzę i umiejętności niezbędne do diagnozowania problemów, projektowania zajęć socjoterapeutycznych oraz wspierania rozwoju społeczno-emocjonalnego dzieci i młodzieży.",
+  "description3": "",
+  "description4": "",
+  "descriptionP1": "Program studiów obejmuje zagadnienia z zakresu psychologii klinicznej, diagnozy zaburzeń emocjonalnych i zachowania, metodyki resocjalizacji, profilaktyki uzależnień oraz treningu umiejętności interpersonalnych i wychowawczych. Studia łączą wiedzę teoretyczną z praktycznymi umiejętnościami prowadzenia zajęć socjoterapeutycznych w różnych środowiskach.",
+  "duration": "2 semestry",
+  "price": "3600zł",
+  "payments": "10 x 360zł",
+  "scheduleInfo": "",
+  "practicalHours": "60h praktyk",
+  "modules": [
+    {
+      "title": "Semestr 1",
+      "topics": [
+        {
+          "title": "Przedmioty podstawowe",
+          "subtopics": [
+            {
+              "title": "Wybrane zagadnienia z psychologii klinicznej i psychopatologii"
+            },
+            {
+              "title": "Diagnoza zaburzeń emocjonalnych i zaburzeń zachowania"
+            },
+            { "title": "Sytuacja prawna młodzieży niedostosowanej społecznie" },
+            { "title": "Profilaktyka i terapia uzależnień" },
+            {
+              "title": "Socjoterapia w instytucjach o charakterze zamkniętym i środowisku otwartym"
+            },
+            {
+              "title": "Konstruowanie indywidualnych programów socjoterapeutycznych"
+            },
+            { "title": "Metodyka resocjalizacji" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Semestr 2",
+      "topics": [
+        {
+          "title": "Przedmioty specjalizacyjne",
+          "subtopics": [
+            { "title": "Czas wolny dzieci i młodzieży" },
+            { "title": "Metody pracy z grupą socjoterapeutyczną" },
+            {
+              "title": "Profilaktyka zachowań ryzykownych u dzieci i młodzieży"
+            },
+            { "title": "Trening interpersonalny" },
+            { "title": "Trening umiejętności wychowawczych" },
+            { "title": "Trening zastępowania agresji" },
+            { "title": "Trening samoświadomości" },
+            { "title": "Praktyka" }
+          ]
+        }
+      ]
+    }
+  ],
+  "faculty": "Program prowadzony jest przez wykwalifikowaną kadrę specjalistów z dziedziny socjoterapii, psychologii, pedagogiki oraz terapii. W skład kadry wchodzą zarówno wykładowcy akademiccy, jak i praktycy z wieloletnim doświadczeniem w prowadzeniu zajęć socjoterapeutycznych.",
+  "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>60 godzin praktyk w placówkach prowadzących zajęcia socjoterapeutyczne, takich jak świetlice socjoterapeutyczne, ośrodki wychowawcze, poradnie psychologiczno-pedagogiczne, szkoły</li><li>Praktyki obejmują obserwację, asystowanie oraz samodzielne prowadzenie zajęć pod nadzorem opiekuna</li></ul>",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>egzaminach z wybranych przedmiotów,</li><li>przygotowaniu pracy dyplomowej.</li></ul>",
+  "jobOpportunities": "Absolwenci kierunku 'Socjoterapia' będą przygotowani do pracy w różnorodnych placówkach, takich jak świetlice socjoterapeutyczne, ośrodki wychowawcze, poradnie psychologiczno-pedagogiczne, szkoły, placówki opiekuńczo-wychowawcze oraz organizacje pozarządowe. Będą mogli projektować i realizować programy socjoterapeutyczne dla dzieci i młodzieży z zaburzeniami zachowania i emocji.",
+  "invite": "<div class=\"\"><p class=\"text-gray-100\">Rozpocznij swoją zawodową przygodę jako <strong class=\"font-semibold\">socjoterapeuta</strong>.<br />Inwestuj w swoją przyszłość i realizuj swoje nowe perspektywy zawodowe.</p></div>",
+  "deliveryFormat": ["stacjonarnie", "hybrydowo"]
+}

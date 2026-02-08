@@ -2,7 +2,7 @@ import { Course } from "../utils/types";
 
 export const przyrodaWSzkolePodstawowej: Course = {
   category: "zarzadzanie i dydaktyka edukacyjna",
-
+  isPopular: false,
   id: "przyroda-w-szkole-podstawowej",
   title: "Przyroda w szkole podstawowej",
   banerDescription:

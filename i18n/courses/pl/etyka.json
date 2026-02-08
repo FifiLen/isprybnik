@@ -1,5 +1,6 @@
 {
   "category": "zarzadzanie i dydaktyka edukacyjna",
+  "isPopular": false,
   "id": "etyka",
   "title": "Etyka",
   "banerDescription": "Zdobądź wiedzę i umiejętności z zakresu etyki, przygotowując się do nauczania tego przedmiotu.",
@@ -74,7 +75,7 @@
   ],
   "faculty": "Zajęcia prowadzone są przez doświadczonych praktyków i teoretyków w dziedzinie etyki, filozofii oraz pedagogiki, posiadających wieloletnie doświadczenie w nauczaniu i badaniach.",
   "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>Praktyki obejmują 120 godzin i są realizowane w szkołach podstawowych i ponadpodstawowych.</li><li>Praktyki mają na celu zdobycie doświadczenia w nauczaniu etyki oraz zastosowanie zdobytej wiedzy w praktyce.</li></ul>",
-  "evaluation": "Ocena efektów kształcenia opiera się na aktywności podczas zajęć, zaliczeniach poszczególnych modułów oraz przygotowaniu pracy dyplomowej.",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>wykonaniu prac zaliczeniowych,</li><li>przygotowaniu pracy projektowej.</li></ul>",
   "jobOpportunities": "<div><p className=\"text-lg font-semibold\">Absolwenci programu będą przygotowani do pracy jako:</p><ul className=\"list-disc list-inside mt-2 space-y-2\"><li>Nauczyciele etyki w szkołach podstawowych i ponadpodstawowych</li><li>Specjaliści ds. etyki w instytucjach edukacyjnych i kulturalnych</li><li>Doradcy etyczni w organizacjach i firmach</li><li>Konsultanci w zakresie etyki zawodowej</li><li>Pracownicy instytucji promujących etykę i wartości moralne</li></ul></div>",
   "invite": "<div class=''> <p class='text-gray-100'>Poszerz swoją wiedzę z zakresu etyki i przygotuj się do nauczania tego ważnego przedmiotu.</p></div>"
 }

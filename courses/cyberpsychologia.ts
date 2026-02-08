@@ -2,6 +2,7 @@ import { Course } from "@/utils/types";
 
 export const cyberpsychologia: Course = {
   category: "psychologia i psychoterapia",
+  isPopular: false,
   id: "cyberpsychologia",
   title: "Cyberpsychologia",
   banerDescription:

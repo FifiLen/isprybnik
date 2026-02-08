@@ -1,6 +1,8 @@
 "use client";
 
-import React, { useState } from "react";
+import type React from "react";
+import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -25,6 +27,7 @@ const WykladowcaCard: React.FC<WykladowcaProps> = ({
   const [isOpen, setIsOpen] = useState(false);
   const skroconyOpis =
     opis.length > 120 ? opis.substring(0, 120) + "..." : opis;
+  const t = useTranslations("WykladowcyPage");
 
   return (
     <div className="bg-white shadow-lg rounded-lg border-2 border-blue-700/50 overflow-hidden m-4">
@@ -40,9 +43,9 @@ const WykladowcaCard: React.FC<WykladowcaProps> = ({
           <DialogTrigger asChild>
             <Button
               variant="outline"
-              className=" bg-blue-100 border-blue-700 text-blue-700"
+              className="bg-blue-100 border-blue-700 text-blue-700"
             >
-              Więcej
+              {t("readMore")}
             </Button>
           </DialogTrigger>
           <DialogContent className="sm:max-w-[825px]">

@@ -2,7 +2,7 @@ import { Course } from "../utils/types";
 
 export const edukacjaZdrowotna: Course = {
   category: "zarzadzanie i dydaktyka edukacyjna",
-
+  isPopular: false,
   id: "edukacja-zdrowotna",
   title: "Edukacja zdrowotna",
   banerDescription:

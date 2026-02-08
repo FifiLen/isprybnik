@@ -141,7 +141,8 @@ body {
 
 .large-cursor,
 .large-cursor * {
-  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="%23000000"><path d="M13 1L0 14h11v9l2-2v-7h11L13 1z"/></svg>')
+  cursor:
+    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="%23000000"><path d="M13 1L0 14h11v9l2-2v-7h11L13 1z"/></svg>')
       24 24,
     auto !important;
 }
@@ -174,13 +175,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-
-/* .rekrutacja {
-  background-image: url("/public/assets/rekrutacja.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-} */
 
 .bur {
   background-image: url("/public/assets/BUR.png");
@@ -223,11 +217,11 @@ body {
 }
 
 :root {
-  --navbar-height: 180px; /* Adjust this value based on your navbar's actual height */
+  --navbar-height: 180px;
 }
 
 @media (max-width: 640px) {
   :root {
-    --navbar-height: 150px; /* Adjust for mobile */
+    --navbar-height: 150px;
   }
 }

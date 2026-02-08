@@ -10,6 +10,8 @@ import {
   MdContactSupport,
   MdAttachMoney,
   MdEventNote,
+  MdOutlineGroupAdd,
+  MdSignalWifiStatusbarNotConnected,
 } from "react-icons/md";
 import { IoIosPaper } from "react-icons/io";
 import { HiOutlineClipboardCheck } from "react-icons/hi";
@@ -18,6 +20,9 @@ import Link from "next/link";
 import { LuPenLine } from "react-icons/lu";
 import { TfiFiles } from "react-icons/tfi";
 import { useTranslations } from "next-intl";
+import Markdown from "markdown-to-jsx";
+import { IoBagCheckOutline } from "react-icons/io5";
+import { TbUserQuestion } from "react-icons/tb";
 
 const FaqSection = () => {
   const t = useTranslations("FaqSection");
@@ -30,21 +35,13 @@ const FaqSection = () => {
       question: "documentDeadline",
       answer: "documentDeadlineAnswer",
     },
-    {
-      icon: <MdSchool className="w-7 h-7 mb-2" aria-hidden="true" />,
-      question: "shortenCourse",
-      answer: "shortenCourseAnswer",
-    },
+
     {
       icon: <IoIosPaper className="w-7 h-7 mb-2" aria-hidden="true" />,
       question: "diplomaCopy",
       answer: "diplomaCopyAnswer",
     },
-    {
-      icon: <MdAttachMoney className="w-7 h-7 mb-2" aria-hidden="true" />,
-      question: "secondCourseDiscount",
-      answer: "secondCourseDiscountAnswer",
-    },
+
     {
       icon: <MdVerifiedUser className="w-7 h-7 mb-2" aria-hidden="true" />,
       question: "doctoralDiploma",
@@ -56,6 +53,11 @@ const FaqSection = () => {
       ),
       question: "shortenTwoSemesters",
       answer: "shortenTwoSemestersAnswer",
+    },
+    {
+      icon: <MdOutlineGroupAdd className="w-7 h-7 mb-2" aria-hidden="true" />,
+      question: "groupRec",
+      answer: "groupRecAnswer",
     },
   ];
 
@@ -89,6 +91,26 @@ const FaqSection = () => {
       icon: <MdContactSupport className="w-7 h-7 mb-2" aria-hidden="true" />,
       question: "documentStatus",
       answer: "documentStatusAnswer",
+    },
+    {
+      icon: <TbUserQuestion className="w-7 h-7 mb-2" aria-hidden="true" />,
+      question: "parcticsMagnolia",
+      answer: "parcticsMagnoliaAnswer",
+    },
+    {
+      icon: (
+        <MdSignalWifiStatusbarNotConnected
+          className="w-7 h-7 mb-2"
+          aria-hidden="true"
+        />
+      ),
+      question: "parcticsOnline",
+      answer: "parcticsOnlineAnswer",
+    },
+    {
+      icon: <IoBagCheckOutline className="w-7 h-7 mb-2" aria-hidden="true" />,
+      question: "courseOrder",
+      answer: "courseOrderAnswer",
     },
   ];
 
@@ -132,7 +154,9 @@ const FaqSection = () => {
               <h4 className="font-medium text-zinc-800 tracking-tight text-xl md:text-2xl">
                 {t(item.question)}
               </h4>
-              <p className="mt-2 text-base md:text-lg">{t(item.answer)}</p>
+              <p className="mt-2 text-base md:text-lg">
+                <Markdown>{t(item.answer)}</Markdown>
+              </p>
             </div>
           ))}
         </div>

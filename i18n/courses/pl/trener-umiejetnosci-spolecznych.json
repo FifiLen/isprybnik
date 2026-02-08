@@ -1,17 +1,18 @@
 {
   "category": "pedagogika specjalna i korekcyjna",
+  "isPopular": false,
   "id": "trener-umiejetnosci-spolecznych",
   "title": "Trener Umiejętności Społecznych",
   "banerDescription": "Stań się ekspertem w budowaniu relacji i skutecznej komunikacji w każdej organizacji.",
   "description": "<ul className=\"list-disc list-inside space-y-2\"><li>kadra zarządzająca placówkami oświatowymi<br><span className=\"ml-4\">(szkoły, przedszkola, żłobki, poradnie, ośrodki wychowawcze, inne)</span></li><li>pedagogów</li><li>psychologów</li><li>logopedów</li><li>terapeutów</li><li>nauczycieli</li><li>rodziców</li><li>opiekunów prawnych</li><li>wychowawców</li><li>osób pracujących z dziećmi, młodzieżą, osobami dorosłymi, seniorami</li><li>osób pracujących z dziećmi, młodzieżą i osobami dorosłymi z&nbsp;<span className=\"ml-2\">niepełnosprawnościami, powodującymi brak lub ograniczenie możliwości komunikacji i funkcjonowania w społeczeństwie</span></li></ul>",
-  "description2": "Celem studiów jest kompleksowe przygotowanie specjalistów do pracy w&nbsp;zakresie kształtowania i rozwijania umiejętności społecznych. Program kładzie nacisk na zrozumienie teorii społecznych, praktyczne podejście do&nbsp;nauczania umiejętności interpersonalnych, oraz rozwijanie kompetencji trenerskich. Studenci będą zdobywać wiedzę z zakresu psychologii, pedagogiki, socjologii oraz coachingowych technik szkoleniowych, co pozwoli im efektywnie wspierać rozwój kompetencji społecznych w różnych grupach wiekowych i środowiskach",
+  "description2": "Studia podyplomowe Trener Umiejętności Społecznych to intensywny program nauczania, który przygotowuje do pracy w obszarze rozwijania kompetencji społecznych. Podczas kursu zdobędziesz wiedzę i umiejętności potrzebne do skutecznego pełnienia roli trenera. Nauczysz się, jak efektywnie wspierać rozwój nawyków prospołecznych, motywować do aktywności oraz wzmacniać pożądane zachowania. Program obejmuje również zaawansowane metody rozpoznawania i pracy z trudnymi zachowaniami.",
   "description3": "Program studiów jest podzielony na dwa semestry, obejmuje wykłady, warsztaty praktyczne, seminarium oraz praktyki zawodowe. Możliwość zrealizowania 30h w formule zdalnej w Poradni Psychologiczno - Pedagogicznej MAGNOLIA.",
   "description4": "",
   "descriptionP1": "",
   "duration": "2 semestry",
   "practicalHours": "60h praktyk",
   "price": "2500zł",
-  "payments": "5x500zł",
+  "payments": "10 x 250zł",
   "scheduleInfo": "",
   "schedule": [
     "26.10.2024",
@@ -223,7 +224,7 @@
   ],
   "faculty": "Program realizowany będzie przez doświadczonych specjalistów z zakresu psychologii, pedagogiki, socjologii oraz profesjonalnych trenerów umiejętności społecznych posiadających wieloletnie doświadczenie kliniczne oraz szkoleniowe. Kadra składa się z ekspertów posiadających praktyczne doświadczenie w pracy trenerskiej i coachingowej, co zapewni wysoki poziom kształcenia i wsparcia dla studentów.",
   "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>50% - możliwość zrealizowania praktyk w formule zdalnej w Poradni Psychologiczno - Pedagogicznej MAGNOLIA</li><li>Pozostałe 50% można zrealizować:<ul className=\"list-disc list-inside space-y-1 ml-4\"><li>w placówkach macierzystych w formie zajęć dodatkowych lub wykonywanych w pensum,</li><li>w placówkach oświatowych,</li><li>w poradniach,</li><li>inne.</li></ul></li></ul>",
-  "evaluation": "Ocena efektów kształcenia będzie opierać się na: przygotowaniu pracy projektowej w obszarze TUS.",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>wykonaniu prac zaliczeniowych,</li><li>przygotowaniu pracy projektowej.</li></ul>",
   "jobOpportunities": "<span className=\"text-lg font-semibold\">Absolwenci programu będą przygotowani do pracy jako:</span><span className=\"block mb-2 mt-2\">-Trenerzy umiejętności społecznych w placówkach edukacyjnych, terapeutycznych i biznesowych</span><span className=\"block mb-2\">-Konsultanci w firmach szkoleniowych</span><span className=\"block mb-2\">-Specjaliści ds. rozwoju osobistego i zawodowego</span><span className=\"block mb-2\">-Pracownicy w organizacjach pozarządowych zajmujących się edukacją i wsparciem społecznym</span><span className=\"block mb-2\">-Coachowie i mentorzy</span><span className=\"block mb-2\">-Mediatorzy i specjaliści ds. zarządzania konfliktami</span><span className=\"block mb-2\">-Liderzy zespołów w różnych branżach</span>",
   "invite": "<div class=''> <p class='text-gray-100'>Stań się ekspertem w budowaniu relacji i skutecznej komunikacji w&nbsp;każdej organizacji.</p></div>"
 }

@@ -1,0 +1,80 @@
+{
+  "category": "pedagogika specjalna i korekcyjna",
+  "isPopular": false,
+  "id": "terapia-zajeciowa",
+  "title": "Pedagogika specjalna - Terapia zajęciowa",
+  "banerDescription": "Przygotowanie do prowadzenia terapii zajęciowej z osobami w różnym wieku i z różnymi dysfunkcjami.",
+  "description": "<ul className=\"list-disc list-inside space-y-2\"><li>pedagogów</li><li>psychologów</li><li>pracowników socjalnych</li><li>fizjoterapeutów</li><li>pielęgniarek</li><li>opiekunów medycznych</li><li>nauczycieli</li><li>osób pracujących w placówkach opiekuńczych</li><li>osób zainteresowanych pracą terapeutyczną</li></ul>",
+  "description2": "Celem studiów jest przygotowanie specjalistów do prowadzenia terapii zajęciowej z osobami w różnym wieku i z różnymi dysfunkcjami. Absolwenci zdobędą wiedzę i umiejętności niezbędne do diagnozowania potrzeb, projektowania i realizacji zajęć terapeutycznych dostosowanych do możliwości różnych grup odbiorców.",
+  "description3": "",
+  "description4": "",
+  "descriptionP1": "Program studiów obejmuje zagadnienia z zakresu pedagogiki specjalnej, diagnostyki, neuropsychologii, rehabilitacji, ergoterapii oraz metodyki pracy terapeuty zajęciowego i arteterapeuty. Studia łączą wiedzę teoretyczną z praktycznymi umiejętnościami prowadzenia zajęć terapeutycznych w różnych środowiskach.",
+  "duration": "3 semestry",
+  "price": "3600zł",
+  "payments": "10 x 360zł",
+  "scheduleInfo": "",
+  "practicalHours": "180h praktyk",
+  "modules": [
+    {
+      "title": "Moduł A - Przygotowanie ogólne",
+      "topics": [
+        {
+          "title": "Przedmioty podstawowe",
+          "subtopics": [
+            { "title": "Dydaktyka specjalna" },
+            { "title": "Diagnostyka w pedagogice specjalnej" },
+            { "title": "Praktyka I" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Moduł E1 - Przygotowanie merytoryczne",
+      "topics": [
+        {
+          "title": "Przedmioty kierunkowe",
+          "subtopics": [
+            { "title": "Podstawy pedagogiki specjalnej" },
+            {
+              "title": "Anatomia i fizjologia układu nerwowego z elementami neurologii"
+            },
+            { "title": "Elementy psychologii klinicznej i psychopatologii" },
+            { "title": "Podstawy neuropsychologii" },
+            { "title": "Rehabilitacja - zagadnienia ogólne" },
+            { "title": "Terapia i wsparcie rodziny dziecka" },
+            { "title": "Rehabilitacja w schorzeniach narządu ruchu" },
+            { "title": "Diagnoza w terapii zajęciowej" },
+            { "title": "Rehabilitacja w chorobach psychicznych" },
+            { "title": "Ergoterapia" },
+            { "title": "Rehabilitacja w schorzeniach neurologicznych" },
+            { "title": "Trening umiejętności społecznych" },
+            {
+              "title": "Metody komunikacji wspomagającej i alternatywnej (AAC)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Moduł E2, E3 - Przygotowanie dydaktyczno-metodyczne i praktyki",
+      "topics": [
+        {
+          "title": "Przedmioty specjalizacyjne",
+          "subtopics": [
+            { "title": "Metodyka pracy terapeuty zajęciowego" },
+            { "title": "Metodyka pracy arteterapeuty" },
+            { "title": "Zajęcia warsztatowe w pracowniach terapii zajęciowej" },
+            { "title": "Metody i techniki terapii pedagogicznej" },
+            { "title": "Praktyka II" }
+          ]
+        }
+      ]
+    }
+  ],
+  "faculty": "Program prowadzony jest przez wykwalifikowaną kadrę specjalistów z dziedziny pedagogiki specjalnej, terapii zajęciowej, psychologii, neuropsychologii, rehabilitacji oraz arteterapii. W skład kadry wchodzą zarówno wykładowcy akademiccy, jak i praktycy z wieloletnim doświadczeniem w prowadzeniu terapii zajęciowej.",
+  "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>180 godzin praktyk (60h Praktyka I + 120h Praktyka II) w placówkach prowadzących terapię zajęciową, takich jak warsztaty terapii zajęciowej, ośrodki rehabilitacyjne, szpitale, domy pomocy społecznej, placówki edukacyjne</li><li>Praktyki obejmują obserwację, asystowanie oraz samodzielne prowadzenie zajęć pod nadzorem opiekuna</li></ul>",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>egzaminach z wybranych przedmiotów,</li><li>przygotowaniu pracy dyplomowej.</li></ul>",
+  "jobOpportunities": "Absolwenci kierunku 'Pedagogika specjalna - Terapia zajęciowa' będą przygotowani do pracy w różnorodnych placówkach, takich jak warsztaty terapii zajęciowej, ośrodki rehabilitacyjne, szpitale, domy pomocy społecznej, placówki edukacyjne oraz organizacje pozarządowe. Będą mogli projektować i realizować programy terapeutyczne dla osób z różnymi dysfunkcjami oraz prowadzić indywidualne i grupowe zajęcia terapeutyczne.",
+  "invite": "<div class=\"\"><p class=\"text-gray-100\">Rozpocznij swoją zawodową przygodę jako <strong class=\"font-semibold\">terapeuta zajęciowy</strong>.<br />Inwestuj w swoją przyszłość i realizuj swoje nowe perspektywy zawodowe.</p></div>",
+  "deliveryFormat": ["stacjonarnie", "hybrydowo"]
+}

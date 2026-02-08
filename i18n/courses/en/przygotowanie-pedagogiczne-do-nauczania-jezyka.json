@@ -1,0 +1,118 @@
+{
+  "category": "special and corrective pedagogy",
+  "isPopular": true,
+  "id": "przygotowanie-pedagogiczne-do-nauczania-jezyka",
+  "title": "Pedagogical Preparation for Teaching Languages",
+  "banerDescription": "Gain pedagogical qualifications and prepare for a career as a foreign language teacher.",
+  "description": "<ul className=\"list-disc list-inside space-y-2\"><li>Individuals who want to obtain pedagogical qualifications</li><li>Professionals aiming to work as language teachers</li><li>People interested in gaining knowledge in pedagogy, psychology, and didactics</li></ul>",
+  "description2": "The aim of postgraduate studies is to provide preparation in psychology, pedagogy, and detailed didactics, ensuring the acquisition of knowledge and practical skills necessary for the teaching profession in accordance with the Act of July 20, 2018, Law on Higher Education and Science (Journal of Laws 2018 item 1668 as amended).",
+  "description3": "The studies prepare individuals to work as foreign language teachers, trainers, lecturers, tutors, pedagogues, school psychologists, after-school care educators, dormitory supervisors, instructors, and librarians.",
+  "description4": "",
+  "descriptionP1": "",
+  "duration": "3 semesters",
+  "practicalHours": "150h internships",
+  "price": "3600 PLN",
+  "payments": "10 x 360 PLN",
+  "scheduleInfo": "",
+  "schedule": [
+    "2024-10-26",
+    "2024-11-16",
+    "2024-11-23",
+    "2024-11-30",
+    "2024-12-07",
+    "2024-12-14",
+    "2025-01-11",
+    "2025-01-18",
+    "2025-01-25",
+    "2025-02-15",
+    "2025-03-01",
+    "2025-03-15",
+    "2025-03-22",
+    "2025-04-05",
+    "2025-04-12",
+    "2025-05-10",
+    "2025-05-17",
+    "2025-05-24"
+  ],
+  "modules": [
+    {
+      "title": "Specialized Training Module",
+      "topics": [
+        { "title": "Psychology of Children's Learning", "subtopics": [] },
+        { "title": "Basics of Didactics", "subtopics": [] },
+        {
+          "title": "Developmental and Personality Psychology",
+          "subtopics": []
+        },
+        { "title": "Basics of Pedagogical Diagnosis", "subtopics": [] },
+        {
+          "title": "Legal and Organizational Foundations of School Functioning",
+          "subtopics": []
+        },
+        { "title": "Voice Emission", "subtopics": [] },
+        { "title": "Ethics of the Teaching Profession", "subtopics": [] },
+        { "title": "Information Technology in Education", "subtopics": [] },
+        { "title": "Basics of Special Pedagogy", "subtopics": [] },
+        { "title": "Social Pedagogy", "subtopics": [] },
+        { "title": "Educational Law", "subtopics": [] },
+        { "title": "General Psychology", "subtopics": [] },
+        { "title": "General Pedagogy", "subtopics": [] },
+        { "title": "School as an Educational Institution", "subtopics": [] },
+        {
+          "title": "Core Curriculum for Preschool and General Education",
+          "subtopics": []
+        },
+        {
+          "title": "Core Curriculum for Vocational Education",
+          "subtopics": []
+        },
+        { "title": "Methods of Teaching General Subjects", "subtopics": [] },
+        {
+          "title": "Diagnosis, Monitoring, and Assessment of Educational Outcomes",
+          "subtopics": []
+        },
+        { "title": "Cultural Foundations of Education", "subtopics": [] },
+        { "title": "School Prevention Programs", "subtopics": [] },
+        {
+          "title": "Personal and Professional Development of a Teacher",
+          "subtopics": []
+        },
+        {
+          "title": "Effective Communication and Assertiveness Training",
+          "subtopics": []
+        },
+        { "title": "Social Skills Training", "subtopics": [] },
+        {
+          "title": "Workplace Safety and Hygiene in Educational Institutions",
+          "subtopics": []
+        },
+        { "title": "First Aid in Educational Institutions", "subtopics": [] },
+        { "title": "Professional Internship (150 h)", "subtopics": [] }
+      ]
+    },
+    {
+      "title": "Module D - Language",
+      "topics": [
+        {
+          "title": "Teaching Foreign Languages in Primary Schools",
+          "subtopics": []
+        },
+        {
+          "title": "Teaching Foreign Languages in Secondary Schools",
+          "subtopics": []
+        },
+        { "title": "Educational Skills Training", "subtopics": [] },
+        {
+          "title": "Information Technology and Media in Teaching",
+          "subtopics": []
+        },
+        { "title": "Professional Internship", "subtopics": [] }
+      ]
+    }
+  ],
+  "faculty": "Classes are conducted by experienced practitioners in pedagogy, psychology, and didactics, with many years of experience in educational work.",
+  "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>The professional internship includes 150 hours and provides hands-on teaching experience in foreign language education.</li><li>Internships can be completed at educational institutions at various levels.</li></ul>",
+  "evaluation": "Assessment of learning outcomes is based on class participation, completion of module tasks, internships, and the preparation of a final project.",
+  "jobOpportunities": "<div><p className=\"text-lg font-semibold\">Graduates of the program will be prepared to work as:</p><ul className=\"list-disc list-inside mt-2 space-y-2\"><li>Foreign language teachers in schools and educational institutions</li><li>Language tutors</li><li>Pedagogues, school psychologists</li><li>Language instructors, librarians</li></ul></div>",
+  "invite": "<div class=''> <p class='text-gray-100'>Gain pedagogical preparation and start your career in foreign language education.</p></div>"
+}

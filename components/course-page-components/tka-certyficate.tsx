@@ -3,9 +3,9 @@ import React from "react";
 
 const TKA = () => {
   return (
-    <div className=" max-w-7xl mx-auto px-10 mt-20">
+    <div className=" max-w-7xl mx-auto px-10 my-20">
       <h2 className=" text-4xl font-semibold tracking-tight">
-        Akredytacja Brzegu
+        Akredytacja PKA WSH-E w Brzegu
       </h2>
       <a
         href="/assets/wazne-dokumenty/PKA.pdf"

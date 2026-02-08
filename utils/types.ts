@@ -1,4 +1,5 @@
 export type CategoryId =
+  | "popular"
   | "all"
   | "psychologia-i-psychoterapia"
   | "pedagogika-specjalna-i-korekcyjna"
@@ -32,6 +33,7 @@ export type Schedule = string[];
 export type Course = {
   category: string;
   id: string;
+  isPopular: boolean;
   title: string;
   banerDescription: string;
   description: string;
@@ -51,4 +53,5 @@ export type Course = {
   evaluation: string;
   jobOpportunities: string;
   invite: string;
+  deliveryFormat?: string[];
 };

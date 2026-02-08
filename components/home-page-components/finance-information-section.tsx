@@ -5,6 +5,7 @@ import { BsInfoCircleFill } from "react-icons/bs";
 import { GiTwoCoins } from "react-icons/gi";
 import { FaPhone } from "react-icons/fa";
 import { useTranslations } from "next-intl";
+import Markdown from "markdown-to-jsx";
 
 export const FinanceInformationSection = () => {
   const t = useTranslations("FinanceInformationSection");
@@ -12,9 +13,8 @@ export const FinanceInformationSection = () => {
   return (
     <section className="w-full bg-blue-950">
       <div className="grid grid-cols-1 md:grid-cols-2 mx-auto max-w-full">
-        {/* Text Column */}
         <div className="flex justify-center items-start px-8 md:px-20 py-16 md:py-36 flex-col">
-          <p className="text-2xl md:text-3xl font-semibold text-blue-600 tracking-[-0.2rem] flex gap-2 items-center">
+          <p className="text-2xl md:text-3xl font-semibold text-blue-600 tracking-tight flex gap-2 items-center">
             <GiTwoCoins />
             {t("funding")}
           </p>
@@ -22,7 +22,7 @@ export const FinanceInformationSection = () => {
             {t("fundingTitle")}
           </h2>
           <p className="text-base md:text-lg text-zinc-300 mt-4">
-            {t("fundingDescription")}
+            <Markdown>{t("fundingDescription")}</Markdown>
           </p>
           <div className="flex items-center gap-5">
             <button className="bg-blue-600 text-white font-semibold rounded-lg px-4 py-3 flex gap-3 items-center justify-center mt-8">
@@ -31,6 +31,10 @@ export const FinanceInformationSection = () => {
             </button>
             <button className="bg-blue-600 text-white font-semibold rounded-lg px-4 py-3 flex gap-3 items-center justify-center mt-8">
               502 162 365
+              <FaPhone className="text-xl" />
+            </button>
+            <button className="bg-blue-600 text-white font-semibold rounded-lg px-4 py-3 flex gap-3 items-center justify-center mt-8">
+              797 173 501
               <FaPhone className="text-xl" />
             </button>
           </div>
@@ -46,9 +50,8 @@ export const FinanceInformationSection = () => {
           </a>
         </div>
 
-        {/* Image Column */}
         <div className="bg-gray-50 flex justify-center items-start px-8 md:px-20 py-16 md:py-36 flex-col">
-          <h4 className="text-2xl md:text-3xl font-semibold text-[#9E5AE2] tracking-[-0.2rem] flex gap-2 items-center">
+          <h4 className="text-2xl md:text-3xl font-semibold text-[#9E5AE2] tracking-tight flex gap-2 items-center">
             <BsInfoCircleFill />
             {t("information")}
           </h4>

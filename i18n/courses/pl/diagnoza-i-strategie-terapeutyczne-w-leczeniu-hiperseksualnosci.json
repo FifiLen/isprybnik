@@ -1,5 +1,6 @@
 {
   "category": "psychologia i psychoterapia",
+  "isPopular": false,
   "id": "diagnoza-i-strategie-terapeutyczne-w-leczeniu-hiperseksualnosci",
   "title": "Diagnoza i strategie terapeutyczne w leczeniu hiperseksualności",
   "banerDescription": "Poznaj zaawansowane metody diagnozy i&nbsp;terapii hiperseksualności, oferujące praktyczne narzędzia i&nbsp;strategie terapeutyczne.",
@@ -177,7 +178,7 @@
   ],
   "faculty": "Program realizowany przez doświadczonych specjalistów z zakresu psychologii, seksuologii, psychiatrii i terapii, posiadających wieloletnie doświadczenie kliniczne oraz naukowe.",
   "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>50% - możliwość zrealizowania praktyk w formule zdalnej w Poradni Psychologiczno - Pedagogicznej MAGNOLIA</li><li>Pozostałe 50% można zrealizować:<ul className=\"list-disc list-inside space-y-1 ml-4\"><li>w placówkach macierzystych w formie zajęć dodatkowych lub wykonywanych w pensum,</li><li>w placówkach oświatowych,</li><li>w poradniach,</li><li>inne.</li></ul></li></ul>",
-  "evaluation": "Ocena efektów kształcenia będzie opierać się na: przygotowaniu pracy projektowej w obszarze Diagnozy i strategii terapeutycznych w leczeniu hiperseksualności.",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>wykonaniu prac zaliczeniowych,</li><li>przygotowaniu pracy projektowej.</li></ul>",
   "jobOpportunities": "<ul className=\"list-disc list-inside\"><li className=\"mb-2\">Terapeuci specjalizujący się w leczeniu zaburzeń seksualnych</li><li className=\"mb-2\">Konsultanci w poradniach zdrowia psychicznego i seksualnego</li><li className=\"mb-2\">Naukowcy i badacze w dziedzinie seksuologii i psychoterapii</li><li className=\"mb-2\">Specjaliści w ośrodkach terapeutycznych i rehabilitacyjnych</li></ul>",
   "invite": "<div class=''> <p class='text-gray-100'> Poznaj zaawansowane metody diagnostyki i terapii hiperseksualności, oferując praktyczne narzędzia i strategie terapeutyczne.</p></div>"
 }

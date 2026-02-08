@@ -8,7 +8,7 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselApi,
+  type CarouselApi,
 } from "@/components/ui/carousel";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -21,15 +21,19 @@ import {
 } from "react-icons/fa";
 import { CgArrowRightO, CgArrowTopRightO } from "react-icons/cg";
 import Markdown from "markdown-to-jsx";
-import { useUserPreferences } from "@/components/providers/UserPreferencesContext";
+
 import ComingSoonOverlay from "@/components/coming-soon-component";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
 import { loadCourseData } from "@/utils/loadCourseData";
-import { Course } from "@/utils/types";
+import type { Course } from "@/utils/types";
 
 const availableCourseIds = [
-  "psychoterapia",
+  "zarzadzanie-oswiata",
+  "pedagogika-specjalna-edukacja-terapia-i-wspomaganie-osob-z-zaburzeniami-ze-spektrum-autyzmu",
+  "integracja-sensoryczna-z-terapia-reki",
+  "pedagogika-specjalna-logopedia",
+  "pedagogika-specjalna-edukacja-integracyjna-wlaczajaca",
   "trener-umiejetnosci-spolecznych",
   "seksuologia-praktyczna",
   "cyberpsychologia",
@@ -37,12 +41,6 @@ const availableCourseIds = [
   "psychologia-uzaleznien-z-terapia-uzaleznien",
   "psychologia-uzaleznien-uzaleznienia-behawioralne",
 ];
-
-const fontSizeStyles = {
-  small: "text-sm",
-  medium: "text-base",
-  large: "text-lg",
-};
 
 function ImageLoader({
   src,
@@ -55,7 +53,7 @@ function ImageLoader({
 }) {
   return (
     <Image
-      src={src}
+      src={src || "/placeholder.svg"}
       alt={alt}
       fill
       priority={priority}
@@ -70,29 +68,19 @@ export default function HeroHomePage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [carouselApi, setCarouselApi] = useState<CarouselApi | null>(null);
   const [isPaused, setIsPaused] = useState(false);
-  const { fontSize, highContrast } = useUserPreferences();
+
   const [coursesData, setCoursesData] = useState<Course[]>([]);
-
-  const contrastStyles = highContrast
-    ? "bg-[#FFFF00] text-black border-black"
-    : "bg-gray-50 text-gray-900";
-
-  const linkContrastStyles = highContrast
-    ? "bg-black hover:bg-gray-800 text-white"
-    : "bg-blue-800 hover:bg-blue-500 text-white";
-
-  const badgeContrastStyles = highContrast
-    ? "bg-black text-[#FFFF00]"
-    : "bg-purple-500 text-white";
 
   useEffect(() => {
     async function fetchCoursesData() {
       const loadedCourses = await Promise.all(
-        availableCourseIds.slice(0, 5).map(async (courseId) => {
+        availableCourseIds.slice(0, 8).map(async (courseId) => {
           return await loadCourseData(courseId, locale);
-        })
+        }),
       );
-      setCoursesData(loadedCourses);
+      setCoursesData(
+        loadedCourses.filter((course): course is Course => course !== null),
+      );
     }
     fetchCoursesData();
   }, [locale]);
@@ -104,7 +92,7 @@ export default function HeroHomePage() {
       }, 10000);
       return () => clearInterval(interval);
     }
-    return () => {}; // Return a no-op function if no interval is set
+    return () => {};
   }, [isPaused, coursesData.length]);
 
   useEffect(() => {
@@ -120,7 +108,6 @@ export default function HeroHomePage() {
     }
   }, [currentIndex, carouselApi]);
 
-  // Preload images
   useEffect(() => {
     coursesData.forEach((course) => {
       const img = new window.Image();
@@ -142,7 +129,7 @@ export default function HeroHomePage() {
 
   return (
     <div
-      className={`relative isolate overflow-hidden h-[85vh] w-full ${contrastStyles} bg-gradient-to-br from-gray-50 to-gray-100`}
+      className={`relative isolate overflow-hidden h-[85vh] w-full bg-gradient-to-br from-gray-50 to-gray-100`}
     >
       <Carousel setApi={setCarouselApi}>
         <CarouselContent className="h-[85vh]">
@@ -174,30 +161,22 @@ export default function HeroHomePage() {
                   className="relative z-10 w-full h-full flex items-center"
                 >
                   <div
-                    className={`w-full lg:w-1/2 mx-4 md:mx-8 p-4 md:p-6 space-y-4 md:space-y-6 rounded-xl ${
-                      fontSizeStyles[fontSize]
-                    } lg:ml-16 bg-opacity-85 ${
-                      highContrast ? "bg-gray-900" : "bg-blue-600"
-                    }`}
+                    className={`w-full lg:w-1/2 mx-4 md:mx-8 p-4 md:p-6 space-y-4 md:space-y-6 rounded-xl lg:ml-16 bg-opacity-85 bg-blue-600`}
                   >
                     <div className="mb-4 flex flex-wrap justify-start gap-2">
                       <Badge
-                        className={`text-white ${badgeContrastStyles} flex items-center gap-2`}
+                        className={`text-white bg-purple-500 flex items-center gap-2`}
                       >
                         <FaGraduationCap />
                         {t("postgraduateStudies")}
                       </Badge>
                     </div>
                     <h1
-                      className={`text-2xl md:text-4xl font-extrabold tracking-tighter ${
-                        highContrast ? "text-white" : "text-white"
-                      }`}
+                      className={`text-2xl md:text-4xl font-extrabold tracking-tighter text-white`}
                       dangerouslySetInnerHTML={{ __html: course.title }}
                     />
                     <p
-                      className={`leading-6 md:leading-7 text-sm md:text-lg tracking-tight font-medium ${
-                        highContrast ? "text-white" : "text-gray-200"
-                      }`}
+                      className={`leading-6 md:leading-7 text-sm md:text-lg tracking-tight font-medium text-gray-200`}
                       dangerouslySetInnerHTML={{
                         __html: course.banerDescription.replace(/&nbsp;/g, " "),
                       }}
@@ -205,7 +184,7 @@ export default function HeroHomePage() {
                     <div className="flex flex-col md:flex-row justify-center lg:justify-start gap-2">
                       <Link
                         href="/rekrutacja"
-                        className={`flex items-center gap-2 w-fit rounded-xl px-4 py-2 md:px-5 md:py-3 font-semibold ${linkContrastStyles} ${
+                        className={`flex items-center gap-2 w-fit rounded-xl px-4 py-2 md:px-5 md:py-3 font-semibold bg-blue-800 hover:bg-blue-500 text-white ${
                           !availableCourseIds.includes(course.id)
                             ? "opacity-50 cursor-not-allowed pointer-events-none"
                             : ""
@@ -216,11 +195,7 @@ export default function HeroHomePage() {
                       </Link>
                       <Link
                         href={`/kierunek/${course.id}`}
-                        className={`flex items-center gap-2 w-fit rounded-xl px-4 py-2 md:px-5 md:py-3 font-semibold ${
-                          highContrast
-                            ? "bg-black hover:bg-gray-800 text-white"
-                            : "bg-gray-900 hover:bg-gray-700 text-white"
-                        } ${
+                        className={`flex items-center gap-2 w-fit rounded-xl px-4 py-2 md:px-5 md:py-3 font-semibold bg-gray-900 hover:bg-gray-700 text-white ${
                           !availableCourseIds.includes(course.id)
                             ? "opacity-50 cursor-not-allowed pointer-events-none"
                             : ""

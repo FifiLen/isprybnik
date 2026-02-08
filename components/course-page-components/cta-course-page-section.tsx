@@ -16,7 +16,6 @@ export const CtaCoursePageSection = ({ course }: Invite) => {
   return (
     <section className="w-full bg-blue-950">
       <div className="grid grid-cols-1 md:grid-cols-2 mx-auto max-w-full">
-        {/* Text Column */}
         <div className="flex justify-center items-start px-6 py-16 md:px-20 md:py-36 flex-col rekrutacja">
           <h2 className="text-3xl md:text-4xl text-white font-semibold tracking-tighter mt-3">
             {t("readyForNewChallenges")}
@@ -32,7 +31,6 @@ export const CtaCoursePageSection = ({ course }: Invite) => {
           </Link>
         </div>
 
-        {/* Image Column */}
         <div className="relative w-full h-64 md:h-auto">
           <Image
             src="/assets/studentka2.png"

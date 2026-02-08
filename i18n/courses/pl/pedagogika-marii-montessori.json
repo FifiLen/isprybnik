@@ -1,5 +1,6 @@
 {
   "category": "pedagogika specjalna i korekcyjna",
+  "isPopular": false,
   "id": "pedagogika-marii-montessori",
   "title": "Pedagogika Marii Montessori",
   "banerDescription": "Zdobądź wiedzę i umiejętności niezbędne do stosowania pedagogiki Marii Montessori w pracy z dziećmi, tworząc inspirujące środowisko edukacyjne wspierające indywidualny rozwój uczniów.",
@@ -9,9 +10,9 @@
   "description4": "Celem programu studiów \"Pedagogika Marii Montessori\" jest zgłębienie głębszego zrozumienia i praktycznej wiedzy na temat innowacyjnej metody nauczania stworzonej przez Marię Montessori. Poprzez ten program dążymy do przygotowania uczestników do skutecznego wdrażania założeń Montessori w praktyce edukacyjnej.",
   "descriptionP1": "",
   "duration": "2 semestry",
-  "practicalHours": "",
-  "price": "4400zł",
-  "payments": "10 x 440zł",
+  "practicalHours": "90h praktyk",
+  "price": "4200zł",
+  "payments": "10 x 420zł",
   "scheduleInfo": "",
   "schedule": [
     "26.10.2024",
@@ -59,7 +60,7 @@
   ],
   "faculty": "Zajęcia prowadzone są przez doświadczonych praktyków w dziedzinie pedagogiki Marii Montessori, posiadających wieloletnie doświadczenie w pracy z dziećmi metodą Montessori.",
   "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>Praktyka umożliwia zdobycie doświadczenia w stosowaniu metod pedagogiki Marii Montessori w pracy z dziećmi.</li><li>Praktyki mogą być realizowane w placówkach edukacyjnych stosujących metodę Montessori.</li></ul>",
-  "evaluation": "Ocena efektów kształcenia opiera się na aktywności podczas zajęć, zaliczeniach poszczególnych modułów oraz przygotowaniu pracy dyplomowej.",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>wykonaniu prac zaliczeniowych,</li><li>przygotowaniu pracy projektowej.</li></ul>",
   "jobOpportunities": "<div><p className=\"text-lg font-semibold\">Absolwenci programu będą przygotowani do pracy jako:</p><ul className=\"list-disc list-inside mt-2 space-y-2\"><li>Nauczyciele w placówkach edukacyjnych stosujących metodę Marii Montessori</li><li>Specjaliści w przedszkolach i szkołach alternatywnych</li><li>Konsultanci w zakresie pedagogiki Montessori</li><li>Twórcy materiałów dydaktycznych zgodnych z metodą Montessori</li><li>Pedagodzy zainteresowani wdrażaniem innowacyjnych metod nauczania</li></ul></div>",
   "invite": "<div class=''> <p class='text-gray-100'>Zdobądź wiedzę i umiejętności niezbędne do stosowania pedagogiki Marii Montessori i twórz inspirujące środowisko edukacyjne wspierające rozwój dzieci.</p></div>"
 }

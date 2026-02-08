@@ -1,6 +1,7 @@
 import { Course } from "../utils/types";
 
 export const psychologiaUzaleznienTerapiaUzaleznien: Course = {
+  isPopular: false,
   category: "psychologia i psychoterapia",
   id: "psychologia-uzaleznien-z-terapia-uzaleznien",
   title: "Psychologia uzależnień z terapią uzależnień",

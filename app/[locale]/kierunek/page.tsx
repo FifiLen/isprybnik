@@ -1,5 +1,7 @@
 "use client";
 
+import type React from "react";
+
 import { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,54 +24,17 @@ import {
 } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import {
-  CalendarDays,
-  Clock,
-  DollarSign,
-  CircleArrowRight,
-} from "lucide-react";
-import { CategoryId, SortOption, Course } from "@/utils/types";
-import { PsychotherapyInfoCard } from "@/components/psychotherapy-info-card";
-import ComingSoonOverlay from "@/components/coming-soon-component";
+import { CalendarDays, Clock, CircleArrowRight } from "lucide-react";
+import type { CategoryId, SortOption, Course } from "@/utils/types";
 import Markdown from "markdown-to-jsx";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
 import { loadCourseData } from "@/utils/loadCourseData";
+import { TbPigMoney } from "react-icons/tb";
+import { MdOutlinePayments } from "react-icons/md";
 
 const MAX_DESCRIPTION_LENGTH = 82;
 const MAX_COURSES = 10;
-
-const availableCourseId = [
-  "psychoterapia",
-  "trener-umiejetnosci-spolecznych",
-  "seksuologia-praktyczna",
-  "cyberpsychologia",
-  "diagnoza-i-strategie-terapeutyczne-w-leczeniu-hiperseksualnosci",
-  "psychologia-uzaleznien-z-terapia-uzaleznien",
-  "psychologia-uzaleznien-uzaleznienia-behawioralne",
-  "zarzadzanie-oswiata",
-  "logopedia",
-  "przyroda-w-szkole-podstawowej",
-  "pedagogika-specjalna-autyzm",
-  "pedagogika-korekcyjna",
-  "oligofrenopedagogika",
-  "edukacja-integracyjna-wlaczajaca",
-  "integracja-sensoryczna-z-terapia-reki",
-  "przygotowanie-pedagogiczne",
-  "etyka",
-  "edukacja-dla-bezpieczenstwa",
-  "wczesne-wspomaganie-rozwoju-dziecka",
-  "surdopedagogika",
-  "tyflopedagogika",
-  "informatyka-w-szkole",
-  "pedagogika-marii-montessori",
-  "wychowanie-fizyczne-w-szkole",
-  "chemia-w-szkole",
-  "jezyk-angielski-w-wychowaniu-przedszkolnym-i-edukacji-wczesnoszkolnej",
-  "dydaktyka-jezyka-obcego-niemiecki",
-  "edukacja-zdrowotna",
-  "jezyk-polski",
-];
 
 const InfoBadge = ({ icon, text }: { icon: React.ReactNode; text: string }) => (
   <Badge
@@ -83,7 +48,7 @@ const InfoBadge = ({ icon, text }: { icon: React.ReactNode; text: string }) => (
 
 const CourseCard = ({ course }: { course: Course }) => {
   const t = useTranslations("CoursesPage");
-  const isAvailable = availableCourseId.includes(course.id);
+  const isAvailable = true; // Assume all courses are available unless specified
 
   const truncateDescription = (description: string, maxLength: number) => {
     if (description.length <= maxLength) return description;
@@ -92,7 +57,6 @@ const CourseCard = ({ course }: { course: Course }) => {
 
   return (
     <Card className="flex flex-col h-full">
-      {!isAvailable && <ComingSoonOverlay />}
       <div className="relative h-48 order-last sm:order-first">
         <Image
           src={`/assets/${course.id}.jpg`}
@@ -101,23 +65,33 @@ const CourseCard = ({ course }: { course: Course }) => {
           className="object-cover rounded-b-lg sm:rounded-t-lg sm:rounded-b-none"
           sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
         />
+        <div className="absolute right-0 top-4 flex flex-col gap-2">
+          <div className="bg-blue-600 text-white py-1 px-3 text-sm font-medium rounded-l-md">
+            studiuj stacjonarnie
+          </div>
+          <div className="bg-purple-600 text-white py-1 px-3 text-sm font-medium rounded-l-md">
+            studiuj hybrydowo
+          </div>
+        </div>
       </div>
-      <CardContent className="p-8 sm:p-4 flex-grow">
-        <CardHeader className="p-0 space-y-4 mb-6">
-          <CardTitle className="text-3xl font-bold text-gray-900 lg:text-lg xl:text-xl tracking-tighter">
-            {course.title}
-          </CardTitle>
+      <CardContent className="flex flex-col flex-grow p-8 sm:p-4">
+        <CardHeader className="p-0 mb-6">
+          <div className="min-h-[4rem] sm:min-h-[3rem]">
+            <CardTitle className="text-3xl font-bold text-gray-900 lg:text-lg xl:text-xl tracking-tighter">
+              <Markdown>{course.title}</Markdown>
+            </CardTitle>
+          </div>
           <CardDescription className="mb-4 text-sm line-clamp-3">
             <Markdown>
               {truncateDescription(
                 course.banerDescription,
-                MAX_DESCRIPTION_LENGTH
+                MAX_DESCRIPTION_LENGTH,
               )}
             </Markdown>
           </CardDescription>
         </CardHeader>
 
-        <div className="grid grid-cols-1 space-y-4">
+        <div className="grid grid-cols-1 gap-4 mb-auto">
           <InfoBadge
             icon={<CalendarDays className="h-4 w-4" />}
             text={course.duration}
@@ -127,28 +101,28 @@ const CourseCard = ({ course }: { course: Course }) => {
             text={course.practicalHours}
           />
           <InfoBadge
-            icon={<DollarSign className="h-4 w-4" />}
+            icon={<TbPigMoney className="h-4 w-4" />}
             text={course.price}
           />
+          <InfoBadge
+            icon={<MdOutlinePayments className="h-4 w-4" />}
+            text={course.payments}
+          />
         </div>
-        <CardFooter className="p-0 pt-10 sm:pt-6 mt-auto">
+
+        <CardFooter className="p-0 pt-10 sm:pt-6">
           <Button
-            asChild={isAvailable}
+            asChild
             className="w-full text-lg sm:text-base rounded-xl py-6 bg-blue-600"
-            variant={isAvailable ? "default" : "secondary"}
-            disabled={!isAvailable}
+            variant="default"
           >
-            {isAvailable ? (
-              <Link href={`/kierunek/${course.id}`}>
-                {t("learnMore")}
-                <span className="sr-only">
-                  {t("aboutCourse", { title: course.title })}
-                </span>
-                <CircleArrowRight className="ml-2 h-6 w-6 sm:h-5 sm:w-5" />
-              </Link>
-            ) : (
-              <span>{t("comingSoon")}</span>
-            )}
+            <Link href={`/kierunek/${course.id}`}>
+              {t("learnMore")}
+              <span className="sr-only">
+                {t("aboutCourse", { title: course.title })}
+              </span>
+              <CircleArrowRight className="ml-2 h-6 w-6 sm:h-5 sm:w-5" />
+            </Link>
           </Button>
         </CardFooter>
       </CardContent>
@@ -167,27 +141,27 @@ export default function CoursesPage() {
   useEffect(() => {
     async function fetchCourses() {
       const courseIds = [
-        "psychoterapia",
-        "trener-umiejetnosci-spolecznych",
-        "seksuologia-praktyczna",
-        "cyberpsychologia",
-        "diagnoza-i-strategie-terapeutyczne-w-leczeniu-hiperseksualnosci",
-        "psychologia-uzaleznien-z-terapia-uzaleznien",
-        "psychologia-uzaleznien-uzaleznienia-behawioralne",
         "zarzadzanie-oswiata",
-        "logopedia",
-        "przyroda-w-szkole-podstawowej",
-        "pedagogika-specjalna-autyzm",
-        "pedagogika-korekcyjna",
-        "oligofrenopedagogika",
-        "edukacja-integracyjna-wlaczajaca",
+        "pedagogika-specjalna-edukacja-terapia-i-wspomaganie-osob-z-zaburzeniami-ze-spektrum-autyzmu",
+
         "integracja-sensoryczna-z-terapia-reki",
+        "pedagogika-specjalna-edukacja-integracyjna-wlaczajaca",
+        "pedagogika-specjalna-wczesne-wspomaganie-rozwoju-dziecka",
+        "pedagogika-specjalna-logopedia",
+
+        "neurologopedia",
+        "trener-umiejetnosci-spolecznych",
+        "pedagogika-korekcyjna",
         "przygotowanie-pedagogiczne",
+        "przygotowanie-pedagogiczne-do-nauczania-przedmiotow-zawodowych",
+        "przygotowanie-pedagogiczne-do-nauczania-jezyka",
+        "przygotowanie-pedagogiczne-dla-psychologow",
+        "pedagogika-specjalna-edukacja-i-rehabilitacja-osob-z-niepelnosprawnoscia-sluchowa-surdopedagogika",
+        "pedagogika-specjalna-edukacja-i-rehabilitacja-osob-z-niepelnosprawnoscia-wzrokowa-tyflopedagogika",
+        "pedagogika-specjalna-edukacja-i-rehabilitacja-osob-z-niepelnosprawnoscia-intelektualna-oligofrenopedagogika",
         "etyka",
         "edukacja-dla-bezpieczenstwa",
-        "wczesne-wspomaganie-rozwoju-dziecka",
-        "surdopedagogika",
-        "tyflopedagogika",
+        "przyroda-w-szkole-podstawowej",
         "informatyka-w-szkole",
         "pedagogika-marii-montessori",
         "wychowanie-fizyczne-w-szkole",
@@ -196,17 +170,35 @@ export default function CoursesPage() {
         "dydaktyka-jezyka-obcego-niemiecki",
         "edukacja-zdrowotna",
         "jezyk-polski",
+        "psychoterapia",
+        "seksuologia-praktyczna",
+        "cyberpsychologia",
+        "diagnoza-i-strategie-terapeutyczne-w-leczeniu-hiperseksualnosci",
+        "psychologia-uzaleznien-z-terapia-uzaleznien",
+        "psychologia-uzaleznien-uzaleznienia-behawioralne",
+        "gerontologia",
+        "socjoterapia",
+        "doradztwo-zawodowe",
+        "terapia-zajeciowa",
+        "pedagogika-opiekunczo-wychowawcza",
       ];
+
+      const uniqueCourseIds = [...new Set(courseIds)];
+
       const loadedCourses = await Promise.all(
-        courseIds.map((id) => loadCourseData(id, locale))
+        uniqueCourseIds.map((id) => loadCourseData(id, locale)),
       );
-      setCourses(loadedCourses);
+
+      setCourses(
+        loadedCourses.filter((course): course is Course => course !== null),
+      );
     }
     fetchCourses();
-  }, [locale]);
+  }, [locale, searchTerm, sortBy]);
 
   const categories = [
     { id: "all", name: t("allCategories") },
+
     {
       id: "psychologia-i-psychoterapia",
       name: t("psychologyAndPsychotherapy"),
@@ -219,41 +211,34 @@ export default function CoursesPage() {
       id: "zarzadzanie-i-dydaktyka-edukacyjna",
       name: t("educationalManagementAndDidactics"),
     },
-  ] as const;
-
-  const sortedCourses = useMemo(() => {
-    let sorted = [...courses].sort(
-      (a, b) =>
-        availableCourseId.indexOf(a.id) - availableCourseId.indexOf(b.id)
-    );
-
-    if (sortBy === "title") {
-      sorted = sorted.sort((a, b) => a.title.localeCompare(b.title));
-    } else if (sortBy === "price") {
-      // Załóżmy, że cena jest w formacie np. "2500zł"
-      const parsePrice = (price: string) =>
-        parseFloat(price.replace(/[^0-9.-]+/g, ""));
-      sorted = sorted.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
-    }
-
-    return sorted;
-  }, [sortBy, courses]);
+  ];
 
   const filteredCourses = useMemo(() => {
-    return sortedCourses.filter((course) => {
-      const matchesSearch = course.title
-        .toLowerCase()
-        .includes(searchTerm.toLowerCase());
+    const filtered = courses.filter((course) => {
+      const matchesSearch =
+        course.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        course.banerDescription
+          .toLowerCase()
+          .includes(searchTerm.toLowerCase());
       const matchesCategory =
         activeTab === "all" ||
+        (activeTab === "popular" && course.isPopular) ||
         course.category.toLowerCase().replace(/ /g, "-") === activeTab;
       return matchesSearch && matchesCategory;
     });
-  }, [sortedCourses, searchTerm, activeTab]);
 
-  const coursesToDisplay = MAX_COURSES
-    ? filteredCourses.slice(0, MAX_COURSES)
-    : filteredCourses;
+    if (sortBy === "title") {
+      filtered.sort((a, b) => a.title.localeCompare(b.title));
+    } else if (sortBy === "price") {
+      filtered.sort((a, b) => {
+        const priceA = Number.parseFloat(a.price.replace(/[^0-9.-]+/g, ""));
+        const priceB = Number.parseFloat(b.price.replace(/[^0-9.-]+/g, ""));
+        return priceA - priceB;
+      });
+    }
+
+    return filtered;
+  }, [courses, activeTab, searchTerm, sortBy]);
 
   return (
     <div id="kierunki" className="w-full bg-gray-100 py-12">
@@ -289,44 +274,23 @@ export default function CoursesPage() {
           onValueChange={(value) => setActiveTab(value as CategoryId)}
           className="space-y-4"
         >
-          <div className="w-fit">
-            <TabsList className="flex flex-wrap justify-start gap-2 w-fit h-auto ">
-              {categories.map((category) => (
-                <TabsTrigger
-                  key={category.id}
-                  value={category.id}
-                  className="px-3 py-1 text-sm sm:text-base font-normal whitespace-nowrap text-blue-700 border bg-blue-50 border-blue-700 data-[state=active]:bg-blue-700 data-[state=active]:text-blue-50"
-                >
-                  {category.name}
-                </TabsTrigger>
-              ))}
-            </TabsList>
-          </div>
+          <TabsList className="flex flex-wrap justify-start gap-2 w-fit h-auto ">
+            {categories.map((category) => (
+              <TabsTrigger
+                key={category.id}
+                value={category.id}
+                className="px-3 py-1 text-sm sm:text-base font-normal whitespace-nowrap text-blue-700 border bg-blue-50 border-blue-700 data-[state=active]:bg-blue-700 data-[state=active]:text-blue-50"
+              >
+                {category.name}
+              </TabsTrigger>
+            ))}
+          </TabsList>
           {categories.map((category) => (
             <TabsContent key={category.id} value={category.id}>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {coursesToDisplay
-                  .filter((course) => {
-                    // Filtracja jest już zrobiona w filteredCourses,
-                    // ale tutaj dodatkowo jeśli chcesz sprawdzić kategorię
-                    // możesz to pominąć, bo filteredCourses już to robi.
-                    return category.id === "all"
-                      ? true
-                      : course.category.toLowerCase().replace(/ /g, "-") ===
-                          category.id;
-                  })
-                  .map((course) =>
-                    course.id === "psychoterapia" ? (
-                      <div
-                        key={course.id}
-                        className="col-span-1 sm:col-span-2 lg:col-span-3"
-                      >
-                        <PsychotherapyInfoCard course={course} />
-                      </div>
-                    ) : (
-                      <CourseCard key={course.id} course={course} />
-                    )
-                  )}
+                {filteredCourses.map((course) => (
+                  <CourseCard key={course.id} course={course} />
+                ))}
               </div>
             </TabsContent>
           ))}

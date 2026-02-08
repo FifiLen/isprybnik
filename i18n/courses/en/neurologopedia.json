@@ -1,0 +1,101 @@
+{
+  "isPopular": false,
+  "category": "special and corrective pedagogy",
+  "id": "neurologopedics",
+  "title": "Neurologopedics",
+  "banerDescription": "Gain qualifications in diagnosing and treating speech and communication disorders caused by nervous system damage.",
+  "description": "<ul className=\"list-disc list-inside space-y-2\"><li>Speech therapists looking to expand their skills in specialized neurological speech therapy</li><li>Special educators and occupational therapists working with individuals after strokes, brain injuries, and neurodegenerative diseases</li><li>Physiotherapists and child psychologists dealing with patients with speech and communication disorders</li></ul>",
+  "description2": "The aim of the program is to train specialists to work with individuals who, due to nervous system damage or diseases, have difficulties with speech, communication, and swallowing. The curriculum combines speech therapy and neurology to provide a comprehensive approach to diagnosis and therapy.",
+  "description3": "During the course, you will acquire practical skills in diagnosing and treating aphasia, dysarthria, apraxia of speech, and disorders associated with neurodegenerative diseases. You will learn effective methods to help patients regain their communication abilities.",
+  "description4": "",
+  "descriptionP1": "",
+  "duration": "2 semesters",
+  "practicalHours": "120h of practice",
+  "price": "4000 PLN",
+  "payments": "10 x 400 PLN",
+  "scheduleInfo": "",
+  "schedule": [
+    "26.10.2024",
+    "16.11.2024",
+    "23.11.2024",
+    "30.11.2024",
+    "07.12.2024",
+    "14.12.2024",
+    "11.01.2025",
+    "18.01.2025",
+    "25.01.2025",
+    "15.02.2025",
+    "01.03.2025",
+    "15.03.2025",
+    "22.03.2025",
+    "05.04.2025",
+    "12.04.2025",
+    "10.05.2025",
+    "17.05.2025",
+    "24.05.2025"
+  ],
+  "modules": [
+    {
+      "title": "Specialist Training Module",
+      "topics": [
+        { "title": "Cortical Speech Disorders", "subtopics": [] },
+        { "title": "Speech After Larynx Removal Surgery", "subtopics": [] },
+        { "title": "Aphasia in Medical Perspective", "subtopics": [] },
+        { "title": "Aphasia – Diagnosis and Therapy", "subtopics": [] },
+        { "title": "Speech Disorders in Geriatric Patients", "subtopics": [] },
+        { "title": "Speech Disorders in Neurological Damage", "subtopics": [] },
+        { "title": "Child Psychiatry", "subtopics": [] },
+        { "title": "Basics of Psychiatry", "subtopics": [] },
+        { "title": "Human Development Psychology", "subtopics": [] },
+        {
+          "title": "Developmental Disorders in Cognitive and Speech Functions",
+          "subtopics": []
+        },
+        { "title": "Fundamentals of Neuropsychology", "subtopics": [] },
+        {
+          "title": "Anatomy and Physiology of the Nervous System",
+          "subtopics": []
+        },
+        { "title": "Early Speech Therapy Intervention", "subtopics": [] },
+        {
+          "title": "Diagnosis and Therapy of Patients with Neurological Dysfunction",
+          "subtopics": []
+        },
+        {
+          "title": "Diagnosis and Therapy of Patients with Hearing Impairments",
+          "subtopics": []
+        },
+        {
+          "title": "Psycho- and Neurolinguistic Aspects of Speech",
+          "subtopics": []
+        },
+        {
+          "title": "Diagnosis and Therapy of Autism Spectrum Disorders",
+          "subtopics": []
+        },
+        {
+          "title": "Alternative and Augmentative Communication (AAC) Methods",
+          "subtopics": []
+        },
+        {
+          "title": "Therapeutic Techniques for Neurological Speech Disorders",
+          "subtopics": []
+        },
+        { "title": "Clinical Physiotherapy", "subtopics": [] },
+        {
+          "title": "Language Communication Disorders in Neurological Speech Therapy",
+          "subtopics": []
+        },
+        { "title": "Music Therapy", "subtopics": [] },
+        { "title": "Art Therapy", "subtopics": [] },
+        { "title": "Corrective and Compensatory Activities", "subtopics": [] },
+        { "title": "Practice (120 hours)", "subtopics": [] }
+      ]
+    }
+  ],
+  "faculty": "Courses are led by experienced neurologopedists, clinical speech therapists, neuropsychologists, and occupational therapists specializing in treating individuals with neurological speech disorders.",
+  "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>The practice consists of 120 hours and is conducted in the second semester.</li><li>Practices can be held in hospitals, rehabilitation clinics, neurological speech therapy centers, and institutions supporting individuals after neurological injuries.</li></ul>",
+  "evaluation": "The assessment of learning outcomes is based on class participation, completion of individual modules, practice implementation, and preparation of a final thesis.",
+  "jobOpportunities": "<div><p className=\"text-lg font-semibold\">Graduates of the program will be prepared to work as:</p><ul className=\"list-disc list-inside mt-2 space-y-2\"><li>Neurologopedists in hospitals and rehabilitation clinics</li><li>Specialists in neurological speech therapy centers</li><li>Speech therapists working with individuals after strokes and brain injuries</li><li>Employees of centers supporting people with neurodegenerative diseases</li><li>Specialists assisting individuals with aphasia and dysarthria</li></ul></div>",
+  "invite": "<div class=''><p class='text-gray-100'>Gain practical skills in diagnosing and treating neurological speech disorders, helping individuals with communication difficulties due to nervous system damage.</p></div>"
+}

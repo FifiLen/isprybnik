@@ -2,7 +2,7 @@ import { Course } from "../utils/types";
 
 export const etyka: Course = {
   category: "zarzadzanie i dydaktyka edukacyjna",
-
+  isPopular: false,
   id: "etyka",
   title: "Etyka",
   banerDescription:

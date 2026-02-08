@@ -2,7 +2,7 @@ import { Course } from "../utils/types";
 
 export const przygotowaniePedagogiczne: Course = {
   category: "pedagogika specjalna i korekcyjna",
-
+  isPopular: true,
   id: "przygotowanie-pedagogiczne",
   title: "Przygotowanie pedagogiczne",
   banerDescription:

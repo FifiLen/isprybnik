@@ -1,0 +1,130 @@
+{
+  "category": "special and corrective pedagogy",
+  "isPopular": true,
+  "id": "przygotowanie-pedagogiczne-dla-psychologow",
+  "title": "Pedagogical Preparation for Psychologists",
+  "banerDescription": "Gain pedagogical qualifications and prepare for a career as a psychologist-teacher.",
+  "description": "<ul className=\"list-disc list-inside space-y-2\"><li>Individuals who want to obtain pedagogical qualifications</li><li>Psychologists aiming to work as teachers</li><li>People interested in gaining knowledge in pedagogy, psychology, and didactics</li></ul>",
+  "description2": "The aim of postgraduate studies is to provide preparation in psychology, pedagogy, and detailed didactics, ensuring the acquisition of knowledge and practical skills necessary for the teaching profession in accordance with the Act of July 20, 2018, Law on Higher Education and Science (Journal of Laws 2018 item 1668 as amended) and the Regulation of the Minister of Science and Higher Education of July 25, 2019, on the standards of education preparing for the teaching profession (Journal of Laws item 1450 of August 2, 2019).",
+  "description3": "The studies prepare individuals to work as psychologist-teachers, pedagogues, school psychologists, after-school care educators, dormitory supervisors, trainers, lecturers, instructors, and librarians.",
+  "duration": "3 semesters",
+  "practicalHours": "150h internships",
+  "price": "3600 PLN",
+  "payments": "10 x 360 PLN",
+  "schedule": [
+    "2024-10-26",
+    "2024-11-16",
+    "2024-11-23",
+    "2024-11-30",
+    "2024-12-07",
+    "2024-12-14",
+    "2025-01-11",
+    "2025-01-18",
+    "2025-01-25",
+    "2025-02-15",
+    "2025-03-01",
+    "2025-03-15",
+    "2025-03-22",
+    "2025-04-05",
+    "2025-04-12",
+    "2025-05-10",
+    "2025-05-17",
+    "2025-05-24"
+  ],
+  "modules": [
+    {
+      "title": "Module F1 - Pedagogy",
+      "topics": [
+        { "title": "Students with Special Educational Needs", "subtopics": [] },
+        {
+          "title": "Addictions, Prevention, and Health Promotion",
+          "subtopics": []
+        },
+        {
+          "title": "Psychological Support for Students, Parents, Guardians, or Teachers",
+          "subtopics": []
+        },
+        { "title": "Psychopedagogical Diagnosis", "subtopics": [] },
+        {
+          "title": "Interpersonal Communication – Social Interactions",
+          "subtopics": []
+        },
+        { "title": "Information Technology in Education", "subtopics": [] },
+        { "title": "School Collaboration with the Community", "subtopics": [] }
+      ]
+    },
+    {
+      "title": "Modules F2 and F3 - Methods and Practices",
+      "topics": [
+        {
+          "title": "Methodology of Psychologist-Teacher's Work",
+          "subtopics": []
+        },
+        { "title": "Workshop for Psychologist-Teachers", "subtopics": [] },
+        { "title": "Modern Methods of Didactic Work", "subtopics": [] },
+        { "title": "Pedagogical Internship", "subtopics": [] }
+      ]
+    },
+    {
+      "title": "Specialized Training Module",
+      "topics": [
+        { "title": "Psychology of Children's Learning", "subtopics": [] },
+        { "title": "Basics of Didactics", "subtopics": [] },
+        {
+          "title": "Developmental and Personality Psychology",
+          "subtopics": []
+        },
+        { "title": "Basics of Pedagogical Diagnosis", "subtopics": [] },
+        {
+          "title": "Legal and Organizational Foundations of School/Facility Functioning",
+          "subtopics": []
+        },
+        { "title": "Voice Emission", "subtopics": [] },
+        { "title": "Ethics of the Teaching Profession", "subtopics": [] },
+        { "title": "Information Technology in Education", "subtopics": [] },
+        { "title": "Basics of Special Pedagogy", "subtopics": [] },
+        { "title": "Social Pedagogy", "subtopics": [] },
+        { "title": "Educational Law", "subtopics": [] },
+        { "title": "General Psychology", "subtopics": [] },
+        { "title": "General Pedagogy", "subtopics": [] },
+        { "title": "School as an Educational Institution", "subtopics": [] },
+        {
+          "title": "Core Curriculum for Preschool and General Education",
+          "subtopics": []
+        },
+        {
+          "title": "Core Curriculum for Vocational Education",
+          "subtopics": []
+        },
+        {
+          "title": "Methods of Teaching General Subjects",
+          "subtopics": []
+        },
+        {
+          "title": "Diagnosis, Monitoring, and Assessment of Educational Outcomes",
+          "subtopics": []
+        },
+        { "title": "Cultural Foundations of Education", "subtopics": [] },
+        { "title": "School Prevention Programs", "subtopics": [] },
+        {
+          "title": "Personal and Professional Development of a Teacher",
+          "subtopics": []
+        },
+        {
+          "title": "Workplace Safety and Hygiene in Educational Institutions",
+          "subtopics": []
+        },
+        {
+          "title": "First Aid in Educational Institutions",
+          "subtopics": []
+        },
+        { "title": "Professional Internship (150 h)", "subtopics": [] }
+      ]
+    }
+  ],
+  "faculty": "Classes are conducted by experienced practitioners in pedagogy, psychology, and didactics, with many years of experience in educational work.",
+  "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>The professional internship includes 150 hours and provides hands-on experience in working as a psychologist-teacher.</li><li>Internships can be completed at educational institutions at various levels.</li></ul>",
+  "evaluation": "Assessment of learning outcomes is based on class participation, module completion, internships, and preparation of a final project.",
+  "jobOpportunities": "<div><p className=\"text-lg font-semibold\">Graduates of the program will be prepared to work as:</p><ul className=\"list-disc list-inside mt-2 space-y-2\"><li>Psychologists in educational institutions</li><li>Psychologist-teachers</li><li>Pedagogues, school psychologists</li><li>Trainers, instructors, librarians</li></ul></div>",
+  "invite": "<div class=''> <p class='text-gray-100'>Gain pedagogical preparation and start your career in psychological education.</p></div>"
+}

@@ -2,7 +2,7 @@ import { Course } from "../utils/types";
 
 export const integracjaSensorycznaTerapiaReki: Course = {
   category: "pedagogika specjalna i korekcyjna",
-
+  isPopular: false,
   id: "integracja-sensoryczna-z-terapia-reki",
   title: "Integracja sensoryczna z terapią ręki",
   banerDescription:

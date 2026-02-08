@@ -2,7 +2,7 @@ import { Course } from "../utils/types";
 
 export const dydaktykaJezykaObcegoNiemiecki: Course = {
   category: "zarzadzanie i dydaktyka edukacyjna",
-
+  isPopular: false,
   id: "dydaktyka-jezyka-obcego-niemiecki",
   title: "Dydaktyka języka obcego (język niemiecki)",
   banerDescription:

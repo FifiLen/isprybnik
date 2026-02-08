@@ -1,6 +1,7 @@
 import { Course } from "../utils/types";
 
 export const diagnozaStrategieTerapeutyczneLeczeniuHiperseksualnosci: Course = {
+  isPopular: false,
   category: "psychologia i psychoterapia",
   id: "diagnoza-i-strategie-terapeutyczne-w-leczeniu-hiperseksualnosci",
   title: "Diagnoza i strategie terapeutyczne w leczeniu hiperseksualności",

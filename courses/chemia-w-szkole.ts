@@ -2,7 +2,7 @@ import { Course } from "../utils/types";
 
 export const chemiaWSzkole: Course = {
   category: "zarzadzanie i dydaktyka edukacyjna",
-
+  isPopular: false,
   id: "chemia-w-szkole",
   title: "Chemia w szkole",
   banerDescription:

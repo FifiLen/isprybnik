@@ -1,5 +1,6 @@
 {
   "category": "zarządzanie i dydaktyka edukacyjna",
+  "isPopular": false,
   "id": "edukacja-dla-bezpieczenstwa",
   "title": "Edukacja dla bezpieczeństwa",
   "banerDescription": "Zdobądź kwalifikacje do nauczania przedmiotu 'Edukacja dla bezpieczeństwa' w szkołach podstawowych i ponadpodstawowych, rozwijając kompetencje w zakresie bezpieczeństwa publicznego, ochrony ludności oraz działań ratowniczych.",
@@ -98,8 +99,8 @@
     }
   ],
   "faculty": "Zajęcia prowadzone są przez doświadczonych praktyków w dziedzinie bezpieczeństwa publicznego, ochrony ludności, ratownictwa oraz dydaktyki.",
-  "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>Praktyka obejmuje 90 godzin i umożliwia zdobycie doświadczenia w nauczaniu przedmiotu 'Edukacja dla bezpieczeństwa'.</li><li>Praktyki mogą być realizowane w szkołach podstawowych i ponadpodstawowych.</li></ul>",
-  "evaluation": "Ocena efektów kształcenia opiera się na aktywności podczas zajęć, zaliczeniach poszczególnych modułów, realizacji praktyk oraz przygotowaniu pracy dyplomowej.",
+  "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>Praktyki mogą być realizowane w szkołach podstawowych i ponadpodstawowych.</li></ul>",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>wykonaniu prac zaliczeniowych,</li><li>przygotowaniu pracy projektowej.</li></ul>",
   "jobOpportunities": "<div><p className=\"text-lg font-semibold\">Absolwenci programu będą przygotowani do pracy jako:</p><ul className=\"list-disc list-inside mt-2 space-y-2\"><li>Nauczyciele przedmiotu 'Edukacja dla bezpieczeństwa' w szkołach podstawowych i ponadpodstawowych</li><li>Specjaliści ds. bezpieczeństwa w instytucjach edukacyjnych</li><li>Konsultanci w zakresie bezpieczeństwa publicznego i ochrony ludności</li><li>Trenerzy pierwszej pomocy i działań ratowniczych</li><li>Pracownicy instytucji zajmujących się edukacją na temat bezpieczeństwa publicznego</li></ul></div>",
   "invite": "<div class=''> <p class='text-gray-100'>Zdobądź kwalifikacje i umiejętności niezbędne do nauczania przedmiotu 'Edukacja dla bezpieczeństwa' i wspieraj uczniów w rozwijaniu świadomości na temat bezpieczeństwa publicznego.</p></div>"
 }

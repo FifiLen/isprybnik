@@ -2,7 +2,7 @@ import { Course } from "../utils/types";
 
 export const pedagogikaMariiMontessori: Course = {
   category: "pedagogika specjalna i korekcyjna",
-
+  isPopular: false,
   id: "pedagogika-marii-montessori",
   title: "Pedagogika Marii Montessori",
   banerDescription:

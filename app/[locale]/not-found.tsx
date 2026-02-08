@@ -6,7 +6,7 @@ export default function NotFound() {
     <div className="fixed inset-0 flex flex-col md:flex-row h-screen items-center justify-center bg-gray-100 z-50">
       <div className="bg-cyan-200 md:w-1/2 h-full flex items-center justify-center">
         <Image
-          src="/assets/404-illustration.svg" // Zmień na odpowiednią ścieżkę do Twojego obrazka
+          src="/assets/404-illustration.svg"
           alt="404 Illustration"
           width={700}
           height={700}
