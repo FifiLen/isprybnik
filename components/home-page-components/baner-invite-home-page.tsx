@@ -48,7 +48,7 @@ export default function BanerIviteHomePage() {
           </span>
         </Link>
       </div>
-      <div className="flex flex-1 justify-end">{/* Optional content */}</div>
+      <div className="flex flex-1 justify-end"></div>
     </div>
   );
 }

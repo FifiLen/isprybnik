@@ -2,7 +2,7 @@ import { Course } from "../utils/types";
 
 export const jezykPolski: Course = {
   category: "zarzadzanie i dydaktyka edukacyjna",
-
+  isPopular: false,
   id: "jezyk-polski",
   title: "Język polski",
   banerDescription:

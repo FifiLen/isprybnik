@@ -1,10 +1,11 @@
 {
   "category": "psychologia i psychoterapia",
+  "isPopular": false,
   "id": "seksuologia-praktyczna",
   "title": "Seksuologia praktyczna",
   "banerDescription": "Zdobądź praktyczne umiejętności i&nbsp;wiedzę z&nbsp;zakresu seksuologii, które pozwolą Ci&nbsp;pracować w&nbsp;różnych kontekstach terapeutycznych",
   "description": "<ul className=\"list-disc list-inside space-y-2\"><li>kadra zarządzająca placówkami oświatowymi<br><span className=\"ml-4\">(szkoły, przedszkola, żłobki, poradnie, ośrodki wychowawcze, inne)</span></li><li>pedagogów</li><li>psychologów</li><li>logopedów</li><li>terapeutów</li><li>nauczycieli</li><li>rodziców</li><li>opiekunów prawnych</li><li>wychowawców</li><li>osób pracujących z dziećmi, młodzieżą, osobami dorosłymi, seniorami</li><li>osób pracujących z dziećmi, młodzieżą i osobami dorosłymi z&nbsp;<span className=\"ml-2\">niepełnosprawnościami, powodującymi brak lub ograniczenie możliwości komunikacji i funkcjonowania w społeczeństwie</span></li></ul>",
-  "description2": "Program studiów obejmuje także wykształcenie praktycznych umiejętności: seksuologicznego badania podmiotowego, diagnozy, różnicowania i leczenia zaburzeń seksualnych oraz kompetencji społecznych.",
+  "description2": "Studia z seksuologii praktycznej dostarczą Ci najnowszej wiedzy na temat ludzkiej seksualności w kontekście różnych faz życia. W trakcie zajęć, prowadzonych przez ekspertów, nauczysz się, jak diagnozować problemy seksualne, tworzyć plany terapeutyczne i dobierać odpowiednie metody leczenia dla dzieci, młodzieży oraz dorosłych. Zdobędziesz kompetencje w zakresie prowadzenia działań psychoedukacyjnych oraz realizowania skutecznych interwencji terapeutycznych.",
   "description3": "Absolwenci będą przygotowani do pracy w zakresie diagnostyki i terapii zaburzeń seksualnych w poradniach seksuologicznych, klinikach i szpitalach psychiatrycznych.",
   "description4": "",
   "descriptionP1": "",
@@ -103,7 +104,7 @@
   ],
   "faculty": "Program będzie prowadzony przez wykwalifikowaną kadrę specjalistów z dziedziny seksuologii, psychologii, psychiatrii i terapii.",
   "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>50% - możliwość zrealizowania praktyk w formule zdalnej w Poradni Psychologiczno - Pedagogicznej MAGNOLIA</li><li>Pozostałe 50% można zrealizować:<ul className=\"list-disc list-inside space-y-1 ml-4\"><li>w placówkach macierzystych w formie zajęć dodatkowych lub wykonywanych w pensum,</li><li>w placówkach oświatowych,</li><li>w poradniach,</li><li>inne.</li></ul></li></ul>",
-  "evaluation": "Ocena efektów kształcenia będzie opierać się na: przygotowaniu pracy projektowej w obszarze Seksuologi praktycznej.",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>wykonaniu prac zaliczeniowych,</li><li>przygotowaniu pracy projektowej.</li></ul>",
   "jobOpportunities": "Absolwenci będą przygotowani do pracy w zakresie diagnostyki i terapii zaburzeń seksualnych w poradniach seksuologicznych, klinikach i szpitalach psychiatrycznych.",
   "invite": "<div class=''> <p class='text-gray-100'>Zdobądź praktyczne umiejętności i wiedzę z zakresu <strong class='font-semibold'>seksuologii klinicznej</strong>, które pozwolą Ci pracować w różnych kontekstach terapeutycznych.<br /> Inwestuj w swoją przyszłość i realizuj swoje nowe perspektywy zawodowe.</p></div>"
 }

@@ -7,6 +7,10 @@
     "recruitment": "Rekrutacja",
     "recruitmentDescription": "Rekrutacja na studia podyplomowe",
     "faq": "FAQ",
+    "bur": "Dofinansuj studia/szkolenia",
+    "burDescription": "Skorzystaj z dofinansowania",
+    "videos": "Zobacz nasze zajęcia",
+    "videosDescription": "Zobacz krótkie fragmenty z wykładów",
     "faqDescription": "Pytania i odpowiedzi",
     "contact": "Kontakt",
     "contactDescription": "Strona kontaktowa",
@@ -17,14 +21,14 @@
     "changeLanguage": "Zmień język"
   },
   "Banner": {
-    "invitationText": "Zapraszamy do składania aplikacji na semestr zimowy 2024/2025.",
+    "invitationText": "Zapraszamy do składania aplikacji na nowy semestr.",
     "recruitmentProcessAriaLabel": "Proces rekrutacji",
     "recruitmentButtonText": "Rekrutacja"
   },
   "CtaHomePage": {
     "recruitmentTitle": "Rekrutacja",
-    "semesterTitle": "Semestr 2024/2025",
-    "description": "Trwają zapisy na semestr 2024/2025. Dołącz do nas i rozpocznij swoją przygodę ze studiami podyplomowymi. Przygotowaliśmy wyjątkową ofertę kierunków, które pozwolą zdobyć Ci pożądane umiejętności na rynku pracy i otworzą przed Tobą nowe perspektywy.",
+    "semesterTitle": "Nabór 2025",
+    "description": "Trwają zapisy na nowy semestr. Dołącz do nas i rozpocznij swoją przygodę ze studiami podyplomowymi. Przygotowaliśmy wyjątkową ofertę kierunków, które pozwolą zdobyć Ci pożądane umiejętności na rynku pracy i otworzą przed Tobą nowe perspektywy.",
     "exploreOfferAriaLabel": "poznaj naszą ofertę",
     "exploreOfferButton": "Poznaj naszą ofertę",
     "imageAlt": "Studentka przy komputerze, rekrutacja 2024/2025"
@@ -32,9 +36,9 @@
   "FinanceInformationSection": {
     "funding": "Dofinansowanie",
     "fundingTitle": "Uzyskaj dofinansowanie z Bazy Usług Rozwojowych",
-    "fundingDescription": "Niniejszym informujemy, że pojawiła się możliwość skorzystania z dofinansowania studiów podyplomowych, kursów, szkoleń z Bazy Usług Rozwojowych. Dofinansowanie może wynosić 80-100% kosztu usług edukacyjnych. \n\nZapraszamy wszystkich zainteresowanych do kontaktu z nami w celu uzyskania informacji, gdzie należy złożyć wniosek.",
+    "fundingDescription": "Zachęcamy do skorzystania z możliwości uzyskania dofinansowania do szkoleń / kursów / usług doradczych / studiów podyplomowych z Bazy Usług Rozwojowych.<br/><br/> Wysokość dofinansowania możliwa jest w przedziale od 90% do 100% wartości usługi rozwojowej (szkolenia/kursu/studiów podyplomowych).<br/><br/> O środki mogą starać się zarówno osoby indywidualnie jak i całe przedsiębiorstwa. <br/><br/>Zachęcamy do zapoznania się z naszą ofertą. Jeżeli nie znalazłeś/znalazłaś szkolenia, które Cię lub Was interesują, prosimy o kontakt. Istnieje możliwość wystawienia karty na szkolenie dedykowane dla jednej osoby lub grupy osób, tzw. szkolenie na zamówienie.<br/><br/>  Zachęcamy również do kontaktu z Urzędami Pracy, gdzie poinformowani zostaniecie Państwo o aktualnych naborach i obszarach dofinansowania.",
     "burOfferAriaLabel": "poznaj naszą ofertę Bazy Usług Rozwojowych",
-    "burOfferButton": "Poznaj naszą ofertę BUR",
+    "burOfferButton": "Poznaj naszą ofertę w BUR",
     "information": "Informacja",
     "loansTitle": "Nieoprocentowane pożyczki",
     "loansDescription": "Ministerstwo Rozwoju uruchomiło nieoprocentowane pożyczki na kształcenie obejmujące m.in. studia podyplomowe, kursy, szkolenia. W ramach Programu Operacyjnego Wiedza Edukacja Rozwój możesz otrzymać nawet do 50 000 zł pomocy zwrotnej bez żadnych dodatkowych kosztów. \n\nCo ważne, istnieje możliwość umorzenia 20–25% przyznanej kwoty.\n\nZachęcamy do zapoznania się z informacjami odnośnie nieoprocentowanych pożyczek. Więcej informacji znajdą Państwo na stronie www.inwestujwrozwoj.pl",
@@ -48,29 +52,35 @@
     "recruitment": "Rekrutacja",
     "internships": "Praktyki",
     "documentDeadline": "Mogę dosłać dokumenty po wyznaczonym terminie?",
-    "documentDeadlineAnswer": "Nie, WSH-E daje nam określony czas, do którego musimy mieć przygotowane Państwa dokumenty. Do tego czasu również są nadawane numery albumów, które są niezbędne aby móc Państwa zakwalifikować na studia – Po wyznaczonym terminie WSH-E nie generuje dodatkowych numerów albumów, co wiąże się z tym, że zgłoszenia nie są przyjmowane.",
-    "shortenCourse": "Czy mogę kierunek, który jest trzysemetralny skończyć w dwa semestry?",
-    "shortenCourseAnswer": "Tak, pod warunkiem, że zrealizujesz praktyki, które są przewidziane na semestr trzeci, w trakcie trwania dwóch semestrów.",
+    "documentDeadlineAnswer": "Niestety nie. Każdy nabór ma swój początek i koniec. Nabór październikowy kończy się maksymalnie do końca listopada. Nabór marcowy maksymalnie do końca kwietnia. Prowadzimy nabór ciągły, co oznacza, że w każdym momencie można złożyć dokumenty na studia, z zastrzeżeniem, że data złożenia dokumentów będzie decydująca, z którego naboru będą nadane numery albumów.",
     "diplomaCopy": "Jak mogę potwierdzić kopię dyplomu za zgodność z oryginałem?",
-    "diplomaCopyAnswer": "Zgodność potwierdza się wpisując na kopii zdanie: \"Potwierdzam za zgodność z oryginałem\" i potwierdzając to własnoręcznym podpisem. Taka forma jest akceptowana przez WSH-E.",
-    "secondCourseDiscount": "Czy mogę skorzystać ze zniżki na drugi kierunek?",
-    "secondCourseDiscountAnswer": "Tak, można skorzystać ze zniżki wybierając kierunki z zakładki \"oferta\" na naszej stronie internetowej. Zniżkę 50 % na drugi tańszy kierunek należy uwzględnić w płatnościach.",
+    "diplomaCopyAnswer": "Zgodność potwierdza się wpisując na kopii zdanie: \"Potwierdzam za zgodność z oryginałem\", potwierdzając to własnoręcznym podpisem. Taka forma jest akceptowana przez WSH-E.",
+
     "doctoralDiploma": "Mogę wysłać kopię dyplomu ze studiów doktoranckich?",
-    "doctoralDiplomaAnswer": "Niestety nie, WSH-E akceptuje jedynie kopię dyplomów I lub II stopnia.",
+    "doctoralDiplomaAnswer": "Niestety nie, WSH-E akceptuje jedynie kopię dyplomów II stopnia.",
     "shortenTwoSemesters": "Czy kierunek, który ma 2 semestry mogę skończyć w jeden?",
-    "shortenTwoSemestersAnswer": "Absolutnie nie, kierunek dwusemestralny nie podlega skróceniom.",
+    "shortenTwoSemestersAnswer": "Niestety nie, kierunek dwusemestralny nigdy nie podlegał skróceniu, natomiast od naboru 2024/2025 również dla kierunków trzysemestralnych nie przewidziano możliwości skrócenia toku studiów",
+    "groupRec": "Czy możemy zgłosić na jakiś jeden kierunek grupę osób?",
+    "groupRecAnswer": "Oczywiście, ze tak. W takim przypadku dbamy o to, aby wszyscy byli w jednej grupie.  Jeżeli grupa jest liczna, dopuszczamy możliwość ustalenia indywidualnego harmonogramu spotkań (ilość spotkań jest identyczna jak w programie studiów, natomiast zajęcia mogą odbywać się w dni tygodnia, np. piątki).",
+    "parcticsMagnolia": "Czy istnieje możliwość odbycia praktyk w Waszej Poradni Psychologiczno – Pedagogicznej?",
+    "parcticsMagnoliaAnswer": "Oczywiście. Zapraszamy wszystkich chętnych studentów, którzy chcieliby w PP-P MAGNOLIA w Rybniku odbyć praktyki specjalistyczne. Prowadzimy terapie z logopedii, neurologopedii, z integracji sensorycznej, z terapii ręki, tyflopedagogiki, terapie z dziećmi ze spektrum autyzmu, etc.  Prowadzimy również zajęcia TUS, fizjoterapię, konsultacje psychologiczne, pedagogiczne oraz przeprowadzamy diagnozy. Serdecznie zapraszamy wszystkie zainteresowane osoby do odbycia praktyk w PP-P MAGNOLIA.",
+    "parcticsOnline": "Czy praktyki można odbywać online?",
+    "parcticsOnlineAnswer": "Przykro nam ale nie ma takiej możliwości. Praktyki powinny odbywać się stacjonarnie w ilości godzin przewidzianych programem studiów. Istnieją przesłanki do skrócenia godzin praktyk, każdy wniosek rozpatrywany jest indywidualnie przez Dziekana WSH-E. Wniosek należy złożyć po rozpoczęciu studiów, do 30 dni po rozpoczęciu zajęć.",
+
+    "courseOrder": "Czy możemy u Was zamówić szkolenie na zamówienie?",
+    "courseOrderAnswer": "Oczywiście. Istnieje taka możliwość zarówno w obszarze szkoleń stacjonarnych jak i zdalnych w czasie rzeczywistym. Przyjmujemy również zamówienia szkoleń online do odsłuchania w wybranym miejscu i czasie.",
     "observationSheet": "Kto powinien podpisać arkusz obserwacji?",
-    "observationSheetAnswer": "Praktykant prowadzi zajęcia, które obserwuje Opiekun Praktyk i ocenia praktykanta. Tak więc podpisuje dokument opiekun praktyk.",
+    "observationSheetAnswer": "Praktykant prowadzi zajęcia, które obserwuje Opiekun Praktyk. To wspomniany wyżej Opiekun obserwuje i ocenia Praktykanta, tym samym to on/ona (Opiekun Praktyk) podpisuje dokument.",
     "observationSheetModule": "Do którego modułu muszę dołączyć arkusz obserwacji?",
-    "observationSheetModuleAnswer": "Arkusz obserwacji dołącza się do modułu, w którym praktykant ma obowiązek samodzielnego prowadzenia zajęć.",
+    "observationSheetModuleAnswer": "Arkusz obserwacji dołącza się do modułu, w którym Praktykant ma obowiązek samodzielnego prowadzenia zajęć.",
     "internshipDeadline": "Do kiedy muszę oddać praktyki?",
-    "internshipDeadlineAnswer": "Praktyki oddajemy następująco dla naboru: Październikowego: 30 marzec następnego roku marcowego: 30 stycznia następnego roku.",
+    "internshipDeadlineAnswer": "Studenci studiów 2 semestralnych: - Nabór październikowy do 30 marca. - Nabór marcowy do 30 października.Studenci studiów 3 semestralnych: - Nabór październikowy do 30 września roku następnego po naborze. - Nabór marcowy do 30 stycznia następnego roku po naborze.",
     "internshipSettlement": "Co oznacza termin oddania/rozliczenia praktyk?",
-    "internshipSettlementAnswer": "Oznacza to, że jeśli termin rozliczenia jest przykładowo do 30 marca to dokumenty maksymalnie do 30 marca muszą być w dziekanacie aby móc rozliczyć się z praktyk w terminie.",
+    "internshipSettlementAnswer": "Oznacza, że jeżeli termin zaliczenia praktyk wyznaczono na 30 września lub 30 stycznia, to wspomniane powyżej daty są ostatecznym dniem, kiedy dokumentacja z praktyk, w formie papierowej, powinna znajdować się w dziekanacie.",
     "completeDocuments": "Dlaczego muszę wszystkie dokumenty z praktyk wysłać w komplecie?",
     "completeDocumentsAnswer": "Przez wzgląd na ilość słuchaczy bardzo ważne jest by dokumenty z praktyk były wysyłane w komplecie zgodnie z plikiem \"zaliczenie praktyk specjalistycznych\". Państwa dokumenty są wysyłane do WSH-E i tam sprawdzane pod względem merytorycznym – im więcej będzie braków tym dłużej będziecie Państwo czekać na świadectwo.",
     "documentStatus": "Nie mam odpowiedzi czy wszystko w porządku z moimi dokumentami z praktyk, co to oznacza?",
-    "documentStatusAnswer": "Najczęściej oznacza to, że WSH-E sprawdziło dokumenty i nie ma do nich uwag. Uwagi są wysyłane do słuchaczy mailowo. Zawsze w tym przypadku jednak warto się z nami skontaktować i dopytać."
+    "documentStatusAnswer": "Zwykle  oznacza to, że WSH-E sprawdziło dokumenty i nie ma do nich uwag. Ewentualne zastrzeżenia i/lub prośba o poprawę dokumentacji   wysyłane są do słuchaczy mailowo, jeżeli taka wiadomość do Pani/Pana nie dotarła oznacza, że dokumentacja pełnia wymagania merytoryczne  i formalne."
   },
   "ContactForm": {
     "contactImageAlt": "kontakt",
@@ -97,13 +107,15 @@
   },
   "CoursesPage": {
     "courses": "Kierunki",
+    "otherCourses": "Pozostałe kierunki",
     "button-more": "Sprawdź pozostałe kierunki",
     "searchPlaceholder": "Szukaj kierunku...",
     "sortBy": "Sortuj według",
     "sortDefault": "Domyślnie",
     "sortTitle": "Nazwa (A-Z)",
     "sortPrice": "Cena (rosnąco)",
-    "allCategories": "Wszystkie",
+    "popularCourses": "Popularne",
+    "allCategories": "Wszystkie kierunki",
     "psychologyAndPsychotherapy": "Psychologia i psychoterapia",
     "specialAndCorrectivePedagogy": "Pedagogika specjalna i korekcyjna",
     "educationalManagementAndDidactics": "Zarządzanie i dydaktyka edukacyjna",
@@ -162,15 +174,22 @@
     "enrollButton": "Zapisz się na wybrany kierunek",
     "imageAlt": "Rekrutacja 2024/2025"
   },
+
   "BannerFinanceCoursePage": {
     "imageAlt": "Rekrutacja 2024/2025",
     "funding": "Dofinansowanie",
     "title": "Uzyskaj dofinansowanie z Bazy Usług Rozwojowych",
-    "description1": "Niniejszym informujemy, że pojawiła się możliwość skorzystania z dofinansowania studiów podyplomowych, kursów, szkoleń z Bazy Usług Rozwojowych. Dofinansowanie może wynosić 80-100% kosztu usług edukacyjnych",
-    "description2": "Zachęcamy przedsiębiorców oraz organy prowadzące do kontaktu z Powiatowym Urzędem Pracy oraz operatorami wojewódzkimi w celu złożenia wniosku o dofinansowanie.",
+
+    "description1": "Zachęcamy do skorzystania z możliwości uzyskania dofinansowania do szkoleń, kursów, usług doradczych oraz studiów podyplomowych z Bazy Usług Rozwojowych.",
+    "description2": "Wysokość dofinansowania możliwa jest w przedziale od 90% do 100% wartości usługi rozwojowej (szkolenia/kursu/studiów podyplomowych).",
+    "description3": "O środki mogą starać się zarówno osoby indywidualnie, jak i całe przedsiębiorstwa.",
+    "description4": "Zachęcamy do zapoznania się z naszą ofertą. Jeżeli nie znalazłeś/znalazłaś szkolenia, które Cię interesuje, prosimy o kontakt. Istnieje możliwość wystawienia karty na szkolenie dedykowane dla jednej osoby lub grupy osób, tzw. szkolenie na zamówienie.",
+    "description5": "Zachęcamy również do kontaktu z Urzędami Pracy, gdzie poinformowani zostaniecie Państwo o aktualnych naborach i obszarach dofinansowania.",
+
     "buttonAriaLabel": "poznaj naszą ofertę Bazy Usług Rozwojowych",
-    "buttonText": "Poznaj naszą ofertę BUR"
+    "buttonText": "Poznaj naszą ofertę w BUR"
   },
+
   "RecruitmentPage": {
     "imageAlt": "kontakt",
     "recruitmentProcess": "Proces rekrutacji",
@@ -208,7 +227,7 @@
       "recruitmentForm": "formularz rekrutacyjny",
       "step1": {
         "title": "Wypełnij formularz zgłoszeniowy",
-        "description": "Na naszej stronie znajdziesz formularz zgłoszeniowy, który należy wypełnić. Upewnij się, że podane informacje są prawidłowe i kompletne."
+        "description": "Na naszej stronie znajdziesz formularz zgłoszeniowy, który należy wypełnić. Upewnij się, że podane informacje są prawidłowe i kompletne. Jeżeli masz problem z elektroniczną wersją formularza, zapraszamy do kontaktu: nowekwalifikacjerybnik@gmail.com  - wyślemy formularz w dokumencie Word."
       },
       "step2": {
         "title": "Przygotuj wymagane dokumenty",
@@ -216,7 +235,7 @@
       },
       "step3": {
         "title": "Złożenie dokumentów",
-        "description": "Wszystkie dokumenty można przesłać drogą elektroniczną na adres email: nowekwalifikacjerybnik@gmail.com lub złożyć osobiście w naszej siedzibie przy ul. Magnolii 25, 44-207 Rybnik."
+        "description": "Wszystkie dokumenty można przesłać drogą elektroniczną na adres email: nowekwalifikacjerybnik@gmail.com lub złożyć osobiście w naszej siedzibie przy ul. Magnolii 25, 44-207 Rybnik lub przesłać pocztą tradycyjną lub kurierem: ISP Rybnik Magnolii 25, 44-207 Rybnik."
       },
       "step4": {
         "title": "Potwierdzenie przyjęcia",
@@ -224,7 +243,7 @@
       },
       "step5": {
         "title": "Pojawił się problem?",
-        "description": "Jeżeli masz jakiekolwiek pytania lub wątpliwości dotyczące procesu rekrutacji, zapraszamy do kontaktu telefonicznego pod numerem +48 123 456 789 lub mailowego: nowekwalifikacjerybnik@gmail.com"
+        "description": "Jeżeli masz jakiekolwiek pytania lub wątpliwości dotyczące procesu rekrutacji, zapraszamy do kontaktu telefonicznego pod numerem +48 797 173 501 lub mailowego: nowekwalifikacjerybnik@gmail.com"
       }
     }
   },
@@ -265,6 +284,7 @@
     "offer": "Oferta",
     "recruitment": "Rekrutacja",
     "faq": "FAQ",
+    "bur": "Baza Usług Rozwojowych",
     "contact": "Kontakt",
     "phone": "Telefon",
     "phoneWhatsapp": "Tel/Whatsapp",
@@ -299,5 +319,141 @@
     "goToSlideAriaLabel": "Przejdź do slajdu {slideNumber}",
     "resumeSlideAriaLabel": "Wznów slajd",
     "pauseSlideAriaLabel": "Zatrzymaj slajd"
+  },
+
+  "Metadata": {
+    "site": {
+      "name": "ISP Rybnik | Instytut Studiów Podyplomowych w Rybniku",
+      "description": "Instytut Studiów Podyplomowych w Rybniku oferuje wysokiej jakości studia podyplomowe, umożliwiające rozwój kompetencji i zdobycie nowych kwalifikacji. Sprawdź naszą ofertę!",
+      "keywords": "studia podyplomowe, rozwój zawodowy, ISP Rybnik, edukacja, kierunki studiów"
+    }
+  },
+  "HomePage": {
+    "meta": {
+      "title": "Strona Główna | ISP Rybnik",
+      "description": "Instytut Studiów Podyplomowych w Rybniku - szeroka oferta kierunków studiów podyplomowych dla osób chcących podnieść swoje kwalifikacje. Zapisz się już dziś!",
+      "og": {
+        "title": "Studia Podyplomowe | ISP Rybnik",
+        "description": "Rozwiń swoje umiejętności i zdobywaj nowe kwalifikacje z Instytutem Studiów Podyplomowych w Rybniku. Sprawdź kierunki już teraz!"
+      }
+    }
+  },
+  "WykladowcyPage": {
+    "title": "Nasi Wykładowcy",
+    "readMore": "Więcej",
+    "wykladowcy": [
+      {
+        "imieNazwisko": "Bogusław Barański",
+        "tytulZawodowy": "Seksuolog, psychoterapeuta",
+        "opis": "Psychoterapeuta, seksuolog, mentor z 20-letnim doświadczeniem w pracy indywidualnej oraz z grupami mężczyzn i kobiet nad relacjami w związkach. Prowadzi sesje i warsztaty w Polsce, Szwecji i w Niemczech. Specjalizuje się w terapiach indywidualnych, terapii par, rodzin i dzieci. Jako psychoterapeuta systemowy wykorzystuje podejście integratywne, korzystając z różnych nurtów, które służą pacjentowi, prowadząc go do świadomego zrozumienia siebie. Jednym z jego ulubionych nurtów psychoterapii jest logoterapia Frankla. Specjalizuje się w terapii par, interwencji kryzysowej, uzależnieniach, trudnościach w relacjach, problemach związanych z tożsamością, zaburzeniach lękowych i depresyjnych oraz problemach seksualnych."
+      },
+      {
+        "imieNazwisko": "Machowski",
+        "tytulZawodowy": "Terapeuta SI",
+        "opis": "Marcin Machowski to doświadczony specjalista i terapeuta SI, wykładowca, diagnosta, który cieszy się ogromną popularnością oraz zaufaniem pacjentów."
+      },
+      {
+        "imieNazwisko": "Marek Florczyk",
+        "tytulZawodowy": "Edukator",
+        "opis": "Marek Florczyk – edukator  kursów kwalifikacyjnych z organizacji i zarządzania oświatą,  nauczyciel dyplomowany z 37-letnim  stażem pracy, w tym 20 lat jako dyrektor  w różnych typach szkół. Uczestnik wielu konkursów, autor innowacji pedagogicznych, projektów edukacyjnych oraz publikacji. Był wielokrotnie nagradzany za szczególne zasługi dla oświaty, w tym: Medalem Komisji Edukacji Narodowej, Złotym Medalem za Długoletnią  Pracę oraz Nagrodą  Kuratora Oświaty i Ministra Edukacji Narodowej. Obecnie jest Radnym Miasta Rybnika."
+      },
+      {
+        "imieNazwisko": "Anna Ławniczak",
+        "tytulZawodowy": "Psycholog",
+        "opis": "Magister psychologii, specjalizujący się w seksuologii klinicznej i psychologii kryminologicznej. Wykładowca studiów podyplomowych z obszaru pedagogiki specjalnej, seksuologii, seksuologii klinicznej. Terapeuta dzieci, par, rodzin. Aktywnie angażuje się w pracę na rzecz dzieci w szkołach i przedszkolach. Specjalista ORE w zakresie edukacji włączającej."
+      },
+      {
+        "imieNazwisko": "Natalia Chruściel – Janas",
+        "tytulZawodowy": "Logopeda/Neurologopeda",
+        "opis": "Uniwersytet Medyczny we Wrocławiu: neurologopedia z wczesną interwencją logopedyczną, Uniwersytet Wrocławski: logopedia ogólna, Uniwersytet Wrocławski: filologia polska, polonista jako lider społeczności lokalnej. Certyfikowany Terapeuta Ortodoncji Funkcjonalnej MFS, Terapia Integracji Sensorycznej I stopnia (mgr Aleksandra Owczarz-Jankowska); Innowacyjne metody elektrostymulacji zewnętrznej i wewnętrznej w logopedii – podejście praktyczne (mgr Ewa Wojewoda, mgr Aleksandra Kaczyńska); Afazja- diagnoza i terapia (prof. zw. dr hab. Maria Pąchalska); Terapia sensomotoryczna i korekta dysfunkcji ustno twarzowych (dr A Regner); Trening Umijetności Społecznych (TUS) (mgr E. Łukowska); AAC Wprowadzenie do komunikacji alternatywnej i wspomagającej (mgr P. Gałczyńska); Terapia logopedyczna dziecka z nieprawidłowościami funkcjonowania aparatu ustno-twarzowego (Ilona Brzozowska-Misiewicz); O laktacji interdyscyplinarnie-warsztat laktacyjny (lek med.S. Jeż, dr. A.Ptak); Elementy metody werbo-tonalnej. Wspomaganie rozwoju mowy i komunikacji (mgr A. Dziedzic); Masaż logopedyczny od podstaw – podejście praktyczne, (mgr Aleksandra Kaczyńska); ORM kreatywne postępowanie logopedyczne (mgr A. Gładowicz-Bojarska); Werbogesty (mgr A. Gładowicz-Bojarska); Opóźniony rozwój mowy- diagnoza i terapia (mgr Dagmara Kalczyńska); Terapia ręki i zaburzeń motoryki małej I i II stopnia tytuł: Terapeuta ręki (ProCentrum, mgr Katarzyna Gromelska); Logorytmika – ruch, słuch, słowo (ProCentrum, mgr Ewa Bombol); Terapia sygmatyzmu międzyzebowego (mgr Anna Balewska); Terapia sygmatyzmu bocznego (mgr Anna Balewska); Kurs metody „Dyna Lingua MS”; „W świecie elfów”. Afazja dziecięca i inne zaburzenia komunikacji. Objawy, diagnoza, terapia. Diagnoza i terapiia ankyloglosji; Uprawnienia pedagogiczne; stopień zawodowy nauczyciela kontraktowego;\n\nTerapie logopedyczne dzieci z zaburzeniami ze spektrum autyzmu, afazją, dyslalią, opóźnionym rozwojem mowy; Zespołem Downa; Dziecięcym Porażeniem Mózgowym; terapie miofunkcjonalne, elektrostymulacja; ocena i terapia funkcji prymarnych; prowadzanie diagnoz logopedycznych; terapie logopedyczne młodzieży z zaburzeniami z niepełnosprawnością głęboką i sprzężoną. Prowadzenie zajęć z terapii ręki, logorytmiki, warsztatów logopedycznych dla dzieci i rodziców. Tworzenie indywidualnych programów terapii (IPET, Arkusz wyspecjalizowanej oceny ucznia)."
+      },
+      {
+        "imieNazwisko": "Monika Kromolan",
+        "tytulZawodowy": "Psycholog",
+        "opis": "Magister psychologii z zakresu neuropsychologii i psychologii klinicznej. Specjalista w zintegrowanej edukacji wczesnoszkolnej, edukacji informatycznej oraz edukacji i rehabilitacji osób z niepełnosprawnością intelektualną. Terapeuta WWRD i hipoterapii. Specjalista w zakresie komunikacji alternatywnej i wspomagającej oraz diagnozy alternatywnych i wspomagających metod porozumiewania się."
+      },
+      {
+        "imieNazwisko": "Julita Rozmus",
+        "tytulZawodowy": "Logopeda/Neurologopeda",
+        "opis": "Logopedka oraz neurologopedka, posiadająca szereg kwalifikacji z obszaru swojej pracy, takich jak praca z dziećmi z mutyzmem, z problemem jąkania, z zakresu zaburzeń percepcji słuchowej i zaburzeń słuchu."
+      },
+      {
+        "imieNazwisko": "Justyna Bugdoł",
+        "tytulZawodowy": "Pedagog specjalny",
+        "opis": "Magister pedagogiki specjalnej, nauczyciel dyplomowany, terapeuta edukacji i rewalidacji osób ze spektrum autyzmu, trener TUS, pedagog w Zespole Szkół Specjalnych."
+      },
+      {
+        "imieNazwisko": "Anna Falkowska",
+        "tytulZawodowy": "Pedagog, Socjolog",
+        "opis": "Dyplomowany socjolog (specjalizacja: zarządzanie zasobami ludzkimi), dyplomowany specjalista z zakresu ochrony środowiska, doradca zawodowy otwarty na kształtowanie świadomości ekologicznej, doktor nauk pedagogicznych w Akademii Pedagogiki Specjalnej im. Marii Grzegorzewskiej w Warszawie, wykładowca akademicki na uczelniach o profilu przyrodniczym, autorka wielu publikacji naukowych i po-konferencyjnych. Od kilku lat zajmuję się szeroko pojętą edukacją ekologiczną: w przedsiębiorstwach, w instytucjach państwowych, w organizacjach pozarządowych, w placówkach oświatowych (w przedszkolach i szkołach podstawowych)."
+      },
+      {
+        "imieNazwisko": "Wioletta Ginter",
+        "tytulZawodowy": "Pedagog specjalny, terapeutka pedagogicnza i terapeutka ręki",
+        "opis": "Magister pedagogiki specjalizujący się w poradnictwie i pomocy psychopedagogicznej. Aktywny pedagog specjalny, terapeuta ręki, specjalista w edukacji włączającej i wykładowca. Posiada bogate doświadczenie, przekazując swoją wiedzę zarówno uczniom, jak i nauczycielom w różnych instytucjach edukacyjnych. Specjalista ORE w zakresie edukacji włączającej."
+      },
+
+      {
+        "imieNazwisko": "Małgorzata Solowska",
+        "tytulZawodowy": "Trener",
+        "opis": "Magister języka angielskiego, magister historii, trener i moderator TIK, MIEE Educator, trener dla zagranicznych narodowych agencji Erasmus, prelegent konferencji i szkoleń międzynarodowych oraz ogólnopolskich. Specjalista ORE w zakresie edukacji włączającej. Trener TIK w tym wykorzystania nowych technologii w pracy z uczniami ze SPE. Wykładowca studiów podyplomowych z zakresu zarządzania oświatą, historii oraz języka angielskiego."
+      },
+
+      {
+        "imieNazwisko": "Joanna Zawadzka",
+        "tytulZawodowy": "Polonista, terapeuta",
+        "opis": "Magister języka polskiego, specjalista z zakresu terapii pedagogicznej, diagnozy i profilaktyki społecznej. Terapeuta z obszaru diagnozy dysleksji rozwojowej, egzaminator OKE, nauczyciel języka polskiego jako obcego, prezes Oddziału Towarzystwo Dysleksji w Rybniku. Doradca i autor publikacji dla IBE- Instytut Badań Edukacyjnych. Pracuje z uczniami uzdolnionymi (przygotowanie do egzaminów/olimpiad)."
+      },
+      {
+        "imieNazwisko": "Aleksandra Wowra",
+        "tytulZawodowy": "Pedagog",
+        "opis": "Magister pedagogiki – specjalność: opiekuńczo – wychowawczej, oligofrenopedagog, specjalista ORE w zakresie edukacji włączającej, czynny pedagog specjalny. Wykładowca na kierunkach pedagogiki specjalnej na studiach podyplomowych."
+      },
+      {
+        "imieNazwisko": "Paulina Rosa",
+        "tytulZawodowy": "Logopeda",
+        "opis": "Magister polonistyki, logopeda, egzaminator TELC języka polskiego jako obcego, trener języka polskiego jako obcego, czynny nauczyciel w szkole podstawowej i ponadpodstawowej, terapeuta sesji logopedycznych. Trener z obszaru edukacji włączającej. Wykładowca na studiach podyplomowych."
+      },
+      {
+        "imieNazwisko": "Anna Kowalska",
+        "tytulZawodowy": "Psycholog",
+        "opis": "Magister psychologii, psychoonkolog, certyfikowany psychoterapeuta Polskiego Towarzystwa Integracyjnej Psychoterapii Doświadczeniowej i Edukacji Społecznej, muzykoterapeuta. Psychodietetyk, trener nowoczesnego doradztwa zawodowego i edukacyjnego. Terapeuta z zakresu psychoterapii par, EFT – terapii skoncentrowanej na emocjach, pracy z dziećmi i młodzieżą. Specjalista edukacji włączającej. Wykładowca studiów podyplomowych z zakresu swoich specjalizacji."
+      },
+
+      {
+        "imieNazwisko": "Jakub Ruks",
+        "tytulZawodowy": "Etyk",
+        "opis": "Doktor filozofii. Wykładowca na kierunkach: etyka oraz filozofia. Czynny nauczyciel etyki i filozofii w szkole podstawowej i ponadpodstawowej. Trener pracujący z uczniem uzdolnionym – przygotowanie do certyfikatów z języka niemieckiego. Specjalista z zakresu wiedzy o młodym człowieku. Autor scenariuszy zajęć do etyki na wszystkich poziomach kształcenia. Specjalista ORE w zakresie edukacji włączającej."
+      },
+      {
+        "imieNazwisko": "Sylwia Cuber",
+        "tytulZawodowy": "Pedagog",
+        "opis": "Magister pedagogiki specjalność: edukacja przedszkolna i wczesnoszkolna, oligofrenopedagogika, edukacja elementarna z dodatkowym językiem angielskim, czynny pedagog specjalny w szkole podstawowej, specjalista ORE w zakresie edukacji włączającej, trener treningu umiejętności społecznych (TUS) dzieci ze spektrum autyzmu, edukacja i terapia osób ze spektrum autyzmu. Wykładowca studiów podyplomowych z zakresu pedagogiki specjalnej."
+      }
+    ]
+  },
+  "StudyFormats": {
+    "title": "Wybierz formę studiów dopasowaną do Twoich potrzeb",
+    "description": "Oferujemy dwie formy studiów podyplomowych, które pozwalają dostosować naukę do Twojego stylu życia i preferencji. Wybierz opcję, która najlepiej odpowiada Twoim potrzebom.",
+    "inPersonTitle": "Studia stacjonarne",
+    "inPersonDescription": "Tradycyjna forma studiów, gdzie wszystkie zajęcia odbywają się w siedzibie uczelni. Bezpośredni kontakt z wykładowcami i innymi studentami sprzyja nawiązywaniu relacji i wymianie doświadczeń.",
+    "hybridTitle": "Studia hybrydowe",
+    "hybridDescription": "Nowoczesna forma studiów łącząca zajęcia zdalne w czasie rzeczywistym z wybranymi zajęciami stacjonarnymi. Idealne rozwiązanie dla osób, które cenią sobie elastyczność i wygodę.",
+    "schedule": "Harmonogram zajęć",
+    "inPersonSchedule": "Zajęcia odbywają się w weekendy (soboty i niedziele) zgodnie z ustalonym harmonogramem.",
+    "hybridSchedule": "Część zajęć odbywa się zdalnie w czasie rzeczywistym, a wybrane zajęcia praktyczne realizowane są stacjonarnie w weekendy.",
+    "interaction": "Interakcja z wykładowcami",
+    "inPersonInteraction": "Bezpośredni kontakt z wykładowcami podczas zajęć, możliwość konsultacji osobistych.",
+    "hybridInteraction": "Kontakt online podczas zajęć zdalnych oraz bezpośredni podczas zajęć stacjonarnych.",
+    "bestFor": "Najlepsze dla osób, które:",
+    "inPersonBestFor1": "Preferują bezpośredni kontakt z wykładowcami i innymi studentami",
+    "inPersonBestFor2": "Cenią sobie naukę w tradycyjnym środowisku akademickim",
+    "inPersonBestFor3": "Mieszkają w pobliżu siedziby uczelni",
+    "hybridBestFor1": "Mają ograniczone możliwości dojazdu na uczelnię",
+    "hybridBestFor2": "Cenią sobie elastyczność i oszczędność czasu",
+    "hybridBestFor3": "Potrafią efektywnie uczyć się w środowisku online",
+    "enrollButton": "Zapisz się",
+    "additionalInfo": "Niezależnie od wybranej formy studiów, program nauczania, wymagania i uzyskane kwalifikacje są takie same. Wybierz formę, która najlepiej odpowiada Twojemu stylowi życia i preferencjom.",
+    "contactButton": "Masz pytania? Skontaktuj się z nami"
   }
 }

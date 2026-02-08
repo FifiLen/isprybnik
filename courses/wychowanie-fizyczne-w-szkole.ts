@@ -2,7 +2,7 @@ import { Course } from "@/utils/types";
 
 export const wychowanieFizyczneWSzkole: Course = {
   category: "zarzadzanie i dydaktyka edukacyjna",
-
+  isPopular: false,
   id: "wychowanie-fizyczne-w-szkole",
   title: "Wychowanie fizyczne w szkole",
   banerDescription:

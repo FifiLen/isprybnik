@@ -1,0 +1,102 @@
+import { Course } from "@/utils/types";
+
+const doradztwoZawodowe: Course = {
+  category: "zarządzanie i dydaktyka edukacyjna",
+  isPopular: false,
+  id: "doradztwo-zawodowe",
+  title: "Doradztwo zawodowe",
+  banerDescription:
+    "Przygotowanie do pracy w zakresie doradztwa zawodowego i planowania kariery dla różnych grup wiekowych.",
+  description:
+    '<ul className="list-disc list-inside space-y-2"><li>nauczycieli</li><li>pedagogów</li><li>psychologów</li><li>pracowników urzędów pracy</li><li>pracowników działów HR</li><li>trenerów rozwoju osobistego</li><li>osób zainteresowanych pracą w obszarze doradztwa zawodowego</li></ul>',
+  description2:
+    "Celem studiów jest przygotowanie specjalistów do pracy w zakresie doradztwa zawodowego i planowania kariery dla różnych grup wiekowych. Absolwenci zdobędą wiedzę i umiejętności niezbędne do diagnozowania predyspozycji zawodowych, projektowania ścieżek kariery oraz wspierania osób w procesie podejmowania decyzji edukacyjno-zawodowych.",
+  description3: "",
+  description4: "",
+  descriptionP1:
+    "Program studiów obejmuje zagadnienia z zakresu teorii i praktyki orientacji i poradnictwa zawodowego, psychologii pracy, zawodoznawstwa, metodyki poradnictwa indywidualnego i grupowego oraz narzędzi i metod coachingowych w doradztwie zawodowym. Studia łączą wiedzę teoretyczną z praktycznymi umiejętnościami prowadzenia doradztwa zawodowego w różnych środowiskach.",
+  duration: "3 semestry",
+  price: "4500zł",
+  payments: "15 x 300zł",
+  scheduleInfo: "",
+  schedule: [],
+  practicalHours: "90h praktyk",
+  modules: [
+    {
+      title: "Semestr 1 - Przygotowanie merytoryczne",
+      topics: [
+        {
+          title: "Przedmioty podstawowe",
+          subtopics: [
+            { title: "Socjologia i pedagogika pracy" },
+            { title: "Psychologia pracy" },
+            {
+              title:
+                "Psychologia rozwojowa z elementami rozwoju zawodowego człowieka",
+            },
+            { title: "Teoria i praktyka orientacji i poradnictwa zawodowego" },
+            {
+              title:
+                "Struktura i organizacja poradnictwa zawodowego w Polsce i Unii Europejskiej",
+            },
+            {
+              title: "Planowanie i organizacja działalności firmy. Biznes Plan",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Semestr 2",
+      topics: [
+        {
+          title: "Przedmioty kierunkowe",
+          subtopics: [
+            { title: "Zawodoznawstwo i informacje zawodowe" },
+            {
+              title:
+                "Organizacja poradnictwa niepełnosprawnych i niedostosowanych społecznie",
+            },
+            { title: "Społeczne problemy zatrudnienia i rynku pracy" },
+            {
+              title: "Programy informatyczne w poradnictwie szkolno-zawodowym",
+            },
+            {
+              title:
+                "Podstawy zarządzania zasobami ludzkimi, rekrutacja i selekcja pracowników",
+            },
+            { title: "Narzędzia i metody coachingowe w doradztwie zawodowym" },
+            { title: "Trening skutecznej komunikacji i asertywności" },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Semestr 3 - Przygotowanie dydaktyczno-metodyczne i praktyki",
+      topics: [
+        {
+          title: "Przedmioty specjalizacyjne",
+          subtopics: [
+            { title: "Metodyka orientacji i szkolnego poradnictwa zawodowego" },
+            { title: "Metodyka poradnictwa indywidualnego oraz grupowego" },
+            { title: "Warsztat umiejętności doradcy zawodowego" },
+            { title: "Praktyka" },
+          ],
+        },
+      ],
+    },
+  ],
+  faculty:
+    "Program prowadzony jest przez wykwalifikowaną kadrę specjalistów z dziedziny doradztwa zawodowego, psychologii pracy, pedagogiki oraz zarządzania zasobami ludzkimi. W skład kadry wchodzą zarówno wykładowcy akademiccy, jak i praktycy z wieloletnim doświadczeniem w prowadzeniu doradztwa zawodowego.",
+  practices:
+    '<ul className="list-disc list-inside space-y-2"><li>90 godzin praktyk w placówkach prowadzących doradztwo zawodowe, takich jak szkolne ośrodki kariery, poradnie psychologiczno-pedagogiczne, urzędy pracy, agencje zatrudnienia, działy HR w firmach</li><li>Praktyki obejmują obserwację, asystowanie oraz samodzielne prowadzenie zajęć pod nadzorem opiekuna</li></ul>',
+  evaluation:
+    '<p className="text-lg font-semibold">Ocena efektów kształcenia opiera się na:</p><ul className="list-disc list-inside ml-4"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>egzaminach z wybranych przedmiotów,</li><li>przygotowaniu pracy dyplomowej.</li></ul>',
+  jobOpportunities:
+    "Absolwenci kierunku 'Doradztwo zawodowe' będą przygotowani do pracy w różnorodnych placówkach, takich jak szkoły, poradnie psychologiczno-pedagogiczne, urzędy pracy, agencje zatrudnienia, działy HR w firmach, ośrodki szkoleniowe oraz organizacje pozarządowe. Będą mogli projektować i realizować programy doradztwa zawodowego dla różnych grup odbiorców oraz prowadzić indywidualne i grupowe sesje doradcze.",
+  invite:
+    '<div class=""><p class="text-gray-100">Rozpocznij swoją zawodową przygodę jako <strong class="font-semibold">doradca zawodowy</strong>.<br />Inwestuj w swoją przyszłość i realizuj swoje nowe perspektywy zawodowe.</p></div>',
+  deliveryFormat: ["stacjonarnie", "hybrydowo"],
+};
+
+export default doradztwoZawodowe;

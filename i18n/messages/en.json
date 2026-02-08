@@ -8,6 +8,10 @@
     "recruitmentDescription": "Recruitment for postgraduate studies",
     "faq": "FAQ",
     "faqDescription": "Questions and answers",
+    "bur": "Subsidise studies/training",
+    "burDescription": "Subsidise studies/training",
+    "videos": "Zobacz nasze zajęcia",
+    "videosDescription": "Zobacz krótkie fragmenty z wykładów",
     "contact": "Contact",
     "contactDescription": "Contact page",
     "logoAlt": "ISP Rybnik",
@@ -51,14 +55,21 @@
     "internships": "Internships",
     "documentDeadline": "Can I submit documents after the deadline?",
     "documentDeadlineAnswer": "No, WSH-E gives us a specific time by which we must have your documents prepared. Student ID numbers are also assigned by this time, which are necessary to qualify you for studies. After the deadline, WSH-E does not generate additional ID numbers, which means that applications are not accepted.",
-    "shortenCourse": "Can I complete a three-semester course in two semesters?",
-    "shortenCourseAnswer": "Yes, provided that you complete the internships scheduled for the third semester during the two semesters.",
+    "groupRec": "Can we report a group of people for some one direction?",
+    "groupRecAnswer": "Of course, yes. In this case, we make sure that everyone is in one group, if the group is large we allow the possibility of setting an individual schedule of meetings (the number of meetings is the same as in the study program, but classes can be held on other days, such as Fridays).",
+    "courseOrder": "Can we order customized training from you?",
+    "courseOrderAnswer": "Of course. There is such a possibility both in the area of on-site and remote training in real time. We also accept orders for online training to be listened to at a time and place of your choice.",
+    "parcticsMagnolia": "Is there an internship opportunity at your Psychological and Pedagogical Clinic?",
+    "parcticsMagnoliaAnswer": "Of course. We invite all willing students who would like to do specialized internships at PP-P MAGNOLIA in Rybnik. We provide therapies in speech therapy, neurology, sensory integration, hand therapy, tyflopedagogy, therapies with children on the autism spectrum, etc.  We also provide TUS classes, physiotherapy, psychological and pedagogical consultations, and conduct diagnoses. We cordially invite all interested persons to do their internship at PP-P MAGNOLIA.",
+
+    "parcticsOnline": "Can internships be done online?",
+    "parcticsOnlineAnswer": "We are sorry but it is not possible. Internships should be held stationary in the number of hours provided in the curriculum. There are reasons to reduce the hours of internships, each request is considered individually by the Dean of WSH-E. The application should be submitted after the start of studies, up to 30 days after the start of classes.",
+
     "diplomaCopy": "How can I certify a copy of my diploma as true to the original?",
     "diplomaCopyAnswer": "You can certify it by writing the sentence: \"I confirm this is a true copy of the original\" on the copy and confirming it with your handwritten signature. This form is accepted by WSH-E.",
-    "secondCourseDiscount": "Can I get a discount for a second course?",
-    "secondCourseDiscountAnswer": "Yes, you can take advantage of the discount by selecting courses from the \"offer\" tab on our website. A 50% discount on the second, cheaper course should be included in the payments.",
+
     "doctoralDiploma": "Can I send a copy of my doctoral studies diploma?",
-    "doctoralDiplomaAnswer": "Unfortunately not, WSH-E only accepts copies of first or second degree diplomas.",
+    "doctoralDiplomaAnswer": "Unfortunately not, WSH-E only accepts copies of second degree diplomas.",
     "shortenTwoSemesters": "Can I complete a two-semester course in one semester?",
     "shortenTwoSemestersAnswer": "Absolutely not, a two-semester course cannot be shortened.",
     "observationSheet": "Who should sign the observation sheet?",
@@ -99,13 +110,15 @@
   },
   "CoursesPage": {
     "courses": "Courses",
+    "otherCourses": "Other courses",
     "button-more": "See other majors",
     "searchPlaceholder": "Search for a course...",
     "sortBy": "Sort by",
     "sortDefault": "Default",
     "sortTitle": "Name (A-Z)",
     "sortPrice": "Price (ascending)",
-    "allCategories": "All",
+    "allCategories": "All courses",
+    "popularCourses": "Popular",
     "psychologyAndPsychotherapy": "Psychology and Psychotherapy",
     "specialAndCorrectivePedagogy": "Special and Corrective Pedagogy",
     "educationalManagementAndDidactics": "Educational Management and Didactics",
@@ -170,8 +183,13 @@
     "imageAlt": "Recruitment 2024/2025",
     "funding": "Funding",
     "title": "Get funding from the Development Services Database",
-    "description1": "We hereby inform you that there is an opportunity to benefit from funding for postgraduate studies, courses, and training from the Development Services Database. The funding can cover 80-100% of the cost of educational services",
-    "description2": "We encourage entrepreneurs and governing bodies to contact the County Labor Office and regional operators to apply for funding.",
+
+    "description1": "We encourage you to take advantage of the opportunity to obtain funding for training, courses, consulting services, and postgraduate studies from the Development Services Database.",
+    "description2": "The funding amount can range from 90% to 100% of the value of the development service (training/course/postgraduate studies).",
+    "description3": "Both individuals and entire enterprises can apply for funding.",
+    "description4": "We invite you to explore our offer. If you haven’t found the training that interests you, please contact us. It is possible to issue a training card dedicated to one person or a group of people, so-called on-demand training.",
+    "description5": "We also encourage you to contact Employment Offices, where you will be informed about current funding opportunities and areas of support.",
+
     "buttonAriaLabel": "explore our offer in the Development Services Database",
     "buttonText": "Explore our DSB offer"
   },
@@ -228,7 +246,7 @@
       },
       "step5": {
         "title": "Having a problem?",
-        "description": "If you have any questions or concerns about the recruitment process, please contact us by phone at +48 123 456 789 or by email: nowekwalifikacjerybnik@gmail.com"
+        "description": "If you have any questions or concerns about the recruitment process, please contact us by phone at +48 797 173 501 or by email: nowekwalifikacjerybnik@gmail.com"
       }
     }
   },
@@ -269,6 +287,7 @@
     "offer": "Offer",
     "recruitment": "Recruitment",
     "faq": "FAQ",
+    "bur": "Subsidise studies/training",
     "contact": "Contact",
     "phone": "Phone",
     "phoneWhatsapp": "Phone/Whatsapp",
@@ -303,5 +322,139 @@
     "goToSlideAriaLabel": "Go to slide {slideNumber}",
     "resumeSlideAriaLabel": "Resume slide",
     "pauseSlideAriaLabel": "Pause slide"
+  },
+
+  "Metadata": {
+    "site": {
+      "name": "ISP Rybnik | Institute of Postgraduate Studies in Rybnik",
+      "description": "The Institute of Postgraduate Studies in Rybnik offers high-quality postgraduate programs, enabling you to develop your skills and gain new qualifications. Check out our offer!",
+      "keywords": "postgraduate studies, professional development, ISP Rybnik, education, study programs"
+    }
+  },
+  "HomePage": {
+    "meta": {
+      "title": "Home Page | ISP Rybnik",
+      "description": "The Institute of Postgraduate Studies in Rybnik - a wide range of postgraduate programs for those seeking to enhance their qualifications. Enroll today!",
+      "og": {
+        "title": "Postgraduate Studies | ISP Rybnik",
+        "description": "Expand your skills and gain new qualifications with the Institute of Postgraduate Studies in Rybnik. Discover our programs now!"
+      }
+    }
+  },
+  "WykladowcyPage": {
+    "title": "Our Lecturers",
+    "readMore": "Read more",
+    "wykladowcy": [
+      {
+        "imieNazwisko": "Wioletta Ginter",
+        "tytulZawodowy": "Educator",
+        "opis": "Master in pedagogy specializing in counseling and psychopedagogical assistance. Active special educator, hand therapist, specialist in inclusive education, and lecturer. She has extensive experience, sharing her knowledge with both students and teachers in various educational institutions. Specialist at ORE in the field of inclusive education."
+      },
+      {
+        "imieNazwisko": "Bogusław Barański",
+        "tytulZawodowy": "Sexologist",
+        "opis": "Psychotherapist, sexologist, and mentor with 20 years of experience in individual and group work with men and women on relationships. Conducts sessions and workshops in Poland, Sweden, and Germany. Specializes in individual therapy, couples therapy, family therapy, and child therapy. As a systemic psychotherapist, he uses an integrative approach, drawing from various streams that best serve the patient, guiding them toward conscious self-understanding. His favorite therapeutic approach is Frankl's logotherapy. He specializes in couples therapy, crisis intervention, addictions, relationship difficulties, identity issues, anxiety, depression, and sexual problems."
+      },
+      {
+        "imieNazwisko": "Justyna Bugdoł",
+        "tytulZawodowy": "Educator",
+        "opis": "Master in special pedagogy, certified teacher, education and rehabilitation therapist for individuals with autism spectrum disorder, TUS trainer, and educator at a Special School Complex."
+      },
+      {
+        "imieNazwisko": "Anna Ławniczak",
+        "tytulZawodowy": "Psychologist",
+        "opis": "Master in psychology specializing in clinical sexology and criminological psychology. Lecturer in postgraduate studies in special pedagogy, sexology, and clinical sexology. Therapist for children, couples, and families. Actively engaged in working with children in schools and kindergartens. Specialist at ORE in the field of inclusive education."
+      },
+      {
+        "imieNazwisko": "Małgorzata Solowska",
+        "tytulZawodowy": "Trainer",
+        "opis": "Master in English and history, ICT trainer and moderator, MIEE Educator, trainer for foreign national Erasmus agencies, and speaker at international and national conferences. Specialist at ORE in the field of inclusive education. ICT trainer focusing on the use of new technologies in working with students with special educational needs. Lecturer in postgraduate studies in education management, history, and English language."
+      },
+      {
+        "imieNazwisko": "Anna Falkowska",
+        "tytulZawodowy": "Educator, Sociologist",
+        "opis": "Certified sociologist (specializing in human resource management), certified specialist in environmental protection, and career advisor promoting ecological awareness. PhD in pedagogy at the Maria Grzegorzewska Academy of Special Education in Warsaw. Academic lecturer in natural science-oriented universities. Author of numerous scientific and post-conference publications. Focused on ecological education in enterprises, public institutions, NGOs, and educational institutions (preschools and primary schools) for several years."
+      },
+      {
+        "imieNazwisko": "Monika Kromolan",
+        "tytulZawodowy": "Psychologist",
+        "opis": "Master in psychology with a focus on neuropsychology and clinical psychology. Specialist in integrated early childhood education, IT education, and education and rehabilitation of people with intellectual disabilities. WWRD and hippotherapy therapist. Specialist in alternative and augmentative communication and diagnosis of alternative and augmentative communication methods."
+      },
+      {
+        "imieNazwisko": "Joanna Zawadzka",
+        "tytulZawodowy": "Psychologist",
+        "opis": "Master in Polish philology, specialist in pedagogical therapy, diagnosis, and social prevention. Therapist in the diagnosis of developmental dyslexia, TELC language examiner, teacher of Polish as a foreign language, and president of the Dyslexia Society branch in Rybnik. Advisor and author of publications for the Institute of Educational Research. Works with gifted students (preparing for exams/competitions)."
+      },
+      {
+        "imieNazwisko": "Gabriela Marcisz",
+        "tytulZawodowy": "Psychotherapist",
+        "opis": "Master in psychology, psychotherapist. Therapist for adults, couples, and families. Specialist in psychotherapy at the Crisis Intervention Center, Mental Health Clinic, Neurosis Treatment Clinic, and Day Neurosis Treatment Department. Focused on working with whole families and adults."
+      },
+      {
+        "imieNazwisko": "Aleksandra Wowra",
+        "tytulZawodowy": "Educator",
+        "opis": "Master in pedagogy – specialization in care and education, oligophrenopedagogue, specialist at ORE in the field of inclusive education, active special educator. Lecturer in special pedagogy at postgraduate studies."
+      },
+      {
+        "imieNazwisko": "Paulina Rosa",
+        "tytulZawodowy": "Speech Therapist",
+        "opis": "Master in Polish philology, speech therapist, TELC Polish language examiner, trainer of Polish as a foreign language, active teacher in primary and secondary schools, speech therapy session therapist. Trainer in the field of inclusive education. Lecturer in postgraduate studies."
+      },
+      {
+        "imieNazwisko": "Anna Kowalska",
+        "tytulZawodowy": "Psychologist",
+        "opis": "Master in psychology, psycho-oncologist, certified psychotherapist of the Polish Society for Experiential Integrative Psychotherapy and Social Education, music therapist. Psychodietitian, trainer of modern career and educational counseling. Therapist specializing in couples therapy, EFT – emotion-focused therapy, and work with children and youth. Specialist in inclusive education. Lecturer in postgraduate studies in her areas of specialization."
+      },
+      {
+        "imieNazwisko": "Monika Frysz",
+        "tytulZawodowy": "Trainer",
+        "opis": "Trainer in digital competencies, specialist in copyright law, artificial intelligence, virtual and augmented reality. Master in economics and finance, business trainer, coach, and vocational training instructor. Active in the industry since 2015, specializing in digital competencies and computer graphics. Graduate of finance and economics at the University of Economics in Katowice, she is keenly interested in digitalization and copyright issues in education. Passionate about innovative technologies and artificial intelligence, while maintaining a strong interest in computer graphics."
+      },
+      {
+        "imieNazwisko": "Julita Rozmus",
+        "tytulZawodowy": "Speech Therapist/Neurologist",
+        "opis": "Speech therapist and neurologist with numerous qualifications in her field, such as working with children with mutism, stuttering, auditory perception disorders, and hearing impairments."
+      },
+      {
+        "imieNazwisko": "Jakub Ruks",
+        "tytulZawodowy": "Ethicist",
+        "opis": "Doctor of Philosophy. Lecturer in ethics and philosophy. Active teacher of ethics and philosophy in primary and secondary schools. Trainer working with gifted students – preparation for German language certifications. Specialist in knowledge about young people. Author of ethics class scenarios for all educational levels. Specialist at ORE in the field of inclusive education."
+      },
+      {
+        "imieNazwisko": "Sylwia Cuber",
+        "tytulZawodowy": "Educator",
+        "opis": "Master in pedagogy specializing in preschool and early childhood education, oligophrenopedagogy, elementary education with additional English language, active special educator in primary school, specialist at ORE in the field of inclusive education, TUS trainer for children with autism spectrum disorders, and education and therapy for individuals with autism spectrum disorder. Lecturer in postgraduate studies in special pedagogy."
+      },
+      {
+        "imieNazwisko": "Natalia Chruściel – Janas",
+        "tytulZawodowy": "Speech Therapist/Neurologist",
+        "opis": "Graduate of Medical University in Wrocław: neurologopedics with early speech therapy intervention, University of Wrocław: general logopedics, and Polish philology. Certified Functional Orthodontics MFS Therapist, Sensory Integration Therapy (I level), and many other qualifications. Conducts speech therapy for children and youth with various disorders, including ASD, aphasia, developmental delays, and severe disabilities."
+      }
+    ]
+  },
+
+  "StudyFormats": {
+    "title": "Choose a study format that fits your needs",
+    "description": "We offer two forms of postgraduate studies that allow you to adapt learning to your lifestyle and preferences. Choose the option that best suits your needs.",
+    "inPersonTitle": "In-person studies",
+    "inPersonDescription": "Traditional form of studies where all classes take place at the university. Direct contact with lecturers and other students fosters relationships and exchange of experiences.",
+    "hybridTitle": "Hybrid studies",
+    "hybridDescription": "Modern form of studies combining remote classes in real-time with selected in-person classes. An ideal solution for people who value flexibility and convenience.",
+    "schedule": "Class schedule",
+    "inPersonSchedule": "Classes take place on weekends (Saturdays and Sundays) according to the established schedule.",
+    "hybridSchedule": "Some classes are held remotely in real-time, and selected practical classes are conducted in-person on weekends.",
+    "interaction": "Interaction with lecturers",
+    "inPersonInteraction": "Direct contact with lecturers during classes, possibility of personal consultations.",
+    "hybridInteraction": "Online contact during remote classes and direct contact during in-person classes.",
+    "bestFor": "Best for people who:",
+    "inPersonBestFor1": "Prefer direct contact with lecturers and other students",
+    "inPersonBestFor2": "Value learning in a traditional academic environment",
+    "inPersonBestFor3": "Live near the university",
+    "hybridBestFor1": "Have limited ability to commute to the university",
+    "hybridBestFor2": "Value flexibility and time savings",
+    "hybridBestFor3": "Can effectively learn in an online environment",
+    "enrollButton": "Enroll now",
+    "additionalInfo": "Regardless of the chosen form of studies, the curriculum, requirements, and qualifications obtained are the same. Choose the form that best suits your lifestyle and preferences.",
+    "contactButton": "Have questions? Contact us"
   }
 }

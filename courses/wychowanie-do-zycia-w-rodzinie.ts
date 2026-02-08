@@ -2,7 +2,7 @@ import { Course } from "@/utils/types";
 
 export const wychowanieDoZyciaWRodzinie: Course = {
   category: "zarzadzanie i dydaktyka edukacyjna",
-
+  isPopular: false,
   id: "wychowanie-do-zycia-w-rodzinie-z-edukacja-seksualna",
   title: "Wychowanie do życia w rodzinie z edukacją seksualną",
   banerDescription:

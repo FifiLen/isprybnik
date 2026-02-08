@@ -10,7 +10,6 @@ export const CtaHomePage = () => {
   return (
     <section className="w-full bg-blue-950">
       <div className="grid grid-cols-1 md:grid-cols-2 mx-auto max-w-full">
-        {/* Text Column */}
         <div className="flex justify-center items-start px-8 md:px-20 py-16 md:py-36 flex-col rekrutacja">
           <h4 className="text-2xl md:text-3xl font-semibold text-gray-100 tracking-[-0.2rem]">
             {t("recruitmentTitle")}
@@ -21,7 +20,7 @@ export const CtaHomePage = () => {
           <p className="text-base md:text-lg text-zinc-300 mt-4">
             {t("description")}
           </p>
-          <Link href="#kierunki">
+          <Link href="/kierunek">
             <button
               aria-label={t("exploreOfferAriaLabel")}
               className="bg-blue-800 text-white font-semibold rounded-lg px-4 py-3 flex gap-3 items-center justify-center mt-8"
@@ -32,7 +31,6 @@ export const CtaHomePage = () => {
           </Link>
         </div>
 
-        {/* Image Column */}
         <div className="relative hidden sm:block w-full h-64 md:h-auto">
           <Image
             src="/assets/studentka.png"

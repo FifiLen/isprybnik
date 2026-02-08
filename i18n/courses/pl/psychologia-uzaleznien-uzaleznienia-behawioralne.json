@@ -1,5 +1,6 @@
 {
   "category": "psychologia i psychoterapia",
+  "isPopular": true,
   "id": "psychologia-uzaleznien-uzaleznienia-behawioralne",
   "title": "Psychologia uzależnień - Uzależnienia behawioralne",
   "banerDescription": "Zgłębiaj psychologiczne aspekty uzależnień behawioralnych i&nbsp;ucz się skutecznych metod terapii i&nbsp;wsparcia dla osób z&nbsp;tymi problemami.",
@@ -11,7 +12,7 @@
   "duration": "3 semestry",
   "practicalHours": "90h praktyk",
   "price": "4200zł",
-  "payments": "10x420zł",
+  "payments": "10 x 420zł",
   "scheduleInfo": "Trzeci semestr przewidziany został na wykonanie praktyk",
   "schedule": [
     "26.10.2024",
@@ -263,7 +264,7 @@
   ],
   "faculty": "Program będzie prowadzony przez wykwalifikowaną kadrę specjalistów z dziedziny psychologii, psychiatrii, terapii uzależnień oraz innych pokrewnych dziedzin. W skład kadry wejdą zarówno wykładowcy akademiccy, jak i praktycy z wieloletnim doświadczeniem klinicznym.",
   "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>50% - możliwość zrealizowania praktyk w formule zdalnej w Poradni Psychologiczno - Pedagogicznej MAGNOLIA</li><li>Pozostałe 50% można zrealizować:<ul className=\"list-disc list-inside space-y-1 ml-4\"><li>w placówkach macierzystych w formie zajęć dodatkowych lub wykonywanych w pensum,</li><li>w placówkach oświatowych,</li><li>w poradniach,</li><li>inne.</li></ul></li></ul>",
-  "evaluation": "Ocena efektów kształcenia będzie opierać się na: przygotowaniu pracy projektowej w obszarze Psychologii uzależnień - uzależnienia behawioralne.",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>wykonaniu prac zaliczeniowych,</li><li>przygotowaniu pracy projektowej.</li></ul>",
   "jobOpportunities": "Absolwenci kierunku \"Uzależnienia Behawioralne\" będą przygotowani do pracy w różnorodnych placówkach terapeutycznych, takich jak ośrodki leczenia uzależnień, poradnie zdrowia psychicznego, szpitale psychiatryczne, a także w organizacjach pozarządowych zajmujących się profilaktyką i terapią uzależnień.",
   "invite": "<div class=''> <p class='text-gray-100'> Zgłębiaj psychologiczne aspekty uzależnień behawioralnych i ucz się skutecznych metod terapii oraz wsparcia dla osób z tymi problemami.</p></div>"
 }

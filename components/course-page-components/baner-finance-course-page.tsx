@@ -20,7 +20,7 @@ export const BannerFinanceCoursePage = () => {
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
-        {/* Text Column */}
+
         <div className="flex justify-center items-start px-6 py-16 md:px-20 md:py-36 flex-col">
           <p className="text-2xl md:text-3xl font-semibold text-blue-600 tracking-[-0.2rem] flex gap-2 items-center">
             <GiTwoCoins />
@@ -29,12 +29,15 @@ export const BannerFinanceCoursePage = () => {
           <h2 className="text-3xl md:text-5xl text-zinc-800 font-semibold tracking-tighter mt-3">
             {t("title")}
           </h2>
-          <p className="text-base md:text-lg text-zinc-600 mt-4">
-            {t("description1")}
-            <br />
-            <br />
-            {t("description2")}
-          </p>
+          <div className="text-base md:text-lg text-zinc-600 mt-4">
+            <div className=" flex flex-col gap-4">
+              <p>{t("description1")}</p>
+              <p>{t("description2")}</p>
+              <p>{t("description3")}</p>
+              <p>{t("description4")}</p>
+              <p>{t("description5")}</p>
+            </div>
+          </div>
           <a
             href="https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/dostawca-uslug/podglad?id=53144"
             target="_blank"

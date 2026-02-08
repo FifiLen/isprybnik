@@ -77,7 +77,7 @@ const RecruitmentPage: React.FC = () => {
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
-        {/* Text Column */}
+
         <div className="px-6 md:px-20 py-10 md:py-20 flex flex-col">
           <h4 className="text-2xl md:text-3xl font-semibold text-blue-600 tracking-[-0.2rem] flex gap-2 items-center mb-3">
             <TiUserAdd />
@@ -271,14 +271,14 @@ const RecruitmentPage: React.FC = () => {
                     <p className="font-semibold">{step}</p>
                   </div>
                   {step === 1 && (
-                    <a
-                      href={"https://isp.rybnikonline.eu/?page_id=9713"}
+                    <Link
+                      href={"/rekrutacja/formularz-rekrutacyjny"}
                       target="_blank"
                       className="bg-[#9E5AE2] py-1 px-2 mb-2 text-white rounded-xl flex items-center gap-2"
                     >
                       {t("steps.recruitmentForm")}
                       <CgArrowTopRightO />
-                    </a>
+                    </Link>
                   )}
                 </div>
                 <h4 className="font-medium tracking-tight text-xl md:text-2xl">

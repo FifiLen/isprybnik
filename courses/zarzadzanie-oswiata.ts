@@ -2,6 +2,7 @@ import { Course } from "@/utils/types";
 
 export const zarzadzanieOswiata: Course = {
   category: "zarzadzanie i dydaktyka edukacyjna",
+  isPopular: false,
   id: "zarzadzanie-oswiata",
   title: "Zarządzanie oświatą",
   banerDescription:

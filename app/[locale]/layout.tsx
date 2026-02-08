@@ -1,3 +1,4 @@
+import { setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
@@ -11,86 +12,112 @@ import { AccessibilityPanel } from "@/components/providers/accessibility-panel";
 import BanerIviteHomePage from "@/components/home-page-components/baner-invite-home-page";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, getMessages } from "next-intl/server";
 import { StructuredData } from "@/components/structured-data";
+import { Locale, locales } from "@/i18n/i18n.config";
 
 const dmsans = DM_Sans({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: {
-    default: "Instytut Studiów Podyplomowych | Studia podyplomowe w Rybniku",
-    template: "%s | ISP Rybnik",
-  },
-  description:
-    "Oferujemy studia podyplomowe online w czasie rzeczywistym. Szeroki wybór kierunków, w tym psychoterapia, pedagogika i więcej. Zapisz się na semestr zimowy 2024/2025.",
-  keywords: [
-    "studia podyplomowe Rybnik",
-    "studia podyplomowe online",
-    "ISP Rybnik",
-    "psychoterapia studia podyplomowe",
-    "pedagogika Rybnik",
-  ],
-  authors: [{ name: "ISP Rybnik" }],
-  creator: "ISP Rybnik",
-  openGraph: {
-    type: "website",
-    locale: "pl_PL",
-    url: "https://isp.rybnikonline.eu",
-    siteName: "ISP Rybnik",
-    images: [
-      {
-        url: "https://isp.rybnikonline.eu/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "ISP Rybnik - Studia podyplomowe online",
-      },
-    ],
-  },
-  alternates: {
-    canonical: "https://isp.rybnikonline.eu",
-    languages: {
-      pl: "https://isp.rybnikonline.eu",
-      en: "https://isp.rybnikonline.eu/en",
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale: locale as Locale, namespace: "Metadata" });
+
+  return {
+    metadataBase: new URL("https://isp.rybnikonline.eu"),
+    title: {
+      default: t("site.name"),
+      template: `%s | ${t("site.name")}`,
     },
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
+    description: t("site.description"),
+    keywords: t("site.keywords"),
+    authors: [{ name: "ISP Rybnik" }],
+    creator: "ISP Rybnik",
+    icons: {
+      icon: "/favicon.ico",
+    },
+    openGraph: {
+      type: "website",
+      locale: locale,
+      url: `https://isp.rybnikonline.eu/${locale}`,
+      siteName: t("site.name"),
+      title: t("site.name"),
+      description: t("site.description"),
+      images: [
+        {
+          url: "/og-image.jpg",
+          width: 1200,
+          height: 630,
+          alt: t("site.name"),
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("site.name"),
+      description: t("site.description"),
+      images: ["/twitter-image.jpg"],
+    },
+    alternates: {
+      canonical: `https://isp.rybnikonline.eu/${locale}`,
+      languages: {
+        pl: "https://isp.rybnikonline.eu/pl",
+        en: "https://isp.rybnikonline.eu/en",
+      },
+    },
+    robots: {
       index: true,
       follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
-  },
-};
-
-export async function generateStaticParams() {
-  return [{ locale: "pl" }, { locale: "en" }];
+  };
 }
 
-interface LayoutProps {
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+interface RootLayoutProps {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }
 
-export default async function RootLayout({ children, params }: LayoutProps) {
-  const { locale } = params;
+export default async function RootLayout({
+  children,
+  params,
+}: RootLayoutProps) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const messages = await getMessages({ locale });
 
-  await setRequestLocale(locale);
-
-  let messages;
-  try {
-    messages = (await import(`@/i18n/messages/${locale}.json`)).default;
-  } catch (error) {
-    notFound();
-  }
+  if (!locales.includes(locale as any)) notFound();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <head>
         <StructuredData />
+        {locales.map((loc) => (
+          <link
+            key={loc}
+            rel="alternate"
+            hrefLang={loc}
+            href={`https://isp.rybnikonline.eu/${loc}`}
+          />
+        ))}
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href="https://isp.rybnikonline.eu/pl"
+        />
       </head>
       <body className={`${dmsans.className} overflow-x-hidden`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
@@ -98,9 +125,11 @@ export default async function RootLayout({ children, params }: LayoutProps) {
             <TopBar />
             <Navbar />
             <BanerIviteHomePage />
-            <main>{children}</main>
+            <main>
+              {children}
+              <Toaster />
+            </main>
             <AccessibilityPanel />
-            <Toaster />
             <Analytics />
             <FooterComponent />
           </UserPreferencesProvider>

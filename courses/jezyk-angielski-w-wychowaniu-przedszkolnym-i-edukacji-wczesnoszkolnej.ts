@@ -3,7 +3,7 @@ import { Course } from "../utils/types";
 export const jezykAngielskiWWychowaniuPrzedszkolnymIEdukacjiWczesnoszkolnej: Course =
   {
     category: "zarzadzanie i dydaktyka edukacyjna",
-
+    isPopular: false,
     id: "jezyk-angielski-w-wychowaniu-przedszkolnym-i-edukacji-wczesnoszkolnej",
     title:
       "Język angielski w wychowaniu przedszkolnym i edukacji wczesnoszkolnej",

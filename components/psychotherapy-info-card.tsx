@@ -54,11 +54,6 @@ export function PsychotherapyInfoCard({ course }: { course: Course }) {
       text: course.price,
       bgColor: "bg-purple-50",
     },
-    // {
-    //   icon: <GraduationCapIcon className="h-5 w-5" />,
-    //   text: course.form,
-    //   bgColor: "bg-purple-50",
-    // },
   ];
 
   return (

@@ -3,6 +3,7 @@ import { Course } from "../utils/types";
 
 export const psychoterapia: Course = {
   category: "psychologia i psychoterapia",
+  isPopular: false,
   id: "psychoterapia",
   title: "Psychoterapia",
   banerDescription:
@@ -35,7 +36,7 @@ export const psychoterapia: Course = {
     "<b>Program czteroletnich, dwustopniowych studiów podyplomowych w&nbsp;wymiarze 1200 godzin</b> obejmuje zagadnienia specjalistyczne z&nbsp;psychoterapii oraz&nbsp;zagadnienia ogólne związane z&nbsp;funkcjonowaniem psychicznym człowieka, psychopatologią i&nbsp;zróżnicowanymi metodami diagnozy i&nbsp;leczenia zaburzeń psychicznych, metodami weryfikacji empirycznej skuteczności oddziaływań terapeutycznych, oraz zagadnienia etyczne i&nbsp;prawne w&nbsp;psychoterapii. <br /><br /> Po&nbsp;ukończeniu studiów absolwent ma&nbsp;możliwość certyfikacji.",
   duration: "8 semestrów",
   price: "40000zł",
-  payments: "40x1000zł",
+  payments: "40 x 1000zł",
   // form: "100% wykłady online w czasie rzeczywistym",
   scheduleInfo: "",
   schedule: [

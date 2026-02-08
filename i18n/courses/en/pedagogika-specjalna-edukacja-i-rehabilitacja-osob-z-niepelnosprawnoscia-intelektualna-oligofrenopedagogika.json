@@ -1,0 +1,108 @@
+{
+  "category": "special and corrective pedagogy",
+  "id": "pedagogika-specjalna-edukacja-i-rehabilitacja-osob-z-niepelnosprawnoscia-intelektualna-oligofrenopedagogika",
+  "title": "Education and rehabilitation of people with intellectual disabilities (Oligophrenopedagogy)",
+  "banerDescription": "Gain qualifications to work with individuals with intellectual disabilities and expand your knowledge in education and rehabilitation.",
+  "description": "<ul className=\"list-disc list-inside space-y-2\"><li>Teachers wishing to obtain qualifications in special education for intellectual disabilities</li><li>Individuals working with children and youth with intellectual disabilities</li><li>Pedagogues and psychologists wanting to expand their competencies</li><li>Those interested in working with individuals with intellectual disabilities</li></ul>",
+  "description2": "The postgraduate studies enable obtaining qualifications to work as a teacher in the field of special education - education for individuals with intellectual disabilities. The aim of the studies is to acquire knowledge, skills, and competencies to carry out tasks in the field of education and rehabilitation of people with intellectual disabilities of various degrees, as well as to educate students with reduced intellectual capacity in special, integrative, and mainstream education settings.",
+  "description3": "The studies prepare students to work with children and youth with intellectual disabilities in all types of schools and educational institutions, as well as in facilities working with adults. Students will also acquire skills and knowledge in pedagogical work with intellectually disabled individuals, diagnosis and therapy, early intervention, working with families of disabled people, and organizing support systems and strategies.",
+  "description4": "",
+  "descriptionP1": "",
+  "duration": "3 semesters",
+  "practicalHours": "180h of internship",
+  "price": "3600 PLN",
+  "payments": "10 x 360 PLN",
+  "scheduleInfo": "",
+  "schedule": [
+    "26.10.2024",
+    "16.11.2024",
+    "23.11.2024",
+    "30.11.2024",
+    "07.12.2024",
+    "14.12.2024",
+    "11.01.2025",
+    "18.01.2025",
+    "25.01.2025",
+    "15.02.2025",
+    "01.03.2025",
+    "15.03.2025",
+    "22.03.2025",
+    "05.04.2025",
+    "12.04.2025",
+    "10.05.2025",
+    "17.05.2025",
+    "24.05.2025"
+  ],
+  "modules": [
+    {
+      "title": "Specialized Education Module",
+      "topics": [
+        { "title": "Foundations of Special Education", "subtopics": [] },
+        { "title": "Special Didactics", "subtopics": [] },
+        { "title": "Diagnostics in Special Education", "subtopics": [] },
+        { "title": "Internship I (60 hours)", "subtopics": [] }
+      ]
+    },
+    {
+      "title": "Substantive Preparation",
+      "topics": [
+        {
+          "title": "Elements of Clinical Psychology and Psychopathology",
+          "subtopics": []
+        },
+        {
+          "title": "Special Education for Intellectual Disabilities",
+          "subtopics": []
+        },
+        { "title": "Individual Revalidation", "subtopics": [] },
+        {
+          "title": "Psychological Foundations of Therapy for Individuals with Intellectual Disabilities",
+          "subtopics": []
+        },
+        {
+          "title": "Methods and Techniques of Psychological Rehabilitation",
+          "subtopics": []
+        },
+        {
+          "title": "Education and Rehabilitation of Individuals with Intellectual Disabilities",
+          "subtopics": []
+        },
+        {
+          "title": "Early Development Support for Children with Intellectual Disabilities",
+          "subtopics": []
+        },
+        {
+          "title": "Family Situation of a Child with Intellectual Disability",
+          "subtopics": []
+        },
+        {
+          "title": "Social and Physical Activity of Individuals with Intellectual Disabilities",
+          "subtopics": []
+        },
+        { "title": "Education in Inclusive Integration", "subtopics": [] },
+        {
+          "title": "Augmentative and Alternative Communication Methods (AAC)",
+          "subtopics": []
+        },
+        {
+          "title": "Methodology of Education and Teaching Students with Mild Intellectual Disability",
+          "subtopics": []
+        },
+        {
+          "title": "Methodology of Education and Teaching Students with Moderate and Severe Intellectual Disability",
+          "subtopics": []
+        },
+        {
+          "title": "Methodology of Revalidation and Educational Work for Individuals with Multiple and Profound Intellectual Disabilities",
+          "subtopics": []
+        },
+        { "title": "Internship II (120 hours)", "subtopics": [] }
+      ]
+    }
+  ],
+  "faculty": "Classes are conducted by experienced practitioners in the field of special education for intellectual disabilities, psychology, and therapy for individuals with intellectual disabilities.",
+  "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>Internship I includes 60 hours and is carried out in semester 1.</li><li>Internship II includes 120 hours and is carried out in semester 3.</li><li>Internships can be carried out in special institutions, integrative schools, and therapeutic centers.</li></ul>",
+  "evaluation": "Assessment of learning outcomes is based on activity during classes, completion of individual modules, and preparation of a diploma thesis.",
+  "jobOpportunities": "<div><p className=\"text-lg font-semibold\">Graduates of the program will be prepared to work as:</p><ul className=\"list-disc list-inside mt-2 space-y-2\"><li>Teachers in special and integrative institutions</li><li>Therapists for individuals with intellectual disabilities</li><li>Education and rehabilitation specialists in special institutions</li><li>Consultants in educational and therapeutic institutions</li><li>Employees of support centers for individuals with intellectual disabilities and their families</li></ul></div>",
+  "invite": "<div class=''> <p class='text-gray-100'>Gain the qualifications and skills necessary to work with individuals with intellectual disabilities.</p></div>"
+}

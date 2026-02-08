@@ -2,7 +2,7 @@ import { Course } from "../utils/types";
 
 export const pedagogikaKorekcyjna: Course = {
   category: "pedagogika specjalna i korekcyjna",
-
+  isPopular: true,
   id: "pedagogika-korekcyjna",
   title: "Pedagogika korekcyjna (terapia pedagogiczna)",
   banerDescription:

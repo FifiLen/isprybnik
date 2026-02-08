@@ -1,5 +1,6 @@
 {
   "category": "zarzadzanie i dydaktyka edukacyjna",
+  "isPopular": false,
   "id": "wychowanie-fizyczne-w-szkole",
   "title": "Wychowanie fizyczne w szkole",
   "banerDescription": "Zdobądź kwalifikacje do nauczania wychowania fizycznego, rozwijając swoje kompetencje pedagogiczne i praktyczne umiejętności.",
@@ -9,9 +10,9 @@
   "description4": "Studia podyplomowe przygotowują do prowadzenia zajęć z wychowania fizycznego na różnych poziomach edukacyjnych i dostarczają niezbędnych kwalifikacji do efektywnego przekazywania wiedzy oraz prowadzenia aktywności ruchowych.",
   "descriptionP1": "",
   "duration": "3 semestry",
-  "practicalHours": "Praktyka (60 godzin)",
-  "price": "4800zł",
-  "payments": "10 x 480zł",
+  "practicalHours": "90h praktyk",
+  "price": "4200zł",
+  "payments": "10 x 420zł",
   "scheduleInfo": "",
   "schedule": [
     "26.10.2024",
@@ -75,7 +76,7 @@
   ],
   "faculty": "Zajęcia prowadzone są przez doświadczonych praktyków i specjalistów w dziedzinie wychowania fizycznego, sportu oraz dydaktyki.",
   "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>Praktyka umożliwia zdobycie doświadczenia w nauczaniu wychowania fizycznego.</li><li>Praktyki mogą być realizowane w szkołach podstawowych i ponadpodstawowych.</li></ul>",
-  "evaluation": "Ocena efektów kształcenia opiera się na aktywności podczas zajęć, zaliczeniach poszczególnych modułów, realizacji praktyk oraz przygotowaniu pracy dyplomowej.",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>wykonaniu prac zaliczeniowych,</li><li>przygotowaniu pracy projektowej.</li></ul>",
   "jobOpportunities": "<div><p className=\"text-lg font-semibold\">Absolwenci programu będą przygotowani do pracy jako:</p><ul className=\"list-disc list-inside mt-2 space-y-2\"><li>Nauczyciele wychowania fizycznego w szkołach podstawowych i ponadpodstawowych</li><li>Trenerzy i instruktorzy sportowi</li><li>Specjaliści ds. edukacji zdrowotnej i promocji aktywności fizycznej</li><li>Animatorzy sportu i rekreacji</li><li>Pracownicy instytucji zajmujących się kulturą fizyczną i sportem</li></ul></div>",
   "invite": "<div class=''> <p class='text-gray-100'>Zdobądź kwalifikacje i umiejętności niezbędne do nauczania wychowania fizycznego i inspiruj uczniów do aktywnego i zdrowego stylu życia.</p></div>"
 }

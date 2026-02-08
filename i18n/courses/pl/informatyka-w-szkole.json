@@ -1,5 +1,6 @@
 {
   "category": "zarzadzanie i dydaktyka edukacyjna",
+  "isPopular": false,
   "id": "informatyka-w-szkole",
   "title": "Informatyka w szkole",
   "banerDescription": "Zdobądź kwalifikacje do nauczania informatyki w szkołach podstawowych i ponadpodstawowych, rozwijając swoje kompetencje technologiczne i dydaktyczne.",
@@ -70,7 +71,7 @@
   ],
   "faculty": "Zajęcia prowadzone są przez doświadczonych praktyków w dziedzinie informatyki, programowania, sieci komputerowych oraz dydaktyki informatyki.",
   "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>Praktyka obejmuje 120 godzin i umożliwia zdobycie doświadczenia w nauczaniu informatyki.</li><li>Praktyki mogą być realizowane w szkołach podstawowych i ponadpodstawowych.</li></ul>",
-  "evaluation": "Ocena efektów kształcenia opiera się na aktywności podczas zajęć, zaliczeniach poszczególnych modułów, realizacji praktyk oraz przygotowaniu pracy dyplomowej.",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>wykonaniu prac zaliczeniowych,</li><li>przygotowaniu pracy projektowej.</li></ul>",
   "jobOpportunities": "<div><p className=\"text-lg font-semibold\">Absolwenci programu będą przygotowani do pracy jako:</p><ul className=\"list-disc list-inside mt-2 space-y-2\"><li>Nauczyciele informatyki w szkołach podstawowych i ponadpodstawowych</li><li>Specjaliści ds. technologii informacyjnej w placówkach edukacyjnych</li><li>Konsultanci i trenerzy w zakresie edukacji informatycznej</li><li>Pracownicy działów IT w instytucjach edukacyjnych</li><li>Twórcy materiałów dydaktycznych i e-learningowych</li></ul></div>",
   "invite": "<div class=''> <p class='text-gray-100'>Zdobądź kwalifikacje i umiejętności niezbędne do nauczania informatyki i rozwijaj swoją pasję do technologii, wspierając kolejne pokolenia uczniów.</p></div>"
 }

@@ -2,7 +2,7 @@ import { Course } from "../utils/types";
 
 export const informatyka: Course = {
   category: "zarzadzanie i dydaktyka edukacyjna",
-
+  isPopular: false,
   id: "informatyka-w-szkole",
   title: "Informatyka w szkole",
   banerDescription:

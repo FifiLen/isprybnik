@@ -24,7 +24,7 @@ export const NavigationCourse = ({ sections }: SectionNavigationProps) => {
 
   const handleSmoothScroll = (
     event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
-    id: string
+    id: string,
   ) => {
     event.preventDefault();
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });

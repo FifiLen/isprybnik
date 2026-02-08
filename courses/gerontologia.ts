@@ -1,0 +1,86 @@
+import { Course } from "@/utils/types";
+
+const gerontologia: Course = {
+  category: "pedagogika specjalna i korekcyjna",
+  isPopular: false,
+  id: "gerontologia",
+  title: "Gerontologia",
+  banerDescription:
+    "Przygotowanie do pracy z osobami starszymi oraz zdobycie wiedzy z zakresu procesów starzenia się i potrzeb seniorów.",
+  description:
+    '<ul className="list-disc list-inside space-y-2"><li>pracowników instytucji opieki społecznej</li><li>pracowników domów pomocy społecznej</li><li>pracowników dziennych domów pobytu</li><li>opiekunów osób starszych</li><li>pracowników służby zdrowia</li><li>pedagogów</li><li>psychologów</li><li>terapeutów</li><li>pracowników socjalnych</li><li>osób zainteresowanych pracą z seniorami</li></ul>',
+  description2:
+    "Celem studiów jest przygotowanie specjalistów do pracy z osobami starszymi oraz przekazanie wiedzy z zakresu procesów starzenia się, potrzeb seniorów oraz metod pracy opiekuńczej i terapeutycznej. Absolwenci zdobędą kompetencje niezbędne do projektowania działań wspierających osoby starsze w różnych środowiskach oraz do pracy w instytucjach zajmujących się opieką nad seniorami.",
+  description3: "",
+  description4: "",
+  descriptionP1:
+    "Program studiów obejmuje zagadnienia z zakresu edukacji zdrowotnej, geriatrii, aspektów prawnych pomocy i opieki nad osobami starszymi, metodyki pracy opiekuńczej, psychologii starzenia się, andragogiki oraz współczesnych problemów socjologii i demografii. Studia łączą wiedzę teoretyczną z praktycznymi umiejętnościami pracy z seniorami.",
+  duration: "3 semestry",
+  price: "4500zł",
+  payments: "15 x 300zł",
+  schedule: [""],
+  scheduleInfo: "",
+  practicalHours: "60h praktyk",
+  modules: [
+    {
+      title: "Semestr 1",
+      topics: [
+        {
+          title: "Przedmioty podstawowe",
+          subtopics: [
+            { title: "Edukacja zdrowotna i promocja zdrowia" },
+            { title: "Geriatria" },
+            { title: "Pedagogika społeczna" },
+            { title: "Andragogika" },
+            { title: "Edukacja ludzi dorosłych" },
+            { title: "Podstawy gerontologii" },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Semestr 2",
+      topics: [
+        {
+          title: "Przedmioty kierunkowe",
+          subtopics: [
+            { title: "Aspekty prawne pomocy i opieki ludzi starszych" },
+            { title: "Metodyka pracy opiekuńczej z ludźmi starszymi" },
+            { title: "Telematyka medyczna" },
+            { title: "Psychologia starzenia się i starości" },
+            { title: "Instytucjonalne wsparcie ludzi starszych" },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Semestr 3",
+      topics: [
+        {
+          title: "Przedmioty specjalizacyjne",
+          subtopics: [
+            { title: "Projektowanie zmian edukacyjnych" },
+            { title: "Praca socjalna z seniorami" },
+            { title: "Współczesne problemy socjologii i demografii" },
+            { title: "Współczesne problemy psychologii" },
+            { title: "Psychologia medycyny" },
+            { title: "Praktyka" },
+          ],
+        },
+      ],
+    },
+  ],
+  faculty:
+    "Program prowadzony jest przez wykwalifikowaną kadrę specjalistów z dziedziny gerontologii, geriatrii, psychologii, pedagogiki oraz pracy socjalnej. W skład kadry wchodzą zarówno wykładowcy akademiccy, jak i praktycy z wieloletnim doświadczeniem w pracy z osobami starszymi.",
+  practices:
+    '<ul className="list-disc list-inside space-y-2"><li>60 godzin praktyk w instytucjach zajmujących się opieką nad osobami starszymi, takich jak domy pomocy społecznej, dzienne domy pobytu, kluby seniora, ośrodki wsparcia dla osób starszych</li><li>Praktyki obejmują obserwację, asystowanie oraz samodzielne prowadzenie zajęć pod nadzorem opiekuna</li></ul>',
+  evaluation:
+    '<p className="text-lg font-semibold">Ocena efektów kształcenia opiera się na:</p><ul className="list-disc list-inside ml-4"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>egzaminach z wybranych przedmiotów,</li><li>przygotowaniu pracy dyplomowej.</li></ul>',
+  jobOpportunities:
+    "Absolwenci kierunku 'Gerontologia' będą przygotowani do pracy w różnorodnych instytucjach zajmujących się opieką nad osobami starszymi, takich jak domy pomocy społecznej, dzienne domy pobytu, kluby seniora, ośrodki wsparcia dla osób starszych, a także w organizacjach pozarządowych działających na rzecz seniorów. Dodatkowo, będą mogli projektować i realizować programy aktywizujące i wspierające dla osób starszych oraz uczestniczyć w badaniach naukowych i programach profilaktycznych.",
+  invite:
+    '<div class=""><p class="text-gray-100">Rozpocznij swoją zawodową przygodę jako <strong class="font-semibold">specjalista w dziedzinie gerontologii</strong>.<br />Inwestuj w swoją przyszłość i realizuj swoje nowe perspektywy zawodowe.</p></div>',
+  deliveryFormat: ["stacjonarnie", "hybrydowo"],
+};
+
+export default gerontologia;

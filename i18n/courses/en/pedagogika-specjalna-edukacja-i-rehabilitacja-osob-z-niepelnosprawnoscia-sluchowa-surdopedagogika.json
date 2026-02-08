@@ -1,0 +1,102 @@
+{
+  "category": "special and corrective education",
+  "isPopular": false,
+  "id": "pedagogika-specjalna-edukacja-i-rehabilitacja-osob-z-niepelnosprawnoscia-sluchowa-surdopedagogika",
+  "title": "Deaf Education",
+  "banerDescription": "Gain qualifications to work with deaf and hard of hearing individuals, supporting their education and rehabilitation.",
+  "description": "<ul className=\"list-disc list-inside space-y-2\"><li>Individuals with qualifications to teach subjects or conduct classes, but lacking preparation in special education</li><li>Individuals with preparation in special education who want to obtain additional preparation in special education</li><li>Teachers, educators, psychologists interested in working with people with hearing impairments</li></ul>",
+  "description2": "The aim of the studies is to equip students with specialized knowledge and qualifications to work with deaf and hard of hearing children and youth in kindergartens, special schools, integrated and mainstream schools, as well as in psychological and pedagogical counseling centers, Polish Association of the Deaf counseling centers, and early intervention centers.",
+  "description3": "Students gain qualifications and competencies to work with people with hearing impairments and resulting speech disorders. During the studies, students will acquire practical knowledge and skills related to effective communication with deaf or hard of hearing individuals, thanks to appropriately selected and available means, proper diagnosis, and therapy.",
+  "description4": "",
+  "descriptionP1": "",
+  "duration": "3 semesters",
+  "practicalHours": "180h of internship",
+  "price": "3600 PLN",
+  "payments": "10 x 360 PLN",
+  "scheduleInfo": "",
+  "schedule": [
+    "26.10.2024",
+    "16.11.2024",
+    "23.11.2024",
+    "30.11.2024",
+    "07.12.2024",
+    "14.12.2024",
+    "11.01.2025",
+    "18.01.2025",
+    "25.01.2025",
+    "15.02.2025",
+    "01.03.2025",
+    "15.03.2025",
+    "22.03.2025",
+    "05.04.2025",
+    "12.04.2025",
+    "10.05.2025",
+    "17.05.2025",
+    "24.05.2025"
+  ],
+  "modules": [
+    {
+      "title": "Specialized Education Module",
+      "topics": [
+        { "title": "Special didactics", "subtopics": [] },
+        { "title": "Diagnostics in special education", "subtopics": [] },
+        { "title": "Internship I (60 hours)", "subtopics": [] },
+        { "title": "Fundamentals of special education", "subtopics": [] }
+      ]
+    },
+    {
+      "title": "Substantive Preparation",
+      "topics": [
+        {
+          "title": "Anatomy and physiology of the voice and hearing organs",
+          "subtopics": []
+        },
+        {
+          "title": "Elements of laryngology, otorhinolaryngology, and phoniatrics",
+          "subtopics": []
+        },
+        { "title": "Hearing disorders and defects", "subtopics": [] },
+        { "title": "Elements of deaf psychology", "subtopics": [] },
+        {
+          "title": "Basic legal regulations for education and rehabilitation of people with hearing impairments",
+          "subtopics": []
+        },
+        { "title": "Educational audiology", "subtopics": [] },
+        { "title": "Deaf education diagnostics", "subtopics": [] },
+        { "title": "Deaf speech therapy", "subtopics": [] },
+        {
+          "title": "Early development support for children with hearing impairments",
+          "subtopics": []
+        },
+        {
+          "title": "Rehabilitation and education of adults with hearing impairments",
+          "subtopics": []
+        },
+        {
+          "title": "Augmentative and Alternative Communication (AAC) methods",
+          "subtopics": []
+        },
+        { "title": "Basics of sign language", "subtopics": [] },
+        {
+          "title": "Methods of support and therapy for people with hearing impairments",
+          "subtopics": []
+        },
+        {
+          "title": "Methodology of teaching students with hearing impairments in preschool and early school education",
+          "subtopics": []
+        },
+        { "title": "Methodology of auditory education", "subtopics": [] },
+        {
+          "title": "Methodology of teaching children and youth with hearing impairments",
+          "subtopics": []
+        },
+        { "title": "Internship II (120 hours)", "subtopics": [] }
+      ]
+    }
+  ],
+  "faculty": "Classes are conducted by experienced practitioners in the fields of deaf education, audiology, speech therapy, and psychology, with many years of experience working with deaf and hard of hearing individuals.",
+  "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>Internship I covers 60 hours and is carried out in semester 1.</li><li>Internship II covers 120 hours and is carried out in semester 3.</li><li>Internships can be carried out in educational institutions, psychological and pedagogical counseling centers, early intervention centers, and other institutions working with people with hearing impairments.</li></ul>",
+  "evaluation": "The assessment of learning outcomes is based on activity during classes, completion of individual modules, implementation of internships, and preparation of a diploma thesis.",
+  "jobOpportunities": "<div><p className=\"text-lg font-semibold\">Graduates of the program will be prepared to work as:</p><ul className=\"list-disc list-inside mt-2 space-y-2\"><li>Teachers in special, integrated, and mainstream schools</li><li>Specialists in psychological and pedagogical counseling centers</li><li>Employees of Polish Association of the Deaf counseling centers</li><li>Therapists in early intervention centers</li><li>Deaf educators in educational and rehabilitation institutions</li></ul></div>",
+  "invite": "<div class=''> <p class='text-gray-100'>Gain the qualifications and skills necessary to work with deaf and hard of hearing individuals, supporting their education and rehabilitation.</p></div>"
+}

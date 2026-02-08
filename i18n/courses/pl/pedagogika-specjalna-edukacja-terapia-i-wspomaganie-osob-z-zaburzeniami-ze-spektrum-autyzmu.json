@@ -1,0 +1,127 @@
+{
+  "category": "pedagogika specjalna i korekcyjna",
+  "isPopular": true,
+  "id": "pedagogika-specjalna-edukacja-terapia-i-wspomaganie-osob-z-zaburzeniami-ze-spektrum-autyzmu",
+  "title": "Pedagogika Specjalna<br/>Edukacja, terapia i&nbsp;wspomaganie osób z&nbsp;zaburzeniami ze spektrum autyzmu",
+  "banerDescription": "Zdobądź kwalifikacje do pracy z osobami ze spektrum autyzmu i poszerz swoją wiedzę w zakresie edukacji i terapii.",
+  "description": "<ul className=\"list-disc list-inside space-y-2\"><li>Nauczyciele przedszkolni i szkolni pracujący z dziećmi w placówkach masowych, integracyjnych i specjalnych</li><li>Pedagodzy specjalni z doświadczeniem w pracy z osobami z różnymi rodzajami niepełnosprawności</li><li>Specjaliści zajmujący się wczesnym wspomaganiem rozwoju</li><li>Psychologowie dziecięcy i młodzieżowi pracujący w poradniach psychologiczno-pedagogicznych, szkołach, przedszkolach oraz placówkach terapeutycznych</li><li>Psychologowie zainteresowani prowadzeniem diagnozy funkcjonalnej, terapii lub wsparcia rodziców dzieci z ASD</li><li>Logopedzi pracujący z dziećmi ze spektrum autyzmu w zakresie komunikacji alternatywnej i wspomagającej (AAC) oraz terapii mowy</li><li>Terapeuci zajęciowi specjalizujący się w sensoryce i aktywności funkcjonalnej</li><li>Specjaliści w dziedzinie terapii sensorycznej, którzy chcą poszerzyć swoje kompetencje o specyfikę pracy z osobami ze spektrum autyzmu</li><li>Fizjoterapeuci zajmujący się rozwojem motorycznym dzieci z ASD</li></ul>",
+
+  "description2": "<p>Celem studiów jest wyposażenie studentów w umiejętności rozpoznawania, diagnozowania oraz edukacji i terapii osób ze spektrum autyzmu i zespołem Aspergera. Studenci poznają metody pracy terapeutycznej, narzędzia badawcze oraz środowisko funkcjonowania osób w spektrum.</p><p>Absolwenci legitymujący się przygotowaniem pedagogicznym oraz tytułem magistra uzyskają kwalifikacje do prowadzenia zajęć terapii w placówkach oświatowych, a także w ośrodkach szkolno-wychowawczych, zgodnie z aktualnymi przepisami prawa oświatowego.</p>",
+
+  "description3": "Studia dostarczają wiedzy praktycznej, gromadzonej poprzez realizowane praktyki, której celem jest zdobycie doświadczeń związanych z pracą dydaktyczno-wychowawczą nauczyciela i konfrontowanie nabytej wiedzy z zakresu dydaktyki z rzeczywistością pedagogiczną w działaniu praktycznym.",
+  "description4": "",
+  "descriptionP1": "",
+  "duration": "3 semestry",
+  "practicalHours": "180h praktyk",
+  "price": "3600zł",
+  "payments": "10 x 360zł",
+  "scheduleInfo": "",
+  "schedule": [
+    "26.10.2024",
+    "16.11.2024",
+    "23.11.2024",
+    "30.11.2024",
+    "07.12.2024",
+    "14.12.2024",
+    "11.01.2025",
+    "18.01.2025",
+    "25.01.2025",
+    "15.02.2025",
+    "01.03.2025",
+    "15.03.2025",
+    "22.03.2025",
+    "05.04.2025",
+    "12.04.2025",
+    "10.05.2025",
+    "17.05.2025",
+    "24.05.2025"
+  ],
+  "modules": [
+    {
+      "title": "Wprowadzenie do pedagogiki specjalnej",
+      "topics": [
+        { "title": "Podstawy pedagogiki specjalnej", "subtopics": [] },
+        { "title": "Dydaktyka specjalna", "subtopics": [] },
+        { "title": "Diagnostyka w pedagogice specjalnej", "subtopics": [] },
+        { "title": "Etyka zawodu nauczyciela", "subtopics": [] },
+        {
+          "title": "Anatomia i fizjologia układu nerwowego z elementami neurologii",
+          "subtopics": []
+        },
+        {
+          "title": "Elementy psychologii klinicznej i psychopatologii",
+          "subtopics": []
+        },
+        { "title": "Podstawy neuropsychologii", "subtopics": [] }
+      ]
+    },
+    {
+      "title": "Diagnoza i terapia zaburzeń ze spektrum autyzmu",
+      "topics": [
+        { "title": "Diagnoza zaburzeń ze spektrum autyzmu", "subtopics": [] },
+        {
+          "title": "Diagnoza psychopedagogiczna uczniów z zaburzeniami ze spektrum autyzmu",
+          "subtopics": []
+        },
+        {
+          "title": "Zaburzenia integracji sensorycznej w zaburzeniach ze spektrum autyzmu",
+          "subtopics": []
+        },
+        { "title": "Terapia i wsparcie rodziny dziecka", "subtopics": [] },
+        {
+          "title": "Problemy dojrzewania i dorosłości osób ze spektrum autyzmu",
+          "subtopics": []
+        },
+        {
+          "title": "Społeczne funkcjonowanie osób ze spektrum autyzmu",
+          "subtopics": []
+        },
+        {
+          "title": "Specjalne potrzeby uczniów z zaburzeniami ze spektrum autyzmu",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "title": "Metodyka pracy z osobami z autyzmem",
+      "topics": [
+        {
+          "title": "Metody komunikacji wspomagającej i alternatywnej",
+          "subtopics": []
+        },
+        {
+          "title": "Metodyka wczesnego wspomagania rozwoju dziecka ze spektrum autyzmu",
+          "subtopics": []
+        },
+        {
+          "title": "Metodyka zajęć rehabilitacji indywidualnej ucznia z zaburzeniami ze spektrum autyzmu",
+          "subtopics": []
+        },
+        {
+          "title": "Metodyka zajęć aktywizujących w grupie szkolnej",
+          "subtopics": []
+        },
+        { "title": "Trening Umiejętności Społecznych", "subtopics": [] },
+        {
+          "title": "Wspieranie rozwoju zawodowego osób z zaburzeniami ze spektrum autyzmu",
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "title": "Praktyka zawodowa",
+      "topics": [
+        { "title": "Praktyka moduł I (60 h)", "subtopics": [] },
+        { "title": "Praktyka moduł II (120 h)", "subtopics": [] }
+      ]
+    }
+  ],
+  "faculty": "Zajęcia prowadzone są przez doświadczonych praktyków w dziedzinie pedagogiki specjalnej, psychologii oraz terapii osób z zaburzeniami ze spektrum autyzmu.",
+  "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>Praktyki z modułu I obejmują 60 godzin i skupiają się na wprowadzeniu do pracy z osobami ze spektrum autyzmu.</li><li>Praktyki z modułu II obejmują 120 godzin i umożliwią zdobycie doświadczenia w zakresie terapii oraz edukacji osób ze spektrum autyzmu.</li><li>Praktyki mogą być realizowane w:<ul className=\"list-disc list-inside ml-4\"><li>placówkach specjalnych,</li><li>szkołach/klasach integracyjnych,</li><li>szkołach specjalnych,</li><li>ośrodkach terapeutycznych,</li><li>poradniach psychologiczno–pedagogicznych.</li></ul></li></ul>",
+
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>wykonaniu prac zaliczeniowych,</li><li>przygotowaniu pracy projektowej.</li></ul>",
+
+  "jobOpportunities": "<div><p className=\"text-lg font-semibold\">Absolwenci kierunku przygotowani są do pracy w:</p><ul className=\"list-disc list-inside mt-2 space-y-2\"><li>Przedszkolach i szkołach jako nauczyciel wspomagający.</li><li>Przedszkolach i szkołach specjalnych.</li><li>Poradniach psychologiczno-pedagogicznych.</li><li>Ośrodkach wczesnego wspomagania rozwoju.</li><li>Świetlicach terapeutycznych i warsztatach terapii zajęciowej.</li><li>Placówkach opiekuńczo-wychowawczych.</li><li>Prywatnych gabinetach terapeutycznych.</li><li>Ośrodkach szkolno-wychowawczych.</li><li>Organizacjach pozarządowych i fundacjach.</li><li>Szkołach integracyjnych.</li></ul></div>",
+
+  "invite": "<div class=''> <p class='text-gray-100'>Zdobądź kwalifikacje i umiejętności niezbędne do pracy z osobami ze spektrum autyzmu.</p></div>"
+}

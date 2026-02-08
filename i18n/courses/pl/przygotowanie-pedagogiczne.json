@@ -1,5 +1,6 @@
 {
   "category": "pedagogika specjalna i korekcyjna",
+  "isPopular": true,
   "id": "przygotowanie-pedagogiczne",
   "title": "Przygotowanie pedagogiczne",
   "banerDescription": "Zdobądź kwalifikacje pedagogiczne i przygotuj się do pracy w zawodzie nauczyciela.",
@@ -98,7 +99,7 @@
   ],
   "faculty": "Zajęcia prowadzone są przez doświadczonych praktyków w dziedzinie pedagogiki, psychologii i dydaktyki, posiadających wieloletnie doświadczenie w pracy edukacyjnej.",
   "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>Praktyka zawodowa obejmuje 150 godzin i umożliwia zdobycie doświadczenia w pracy nauczyciela.</li><li>Praktyki mogą być realizowane w placówkach oświatowych na różnych poziomach edukacyjnych.</li></ul>",
-  "evaluation": "Ocena efektów kształcenia opiera się na aktywności podczas zajęć, zaliczeniach poszczególnych modułów, realizacji praktyk oraz przygotowaniu pracy dyplomowej.",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>wykonaniu prac zaliczeniowych,</li><li>przygotowaniu pracy projektowej.</li></ul>",
   "jobOpportunities": "<div><p className=\"text-lg font-semibold\">Absolwenci programu będą przygotowani do pracy jako:</p><ul className=\"list-disc list-inside mt-2 space-y-2\"><li>Nauczyciele w szkołach i placówkach oświatowych</li><li>Nauczyciele zawodu, trenerzy, wykładowcy, lektorzy</li><li>Pedagodzy, psycholodzy szkolni</li><li>Wychowawcy w świetlicach, opiekunowie w internatach/bursach</li><li>Instruktorzy, bibliotekarze</li></ul></div>",
   "invite": "<div class=''> <p class='text-gray-100'>Zdobądź przygotowanie pedagogiczne i rozpocznij karierę w edukacji.</p></div>"
 }

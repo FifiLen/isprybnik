@@ -1,5 +1,6 @@
 {
   "category": "zarzadzanie i dydaktyka edukacyjna",
+  "isPopular": false,
   "id": "przyroda-w-szkole-podstawowej",
   "title": "Przyroda w szkole podstawowej",
   "banerDescription": "Zdobądź kwalifikacje do nauczania przyrody w szkole podstawowej, rozwijając swoje kompetencje w zakresie nauk przyrodniczych i dydaktyki.",
@@ -62,7 +63,7 @@
   ],
   "faculty": "Zajęcia prowadzone są przez doświadczonych praktyków w dziedzinie nauk przyrodniczych oraz dydaktyki przedmiotów przyrodniczych.",
   "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>Praktyka obejmuje 60 godzin i umożliwia zdobycie doświadczenia w nauczaniu przyrody w szkole podstawowej.</li><li>Praktyki mogą być realizowane w szkołach podstawowych pod opieką doświadczonych nauczycieli.</li></ul>",
-  "evaluation": "Ocena efektów kształcenia opiera się na aktywności podczas zajęć, zaliczeniach poszczególnych modułów, realizacji praktyk oraz przygotowaniu pracy dyplomowej.",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>wykonaniu prac zaliczeniowych,</li><li>przygotowaniu pracy projektowej.</li></ul>",
   "jobOpportunities": "<div><p className=\"text-lg font-semibold\">Absolwenci programu będą przygotowani do pracy jako:</p><ul className=\"list-disc list-inside mt-2 space-y-2\"><li>Nauczyciele przyrody w szkołach podstawowych</li><li>Specjaliści ds. edukacji przyrodniczej</li><li>Konsultanci w zakresie nauczania przedmiotów przyrodniczych</li><li>Animatorzy zajęć przyrodniczych i ekologicznych</li><li>Pracownicy instytucji edukacyjnych promujących edukację ekologiczną</li></ul></div>",
   "invite": "<div class=''> <p class='text-gray-100'>Zdobądź kwalifikacje i umiejętności niezbędne do nauczania przyrody w szkole podstawowej i inspiruj uczniów do odkrywania fascynującego świata nauk przyrodniczych.</p></div>"
 }

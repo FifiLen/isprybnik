@@ -1,6 +1,7 @@
 import { Course } from "@/utils/types";
 
 export const seksuologiaPraktyczna: Course = {
+  isPopular: false,
   category: "psychologia i psychoterapia",
   id: "seksuologia-praktyczna",
   title: "Seksuologia praktyczna",

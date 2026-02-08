@@ -1,0 +1,24 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://isp.rybnikonline.eu
+
+# Sitemaps
+Sitemap: https://isp.rybnikonline.eu/sitemap.xml
+
+# Disallow old WordPress paths
+Disallow: /wp-*
+Disallow: /wp-admin/
+Disallow: /wp-content/
+Disallow: /wp-includes/
+
+# Allow important sections
+Allow: /pl/
+Allow: /en/
+Allow: /pl/kierunki/
+Allow: /en/kierunki/
+Allow: /pl/rekrutacja/
+Allow: /en/rekrutacja/
+

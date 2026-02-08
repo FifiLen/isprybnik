@@ -25,7 +25,6 @@ export function CoursePractises({ course }: Practices) {
   return (
     <div className="w-full bg-gradient-to-b from-gray-50 to-white py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-32">
-        {/* Praktyki */}
         <section id="praktyki">
           <motion.div
             className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center"
@@ -58,7 +57,6 @@ export function CoursePractises({ course }: Practices) {
           </motion.div>
         </section>
 
-        {/* Ocena i ewaluacja */}
         <section id="ocena-i-ewaluacja">
           <motion.div
             className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center"
@@ -91,7 +89,6 @@ export function CoursePractises({ course }: Practices) {
           </motion.div>
         </section>
 
-        {/* Możliwość zatrudnienia */}
         <section id="mozliwosci-zatrudnienia">
           <motion.div
             className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center"

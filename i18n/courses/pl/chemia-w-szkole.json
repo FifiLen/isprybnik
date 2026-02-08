@@ -1,5 +1,6 @@
 {
   "category": "zarzadzanie i dydaktyka edukacyjna",
+  "isPopular": false,
   "id": "chemia-w-szkole",
   "title": "Chemia w szkole",
   "banerDescription": "Zdobądź kwalifikacje do nauczania chemii, rozwijając swoje kompetencje pedagogiczne i merytoryczne.",
@@ -9,9 +10,9 @@
   "description4": "Rozumiejąc, jak istotne jest samodoskonalenie i rozwijanie się zawodowo, jesteśmy gotowi wesprzeć Cię w każdym etapie Twojej edukacji i kariery. Wybierając nasze studia podyplomowe, otwierasz sobie drzwi do nowych możliwości zawodowych i zwiększasz swoje szanse na osiągnięcie sukcesu jako nauczyciel chemii.",
   "descriptionP1": "",
   "duration": "3 semestry",
-  "practicalHours": "Praktyka pedagogiczna (90 godzin)",
-  "price": "3300zł",
-  "payments": "10 x 330zł",
+  "practicalHours": "90h praktyk",
+  "price": "3600zł",
+  "payments": "10 x 360zł",
   "scheduleInfo": "",
   "schedule": [
     "26.10.2024",
@@ -59,7 +60,7 @@
   ],
   "faculty": "Zajęcia prowadzone są przez doświadczonych praktyków i specjalistów w dziedzinie chemii oraz dydaktyki chemii.",
   "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>Praktyka pedagogiczna umożliwia zdobycie doświadczenia w nauczaniu chemii.</li><li>Praktyki mogą być realizowane w szkołach podstawowych i ponadpodstawowych.</li></ul>",
-  "evaluation": "Ocena efektów kształcenia opiera się na aktywności podczas zajęć, zaliczeniach poszczególnych modułów, realizacji praktyk oraz przygotowaniu pracy dyplomowej.",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>wykonaniu prac zaliczeniowych,</li><li>przygotowaniu pracy projektowej.</li></ul>",
   "jobOpportunities": "<div><p className=\"text-lg font-semibold\">Absolwenci programu będą przygotowani do pracy jako:</p><ul className=\"list-disc list-inside mt-2 space-y-2\"><li>Nauczyciele chemii w szkołach podstawowych i ponadpodstawowych</li><li>Specjaliści ds. edukacji chemicznej</li><li>Konsultanci w zakresie nauczania chemii</li><li>Pracownicy instytucji edukacyjnych i naukowych</li><li>Twórcy materiałów dydaktycznych z zakresu chemii</li></ul></div>",
   "invite": "<div class=''> <p class='text-gray-100'>Zdobądź kwalifikacje i umiejętności niezbędne do nauczania chemii i inspiruj uczniów do odkrywania fascynującego świata nauk chemicznych.</p></div>"
 }

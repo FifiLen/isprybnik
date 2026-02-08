@@ -1,5 +1,4 @@
 import React from "react";
-import TKA from "./tka-certyficate";
 import { useTranslations } from "next-intl";
 
 interface ScheduleProps {
@@ -76,7 +75,6 @@ export const ScheduleCourseSection: React.FC<ScheduleProps> = ({
           ))}
         </div>
       </div>
-      <TKA />
     </section>
   );
 };

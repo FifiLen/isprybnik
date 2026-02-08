@@ -23,7 +23,6 @@ export function CourseProgram({ modules }: ModulesProps) {
   return (
     <section className="w-full bg-[#172554]">
       {" "}
-      {/* Exact navy blue from screenshot */}
       <div
         id="program-studiow"
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24"

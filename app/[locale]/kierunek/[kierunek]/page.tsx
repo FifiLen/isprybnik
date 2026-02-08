@@ -13,13 +13,15 @@ import { CtaCoursePageSection } from "@/components/course-page-components/cta-co
 import FaqSection from "@/app/[locale]/faq/page";
 
 import { courses } from "@/utils/Kierunki";
+import TKA from "@/components/course-page-components/tka-certyficate";
+import { StudyFormatsSection } from "@/components/course-page-components/study-formats-section";
 
 export async function generateStaticParams() {
   return courses.flatMap((course) =>
     ["pl", "en"].map((locale) => ({
       kierunek: course.id,
       locale,
-    }))
+    })),
   );
 }
 
@@ -55,25 +57,25 @@ export default async function CoursePage({ params }: CoursePageProps) {
     { id: "opis", titleKey: "opis" },
     { id: "program-studiow", titleKey: "program-studiow" },
     { id: "praktyki", titleKey: "praktyki" },
-    { id: "harmonogram", titleKey: "harmonogram" },
+
     { id: "faq", titleKey: "faq" },
   ];
 
   return (
     <>
       <HeroCoursePage course={course} />
+
       <NavigationCourse sections={sections} />
       <AboutCourse course={course} />
+      <StudyFormatsSection />
       {course.id === "psychoterapia" ? (
         <CourseProgramPsychotherapy course={course} />
       ) : (
         <CourseProgram modules={course.modules} />
       )}
+      <TKA />
       <CoursePractises course={course} />
-      <ScheduleCourseSection
-        schedule={course.schedule}
-        scheduleInfo={course.scheduleInfo}
-      />
+
       <CtaCoursePageSection course={course} />
       <BannerFinanceCoursePage />
       <FaqSection />

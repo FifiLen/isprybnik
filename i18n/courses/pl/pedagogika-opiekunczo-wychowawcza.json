@@ -1,0 +1,75 @@
+{
+  "category": "pedagogika specjalna i korekcyjna",
+  "isPopular": false,
+  "id": "pedagogika-opiekunczo-wychowawcza",
+  "title": "Pedagogika opiekuńczo-wychowawcza z poradnictwem młodzieżowym i rodzinnym",
+  "banerDescription": "Przygotowanie do pracy opiekuńczo-wychowawczej z dziećmi i młodzieżą oraz do prowadzenia poradnictwa dla młodzieży i rodzin.",
+  "description": "<ul className=\"list-disc list-inside space-y-2\"><li>nauczycieli</li><li>wychowawców</li><li>pedagogów</li><li>psychologów</li><li>pracowników socjalnych</li><li>pracowników placówek opiekuńczo-wychowawczych</li><li>osób zainteresowanych pracą z dziećmi i młodzieżą</li></ul>",
+  "description2": "Celem studiów jest przygotowanie specjalistów do pracy opiekuńczo-wychowawczej z dziećmi i młodzieżą oraz do prowadzenia poradnictwa dla młodzieży i rodzin. Absolwenci zdobędą wiedzę i umiejętności niezbędne do diagnozowania potrzeb opiekuńczo-wychowawczych, projektowania działań wspierających oraz rozwiązywania problemów wychowawczych.",
+  "description3": "",
+  "description4": "",
+  "descriptionP1": "Program studiów obejmuje zagadnienia z zakresu pedagogiki opiekuńczo-wychowawczej, psychologii rozwojowej, diagnostyki sytuacji wychowawczej, profilaktyki zachowań ryzykownych, socjoterapii, poradnictwa młodzieżowego i rodzinnego oraz metodyki pracy z uczniami o specjalnych potrzebach edukacyjnych. Studia łączą wiedzę teoretyczną z praktycznymi umiejętnościami pracy z dziećmi, młodzieżą i rodzinami.",
+  "duration": "3 semestry",
+  "price": "3600zł",
+  "payments": "10 x 360zł",
+  "scheduleInfo": "",
+  "practicalHours": "90h praktyk",
+  "modules": [
+    {
+      "title": "Moduł A3 - Przygotowanie merytoryczne",
+      "topics": [
+        {
+          "title": "Przedmioty podstawowe",
+          "subtopics": [
+            { "title": "Podstawy prawne pracy opiekuńczo-wychowawczej" },
+            { "title": "Elementy psychologii klinicznej i psychopatologii" },
+            { "title": "Podstawy pedagogiki specjalnej" },
+            { "title": "Podstawy pedagogiki społecznej" },
+            { "title": "Diagnoza sytuacji wychowawczej w szkole i placówce" },
+            {
+              "title": "Profilaktyka zachowań ryzykownych u dzieci i młodzieży"
+            },
+            {
+              "title": "Podstawy psychologii rozwojowej z zaburzeniami zachowania"
+            },
+            {
+              "title": "Działania mediacyjne i interwencyjne w sytuacjach kryzysowych"
+            },
+            {
+              "title": "Współpraca z rodzicami, nauczycielami i wychowawcami w udzielaniu pomocy psychologiczno-pedagogicznej"
+            },
+            { "title": "Socjoterapia w pracy z dziećmi i młodzieżą" },
+            { "title": "Trening zastępowania agresji" },
+            { "title": "Trening umiejętności wychowawczych" },
+            { "title": "Poradnictwo młodzieżowe i rodzinne" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Moduł E1, E2 - Przygotowanie dydaktyczno-metodyczne i praktyki",
+      "topics": [
+        {
+          "title": "Przedmioty specjalizacyjne",
+          "subtopics": [
+            { "title": "Dydaktyka pracy opiekuńczo-wychowawczej" },
+            { "title": "Metody diagnozy i terapii pedagogicznej" },
+            {
+              "title": "Metodyka pracy z uczniem ze specjalnymi potrzebami edukacyjnymi"
+            },
+            {
+              "title": "Metodyka pomocy psychologiczno-pedagogicznej w środowisku szkolnym i pozaszkolnym uczniów i wychowanków"
+            },
+            { "title": "Praktyka" }
+          ]
+        }
+      ]
+    }
+  ],
+  "faculty": "Program prowadzony jest przez wykwalifikowaną kadrę specjalistów z dziedziny pedagogiki, psychologii, prawa oraz pracy socjalnej. W skład kadry wchodzą zarówno wykładowcy akademiccy, jak i praktycy z wieloletnim doświadczeniem w pracy opiekuńczo-wychowawczej oraz poradnictwie.",
+  "practices": "<ul className=\"list-disc list-inside space-y-2\"><li>90 godzin praktyk w placówkach opiekuńczo-wychowawczych, takich jak świetlice, domy dziecka, ośrodki wychowawcze, poradnie psychologiczno-pedagogiczne, ośrodki pomocy rodzinie</li><li>Praktyki obejmują obserwację, asystowanie oraz samodzielne prowadzenie zajęć pod nadzorem opiekuna</li></ul>",
+  "evaluation": "<p className=\"text-lg font-semibold\">Ocena efektów kształcenia opiera się na:</p><ul className=\"list-disc list-inside ml-4\"><li>aktywności podczas zajęć,</li><li>zaliczeniach poszczególnych modułów,</li><li>egzaminach z wybranych przedmiotów,</li><li>przygotowaniu pracy dyplomowej.</li></ul>",
+  "jobOpportunities": "Absolwenci kierunku 'Pedagogika opiekuńczo-wychowawcza z poradnictwem młodzieżowym i rodzinnym' będą przygotowani do pracy w różnorodnych placówkach, takich jak świetlice, domy dziecka, ośrodki wychowawcze, poradnie psychologiczno-pedagogiczne, ośrodki pomocy rodzinie, placówki edukacyjne oraz organizacje pozarządowe. Będą mogli projektować i realizować programy opiekuńczo-wychowawcze oraz prowadzić poradnictwo dla młodzieży i rodzin.",
+  "invite": "<div class=\"\"><p class=\"text-gray-100\">Rozpocznij swoją zawodową przygodę jako <strong class=\"font-semibold\">pedagog opiekuńczo-wychowawczy</strong>.<br />Inwestuj w swoją przyszłość i realizuj swoje nowe perspektywy zawodowe.</p></div>",
+  "deliveryFormat": ["stacjonarnie", "hybrydowo"]
+}
